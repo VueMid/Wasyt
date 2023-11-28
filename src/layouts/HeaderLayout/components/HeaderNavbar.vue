@@ -49,7 +49,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 .header__logo {
   vertical-align: middle;
 }
@@ -58,8 +58,8 @@ export default {};
   vertical-align: middle;
 }
 .header__lists {
-  font-family: "TFIRSNEUE-REGULAR";
-  letter-spacing: -2px !important;
+  font-family: "HALVARBREIT-MD";
+  letter-spacing: -2px;
 }
 @media (max-width: 1250px) {
   .header__main {
