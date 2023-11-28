@@ -3,68 +3,58 @@
     class="main fixed top-[0px] w-full z-[999] h-[110vh] backdrop-blur-sm bg-white/30 dark:bg-tailwind-dark/30"
   >
     <nav
-      class="w-full h-[610px] pt-[97px] z-[999] bg-white rounded-b-[40px] dark:bg-tailwind-dark fixed px-4 mx-auto lg:hidden top-0 md:px-10 md:py-[16px] md:h-[750px] md:pt-[150px]"
+      class="nav w-full h-[610px] pt-[79px] z-[999] bg-white rounded-b-[40px] dark:bg-tailwind-dark fixed px-4 mx-auto top-0 md:px-10 md:py-[16px] md:h-[800px] md:pt-[68px] block lg:hidden"
     >
-      <ul class="flex flex-col gap-3 md:flex md:flex-col md:gap-5">
+      <hr class="mb-[24px]" />
+      <ul class="ul flex flex-col gap-3 md:flex md:flex-col md:gap-5">
         <li
-          class="px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan"
+          class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan"
         >
           <img class="mr-4" src="@/assets/icons/home.svg" alt="" />
           <a class="link ml-4" href="#"> Главная </a>
-          <i
-            class="fa-solid dark:text-white fa-arrow-right-long fa-beat lg:hidden ml-0"
-          >
+          <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
         <li
-          class="px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan"
+          class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan"
         >
           <img class="mr-4" src="@/assets/icons/about.svg" alt="" />
           <a class="link ml-4" href="#wasyt"> О Продукте </a>
-          <i
-            class="fa-solid dark:text-white fa-arrow-right-long fa-beat lg:hidden ml-0"
-          >
+          <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
         <li
-          class="px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan"
+          class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan"
         >
           <img class="mr-4" src="@/assets/icons/demo.svg" alt="" />
           <a class="link ml-4" href="#application"> Демо </a>
-          <i
-            class="fa-solid dark:text-white fa-arrow-right-long fa-beat lg:hidden ml-0"
-          >
+          <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
         <li
-          class="px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan"
+          class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan"
         >
           <img class="" src="@/assets/icons/partnership.svg" alt="" />
           <a class="link ml-4" href="#partnership"> Партнерство </a>
-          <i
-            class="fa-solid dark:text-white fa-arrow-right-long fa-beat lg:hidden ml-0"
-          >
+          <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
         <div
-          class="px-6 py-2 border-[1px] rounded-[88px] bg-white dark:bg-tailwind-dark flex flex-row justify-between items-center"
+          class="px-6 py-2 md:px-6 md:py-4 border-[1px] rounded-[88px] bg-white dark:bg-tailwind-dark flex flex-row justify-between items-center"
         >
           <TheDarkMode />
-          <i
-            class="fa-solid dark:text-white fa-arrow-right-long fa-beat lg:hidden"
-          >
-          </i>
+          <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat"> </i>
         </div>
-        <TheAhref>Свяжется с нами</TheAhref>
+        <TheButtonSecond>Свяжется с нами</TheButtonSecond>
       </ul>
     </nav>
   </div>
 </template>
 <script>
 import TheDarkMode from "../../../MaterialUI/TheDarkMode.vue";
-import TheButton from "../../../MaterialUI/TheButton.vue";
+import TheButtonSecond from "../../../MaterialUI/TheButtonSecond.vue";
 export default {
-  components: { TheButton, TheDarkMode },
+  components: { TheDarkMode, TheButtonSecond },
   data() {
     return {
       isModalOpened: false,
@@ -73,10 +63,25 @@ export default {
 };
 </script>
 <style>
+.header__lists {
+  font-family: "HALVARBREIT-MD";
+  letter-spacing: -2px;
+}
 .icon {
   margin-left: auto;
 }
 .link {
   margin-right: auto;
+}
+.nav {
+  display: none;
+}
+@media (max-width: 1023px) {
+  .nav {
+    display: block;
+  }
+  .ul {
+    margin-top: 40px;
+  }
 }
 </style>

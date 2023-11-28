@@ -16,7 +16,7 @@
 :root {
     --white: #FFFFFF;
     --black: #000000;
-    --blue: #2DB7CA;
+    --blue: #01889A;
 }
 
 ::selection {
@@ -86,7 +86,7 @@ html {
     .container {
         width: 100%;
         max-width: 1366px !important;
-        padding: 0 30px;
+        padding: 0 16px;
         margin: 0 auto;
     }
 }

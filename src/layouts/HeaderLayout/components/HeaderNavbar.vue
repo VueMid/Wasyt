@@ -14,7 +14,7 @@
         alt="logo__image"
       />
     </div>
-    <nav class="header__navbar hidden lg:flex">
+    <nav class="header__navbar">
       <ul
         class="lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-3"
       >
@@ -62,16 +62,17 @@ export default {};
   letter-spacing: -1.5px;
 }
 @media (max-width: 1250px) {
+  .header__main {
+    display: flex;
+    gap: 20px;
+  }
   .header__navbar {
-    display: none;
+    display: block;
   }
 }
-@media (max-width: 820px) {
-  .header__logo {
+@media (max-width: 1023px) {
+  .header__navbar {
     display: none;
-  }
-  .header__second-logo {
-    display: block;
   }
 }
 </style>
