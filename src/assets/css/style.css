@@ -1,0 +1,118 @@
+::-webkit-scrollbar {
+    width: .500rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+    width: 120px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(101deg, #01889a 0.41%, #2db7ca 108.74%);
+    width: 120px;
+    border-radius: 120px;
+}
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --blue: #2DB7CA;
+}
+
+::selection {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+input,
+input:focus,
+textarea {
+    all: unset;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+ul,
+ol,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    max-width: 1366px !important;
+    padding: 0 56px;
+    margin: 0 auto;
+}
+
+@media(max-width:1250px) {
+    .container {
+        width: 100%;
+        max-width: 1366px !important;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:700px) {
+    .container {
+        width: 100%;
+        max-width: 1366px !important;
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+}
+
+body {
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'TTFIRSNEUE-BLACK', 'TTFIRSNEUE-BLACKITALIC', 'TTFIRSNEUE-BOLD', 'TTFIRSNEUE-BOLDITALIC', 'TTFIRSNEUE-DEMIBOLD', 'TTFIRSNEUE-DEMIBOLDITALIC', 'TTFIRSNEUE-EXTRABOLD', 'TTFIRSNEUE-EXTRABOLDITALIC', 'TTFIRSNEUE-EXTRALIGHT', 'TTFIRSNEUE-EXTRALIGHTITALIC', 'TTFIRSNEUE-ITALIC', 'TTFIRSNEUE-LIGHT', 'TTFIRSNEUE-LIGHTITALIC', 'TTFIRSNEUE-MEDIUM', 'TFIRSNEUE-REGULAR', 'TTFIRSNEUE-THIN', 'TTFIRSNEUE';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: var(--white);
+    color: var(--black);
+    overflow-x: hidden;
+}

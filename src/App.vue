@@ -1,9 +1,16 @@
 <template>
-  <main>
+  <main class="overflow-x-hidden bg-white dark:bg-tailwind-dark">
+    <HeaderLayout />
     <RouterView />
   </main>
 </template>
 <script>
-export default {};
+import HeaderLayout from "./layouts/HeaderLayout/HeaderLayout.vue";
+export default {
+  components: { HeaderLayout },
+};
 </script>
-<style></style>
+<style>
+body {
+}
+</style>

@@ -1,199 +1,199 @@
 /* HALVARBREIT-Fonts */
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-BD';
     src: url('../fonts/HALVARBREIT-BD.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-BDSLANTED';
     src: url('../fonts/HALVARBREIT-BDSLANTED.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-BLK';
     src: url('../fonts/HALVARBREIT-BLK.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-BLKSLANTED';
     src: url('../fonts/HALVARBREIT-BLKSLANTED.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-LT';
     src: url('../fonts/HALVARBREIT-LT.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-LTSLANTED';
     src: url('../fonts/HALVARBREIT-LTSLANTED.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-MD';
     src: url('../fonts/HALVARBREIT-MD.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-MDSLANTED';
     src: url('../fonts/HALVARBREIT-MDSLANTED.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-RG';
     src: url('../fonts/HALVARBREIT-RG.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-RGSLANTED';
     src: url('../fonts/HALVARBREIT-RGSLANTED.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-TH';
     src: url('../fonts/HALVARBREIT-TH.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-THSLANTED';
     src: url('../fonts/HALVARBREIT-THSLANTED.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-XBD';
     src: url('../fonts/HALVARBREIT-XBD.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-XBDSLANTED';
     src: url('../fonts/HALVARBREIT-XBDSLANTED.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-XTH';
     src: url('../fonts/HALVARBREIT-XTH.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'HALVARBREIT-XTHSLANTED';
     src: url('../fonts/HALVARBREIT-XTHSLANTED.TTF');
 }
 
 /* TTFIRSNEUE-Fonts */
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-BLACK';
     src: url('../fonts/TTFIRSNEUE-BLACK.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-BLACKITALIC';
     src: url('../fonts/TTFIRSNEUE-BLACKITALIC.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-BOLD';
     src: url('../fonts/TTFIRSNEUE-BOLD.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-BOLDITALIC';
     src: url('../fonts/TTFIRSNEUE-BOLDITALIC.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-DEMIBOLD';
     src: url('../fonts/TTFIRSNEUE-DEMIBOLD.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-DEMIBOLDITALIC';
     src: url('../fonts/TTFIRSNEUE-DEMIBOLDITALIC.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-EXTRABOLD';
     src: url('../fonts/TTFIRSNEUE-EXTRABOLD.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-EXTRABOLDITALIC';
     src: url('../fonts/TTFIRSNEUE-EXTRABOLDITALIC.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-EXTRALIGHT';
     src: url('../fonts/TTFIRSNEUE-EXTRALIGHT.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-EXTRALIGHTITALIC';
     src: url('../fonts/TTFIRSNEUE-EXTRALIGHTITALIC.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-ITALIC';
     src: url('../fonts/TTFIRSNEUE-ITALIC.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-LIGHT';
     src: url('../fonts/TTFIRSNEUE-LIGHT.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-LIGHTITALIC';
     src: url('../fonts/TTFIRSNEUE-LIGHTITALIC.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-MEDIUM';
     src: url('../fonts/TTFIRSNEUE-MEDIUM.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TFIRSNEUE-REGULAR';
     src: url('../fonts/TTFIRSNEUE-REGULAR.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE-THIN';
     src: url('../fonts/TTFIRSNEUE-THIN.TTF');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'HALVARBREIT';
+    font-family: 'TTFIRSNEUE';
     src: url('../fonts/TTFIRSNEUE-THINITALIC.TTF');
 }
