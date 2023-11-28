@@ -1,9 +1,9 @@
 <template>
   <div
-    class="main fixed top-[0px] w-full z-[999] h-[110vh] backdrop-blur-sm bg-white/30 dark:bg-tailwind-dark/30"
+    class="main fixed top-[0px] w-full z-[999] h-[100vh] backdrop-blur-sm bg-white/30 dark:bg-tailwind-dark/30"
   >
     <nav
-      class="nav w-full h-[610px] pt-[79px] z-[999] bg-white rounded-b-[40px] dark:bg-tailwind-dark fixed px-4 mx-auto top-0 md:px-10 md:py-[16px] md:h-[800px] md:pt-[68px] block lg:hidden"
+      class="nav w-full h-[650px] pt-[79px] z-[999] bg-white rounded-b-[40px] dark:bg-tailwind-dark fixed px-4 mx-auto top-0 md:px-10 md:py-[16px] md:h-[800px] md:pt-[68px] block lg:hidden"
     >
       <hr class="mb-[24px]" />
       <ul class="ul flex flex-col gap-3 md:flex md:flex-col md:gap-5">

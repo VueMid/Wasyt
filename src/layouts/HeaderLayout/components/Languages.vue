@@ -30,7 +30,6 @@
             <p>English</p>
           </li>
         </router-link>
-
         <router-link to="/uz">
           <li @click="selectLanguage('Uz')" value="Uz">
             <img
@@ -48,16 +47,11 @@
 <script setup>
 import { ref } from "vue";
 const storedLanguage = localStorage.getItem("selectedLanguage");
-const defaultLanguage = storedLanguage ? storedLanguage : "Ru";
+const defaultLanguage = storedLanguage ? storedLanguage : "Ру";
 const selectedValue = ref(defaultLanguage);
 const handleChange = () => {
   localStorage.setItem("selectedLanguage", selectedValue.value);
 };
-const languages = [
-  { value: "Ру", label: "Русский", img: "/src/assets/images/language1.png" },
-  { value: "En", label: "English", img: "/src/assets/images/language2.png" },
-  { value: "Uz", label: "O’zbek", img: "/src/assets/images/language3.png" },
-];
 const showLanguage = ref(false);
 const toggleLanguage = () => {
   showLanguage.value = !showLanguage.value;

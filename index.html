@@ -12,8 +12,16 @@
 </head>
 
 <body>
+  <div class="bg-white dark:bg-tailwind-dark" id="preloader"></div>
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
+  <script>
+    let loader = document.querySelector('#preloader')
+    window.addEventListener('load', () => {
+      loader.style.transform = 'translateY(-100%)';
+      loader.style.transition = 'all 1s ease-in';
+    })
+  </script>
 </body>
 
 </html>
