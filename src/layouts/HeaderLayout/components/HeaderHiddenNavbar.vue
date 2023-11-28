@@ -63,10 +63,6 @@ export default {
 };
 </script>
 <style>
-.header__lists {
-  font-family: "HALVARBREIT-MD";
-  letter-spacing: -2px;
-}
 .icon {
   margin-left: auto;
 }
@@ -77,6 +73,10 @@ export default {
   display: none;
 }
 @media (max-width: 1023px) {
+  .header__lists {
+    font-family: "TFIRSNEUE-REGULAR" !important;
+    letter-spacing: -2px !important;
+  }
   .nav {
     display: block;
   }

@@ -58,8 +58,8 @@ export default {};
   vertical-align: middle;
 }
 .header__lists {
-  font-family: "HALVARBREIT-MD";
-  letter-spacing: -1.5px;
+  font-family: "TFIRSNEUE-REGULAR";
+  letter-spacing: -2px !important;
 }
 @media (max-width: 1250px) {
   .header__main {
