@@ -104,7 +104,7 @@ body {
     min-width: 320px;
     display: flex;
     flex-direction: column;
-    font-family: 'TTFIRSNEUE-BLACK', 'TTFIRSNEUE-BLACKITALIC', 'TTFIRSNEUE-BOLD', 'TTFIRSNEUE-BOLDITALIC', 'TTFIRSNEUE-DEMIBOLD', 'TTFIRSNEUE-DEMIBOLDITALIC', 'TTFIRSNEUE-EXTRABOLD', 'TTFIRSNEUE-EXTRABOLDITALIC', 'TTFIRSNEUE-EXTRALIGHT', 'TTFIRSNEUE-EXTRALIGHTITALIC', 'TTFIRSNEUE-ITALIC', 'TTFIRSNEUE-LIGHT', 'TTFIRSNEUE-LIGHTITALIC', 'TTFIRSNEUE-MEDIUM', 'TFIRSNEUE-REGULAR', 'TTFIRSNEUE-THIN', 'TTFIRSNEUE', 'HALVARBREIT-BD', 'HALVARBREIT-BDSLANTED', 'HALVARBREIT-BLK', 'HALVARBREIT-BLKSLANTED', 'HALVARBREIT-LT', 'HALVARBREIT-LTSLANTED', 'HALVARBREIT-MD', 'HALVARBREIT-MDSLANTED', 'HALVARBREIT-RG', 'HALVARBREIT-RGSLANTED', 'HALVARBREIT-TH', 'HALVARBREIT-THSLANTED', 'HALVARBREIT-XBD', 'HALVARBREIT-XBDSLANTED', 'HALVARBREIT-XTH', 'HALVARBREIT-XTHSLANTED';
+    font-family: 'TT Interfaces';
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
@@ -126,4 +126,29 @@ body {
     width: 100%;
     position: fixed;
     z-index: 19999;
+}
+
+.scrollup {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    right: 1rem;
+    bottom: 15% !important;
+    background: linear-gradient(101deg, #01889a 0.41%, #2db7ca 108.74%);
+    padding: 0 .3rem;
+    border-radius: 100%;
+    z-index: 211;
+    transform: scale(0);
+    transition: .4s;
+}
+
+.scrollup:active {
+    opacity: 0.6;
+}
+
+.show-scroll {
+    bottom: 5rem;
+    transform: scale(1);
 }

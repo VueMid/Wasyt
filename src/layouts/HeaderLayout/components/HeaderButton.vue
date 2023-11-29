@@ -67,9 +67,7 @@ export default {
 
 <style scoped>
 .uppercase {
-  font-family: "HALVARBREIT-MD";
-  letter-spacing: -1px;
-  font-size: 18px;
+  font-family: "TT Interfaces";
 }
 .menu {
   display: none;

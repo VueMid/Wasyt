@@ -64,8 +64,10 @@ const selectLanguage = (language) => {
 </script>
 <style>
 p {
-  font-family: "HALVARBREIT-MD";
-  letter-spacing: -2.2px;
+  font-family: "TT Interfaces";
+  font-weight: 500;
+  color: #172d33;
+  font-size: 16px;
 }
 .fade-enter-active,
 .fade-leave-active {
@@ -103,7 +105,7 @@ p {
   list-style: none;
   cursor: pointer;
   margin-top: 5px;
-  font-family: "HALVARBREIT-MD";
+  font-family: "TT Interfaces";
 }
 
 .chooseLanguage li p {
