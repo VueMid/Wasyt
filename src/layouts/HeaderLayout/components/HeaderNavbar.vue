@@ -58,7 +58,7 @@ export default {};
   vertical-align: middle;
 }
 .header__lists {
-  font-family: "TT Interfaces";
+  font-family: "TT Interfaces" !important;
 }
 @media (max-width: 1250px) {
   .header__main {

@@ -1,144 +1,278 @@
+/* TT Interfaces */
 @font-face {
     display: swap;
-    font-family: 'TT Interfaces';
     font-weight: 600;
-    font-style: italic;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-SemiBoldItalic.woff2') format('woff2');
 }
 
 @font-face {
     display: swap;
-    font-family: 'TT Interfaces';
     font-weight: 500;
-    font-style: italic;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-MediumItalic.woff2') format('woff2');
 }
 
 @font-face {
     display: swap;
-    font-family: 'TT Interfaces';
     font-weight: bold;
-    font-style: italic;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-BoldItalic.woff2') format('woff2');
 }
 
 @font-face {
     display: swap;
-    font-family: 'TT Interfaces';
     font-weight: normal;
-    font-style: italic;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-Italic.woff2') format('woff2');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'TT Interfaces';
     font-weight: 600;
-    font-style: normal;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-SemiBold.woff2') format('woff2');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'TT Interfaces';
     font-weight: 500;
-    font-style: normal;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-Medium.woff2') format('woff2');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'TT Interfaces';
     font-weight: 800;
-    font-style: normal;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-ExtraBold.woff2') format('woff2');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'TT Interfaces';
     font-weight: 900;
-    font-style: italic;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-BlackItalic.woff2') format('woff2');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'TT Interfaces';
     font-weight: bold;
-    font-style: normal;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-Bold.woff2') format('woff2');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'TT Interfaces';
     font-weight: 300;
-    font-style: normal;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-Light.woff2') format('woff2');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'TT Interfaces';
     font-weight: 800;
-    font-style: italic;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-ExtraBoldItalic.woff2') format('woff2');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'TT Interfaces';
     font-weight: normal;
-    font-style: normal;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-display: swap;
     font-weight: 900;
-    font-style: normal;
     font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-Black.woff2') format('woff2');
-
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'TT Interfaces';
     font-weight: 100;
-    font-style: italic;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-ThinItalic.woff2') format('woff2');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'TT Interfaces';
     font-weight: 300;
-    font-style: italic;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-LightItalic.woff2') format('woff2');
 }
 
 @font-face {
     font-display: swap;
     font-weight: 200;
-    font-style: italic;
     font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-ExtraLightItalic.woff2') format('woff2');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'TT Interfaces';
     font-weight: 100;
-    font-style: normal;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-Thin.woff2') format('woff2');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'TT Interfaces';
     font-weight: 200;
-    font-style: normal;
+    font-family: 'TT Interfaces';
     src: url('../fonts/TTInterfaces-ExtraLight.woff2') format('woff2');
+}
+
+/* ALS Hauss */
+@font-face {
+    font-display: swap;
+    font-weight: 900;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-Black.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 900;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-BlackItalic.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-Book.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-BookItalic.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-Hairline.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-HairlineItalic.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 300;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-Light.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 300;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-LightItalic.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 500;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 500;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: normal;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: normal;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-RegularItalic.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 100;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-Thin.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 100;
+    font-family: 'ALS Hauss';
+    src: url('../fonts/ALSHauss-ThinItalic.woff') format('woff');
+}
+
+/* Hauora */
+@font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 800;
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 200;
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-ExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 500;
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: normal;
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 600;
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-SemiBold.woff2') format('woff2');
 }

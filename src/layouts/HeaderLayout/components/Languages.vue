@@ -19,7 +19,6 @@
             <p>Русский</p>
           </li>
         </router-link>
-
         <router-link to="/en">
           <li @click="selectLanguage('En')" value="En">
             <img
@@ -71,7 +70,7 @@ p {
 }
 .fade-enter-active,
 .fade-leave-active {
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .fade-enter-from,

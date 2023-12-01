@@ -1,9 +1,7 @@
 <template>
   <header class="header fixed z-[1111] w-full lg:static bg-white">
     <div
-      class="container header__container flex flex-row justify-between items-center py-[16px]
-      md:flex md:flex-row md:justify-between md:items-center md:py-[14px]
-      lg:flex lg:flex-row lg:justify-between lg:items-center lg:py-[25px]"
+      class="container header__containe flex flex-row justify-between items-center py-[16px] md:flex md:flex-row md:justify-between md:items-center md:py-[14px] lg:flex lg:flex-row lg:justify-between lg:items-center lg:py-[25px]"
     >
       <HeaderNavbar />
       <HeaderButton

@@ -79,13 +79,13 @@ html {
     width: 100%;
     max-width: 1366px !important;
     padding: 0 56px;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 
 @media(max-width:1250px) {
     .container {
         width: 100%;
-        max-width: 1366px !important;
+        max-width: 1250px !important;
         padding: 0 16px;
         margin: 0 auto;
     }
@@ -94,7 +94,7 @@ html {
 @media(max-width:700px) {
     .container {
         width: 100%;
-        max-width: 1366px !important;
+        max-width: 700px !important;
         padding: 0 16px;
         margin: 0 auto;
     }
@@ -104,7 +104,7 @@ body {
     min-width: 320px;
     display: flex;
     flex-direction: column;
-    font-family: 'TT Interfaces';
+    font-family: 'TT Interfaces', 'ALS Hauss', 'Hauora';
     font-weight: 400;
     font-style: normal;
     font-size: 16px;

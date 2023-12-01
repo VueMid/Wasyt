@@ -1,7 +1,13 @@
 <template>
-  <div class="Home-page"></div>
+  <div class="Home-page">
+    <HeroSection />
+  </div>
 </template>
 <script>
-export default {};
+import HeroSection from "./HomeSections/HeroSection.vue";
+import HeroSectionSecond from "./HomeSections/HeroSectionSecond.vue";
+export default {
+  components: { HeroSection, HeroSectionSecond },
+};
 </script>
 <style></style>
