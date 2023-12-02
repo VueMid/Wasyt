@@ -15,7 +15,7 @@
           Эта статья поможет вам быстро сравнить и оценить лучшую систему
           управления складом (WMS) и другие системы управления операциями.
         </p>
-        <TheWhiteButton class="hero__button mb-2 w-full">
+        <TheWhiteButton class="hero__button mb-5 w-full">
           Свяжется с нами
         </TheWhiteButton>
         <img

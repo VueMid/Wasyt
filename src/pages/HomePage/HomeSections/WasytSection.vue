@@ -19,7 +19,6 @@
           o’zida yuridik kuchga ham ega bo’ladi. 🤗
         </p>
       </div>
-
       <img
         class="wasyt__image mb-10 mt-[30px] md:mb-0 lg:w-[440px]"
         src="@/assets/images/card.png"
