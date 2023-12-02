@@ -125,6 +125,8 @@
     src: url('../fonts/TTInterfaces-ExtraLight.woff2') format('woff2');
 }
 
+
+
 /* ALS Hauss */
 @font-face {
     font-display: swap;
@@ -233,6 +235,8 @@
     font-family: 'ALS Hauss';
     src: url('../fonts/ALSHauss-ThinItalic.woff') format('woff');
 }
+
+
 
 /* Hauora */
 @font-face {

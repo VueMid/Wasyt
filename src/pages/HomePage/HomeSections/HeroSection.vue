@@ -1,24 +1,25 @@
 <template>
-  <section class="hero lg:mt-[64px]">
+  <section class="hero lg:mt-[64px] hidden md:block">
     <div class="container hero__container">
       <div
         class="hero__wrapper px-[24px] md:pt-[90px] md:px-[30px] lg:pt-[50px] lg:px-[40px]"
       >
         <h2
-          class="hero__title font-bold w-max-[202px] md:w-[477px] mb-4 md:mb-5 md:leading-[90%] text-[26px] text-white leading-[90%] md:text-[40px] lg:text-[58px] lg:w-[650px] lg:mb-4"
+          class="hero__title text-white md:font-bold md:w-[477px] mb-4 md:mb-5 md:leading-[90%] md:text-[40px] lg:text-[58px] lg:w-[650px] lg:mb-4 not-italic"
         >
           Высокозащищённое и надежная складская система
         </h2>
         <p
-          class="hero__text text-white/90 text-[14px] w-max-[312px] mb-10 font-normal leading-[150%] md:mb-[34px] md:w-[444px] lg:w-[681px] lg:mb-[50px] md:text-[14px] lg:text-[16px ]"
+          class="hero__text text-white/90 md:font-normal md:leading-[150%] md:mb-[34px] md:w-[444px] lg:w-[681px] lg:mb-[50px] md:text-[14px] lg:text-[16px ]"
         >
           Эта статья поможет вам быстро сравнить и оценить лучшую систему
           управления складом (WMS) и другие системы управления операциями.
         </p>
         <TheWhiteButton
-          class="hero__button w-full m-auto md:m-0 mb-[25px] md:mb-[25px] lg:mb-[35px"
-          >Свяжется с нами</TheWhiteButton
+          class="hero__button md:m-0 mb-[25px] md:mb-[25px] lg:mb-[35px"
         >
+          Свяжется с нами
+        </TheWhiteButton>
         <img
           class="hero__icons"
           src="@/assets/icons/icon__images.svg"
@@ -61,6 +62,12 @@ export default {
   }
   &__third-icons {
     display: none;
+  }
+  &__title {
+    font-family: "TT Interfaces";
+  }
+  &__text {
+    font-family: "TT Interfaces";
   }
 }
 @media (max-width: 1260px) {
@@ -141,6 +148,30 @@ export default {
     }
   }
 }
+@media (max-width: 820px) {
+  .hero {
+    margin-top: 132px;
+    &__wrapper {
+      padding-top: 35px;
+      width: 100%;
+      height: 430px;
+      background-image: url("@/assets/images/hero__second-background.png");
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: contain;
+    }
+    &__title {
+      width: 577px;
+      font-size: 40px;
+      margin-bottom: 26px;
+    }
+    &__text {
+      width: 424px !important;
+      font-size: 14px;
+      margin-bottom: 54px;
+    }
+  }
+}
 @media (max-width: 818px) {
   .hero {
     margin-top: 132px;
@@ -162,35 +193,6 @@ export default {
       width: 424px !important;
       font-size: 14px;
       margin-bottom: 34px;
-    }
-  }
-}
-@media (max-width: 767px) {
-  .hero {
-    display: none;
-    margin-top: 90px;
-    &__wrapper {
-      width: 100%;
-      background: linear-gradient(
-        101deg,
-        #01889a 0.41%,
-        #2db7ca 108.74%
-      ) !important;
-      padding-top: 0;
-      background-image: url("");
-      background-repeat: no-repeat;
-      background-position: top;
-      background-size: contain;
-    }
-    &__title {
-      width: 0;
-      font-size: 0;
-      margin-bottom: 0;
-    }
-    &__text {
-      width: 0;
-      font-size: 0;
-      margin-bottom: 0;
     }
   }
 }

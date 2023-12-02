@@ -46,9 +46,6 @@
     </nav>
   </div>
 </template>
-<script>
-export default {};
-</script>
 <style scoped>
 .header__logo {
   vertical-align: middle;

@@ -2,9 +2,9 @@
   <div
     class="div lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-4"
   >
-    <!-- <div class="z-30 absolute mr-[356px]">
+    <div class="z-30 absolute mr-[356px]">
       <Languages class="languages" />
-    </div> -->
+    </div>
     <TheDarkMode class="TheDarkMode" />
     <TheButton class="TheButton">Свяжется с нами</TheButton>
     <div class="menu">
@@ -64,7 +64,6 @@ export default {
   },
 };
 </script>
-
 <style scoped>
 .uppercase {
   font-family: "TT Interfaces";

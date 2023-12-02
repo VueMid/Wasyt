@@ -37,14 +37,13 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .fade-enter-active,
 .fade-leave-active {
-  transition: 1.5s ease;
+  transition: 3s ease;
   transform: scale(1);
   pointer-events: none;
 }
-
 .fade-enter-from,
 .fade-leave-to {
   pointer-events: all;

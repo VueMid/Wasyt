@@ -72,19 +72,16 @@ p {
 .fade-leave-active {
   transition: 0.2s;
 }
-
 .fade-enter-from,
 .fade-leave-to {
   transform: translateY(-5%);
   opacity: 0;
 }
-
 .languageDiv {
   display: flex;
   flex-direction: column;
   position: relative;
 }
-
 .chooseLanguage {
   position: absolute;
   top: 50px;
@@ -93,7 +90,6 @@ p {
   border-radius: 10px;
   padding-bottom: 3px;
 }
-
 .chooseLanguage li {
   width: 130px;
   text-align: center;
@@ -106,11 +102,9 @@ p {
   margin-top: 5px;
   font-family: "TT Interfaces";
 }
-
 .chooseLanguage li p {
   font-size: 18px;
 }
-
 @media screen and (max-width: 1200px) {
   .languageDiv {
     padding: 5px 15px;

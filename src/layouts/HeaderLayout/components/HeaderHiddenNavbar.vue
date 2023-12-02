@@ -77,7 +77,6 @@ export default {
 .link {
   font-family: "TT Interfaces" !important;
 }
-
 @media (max-width: 1023px) {
   .nav {
     display: block;
