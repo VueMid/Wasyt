@@ -3,9 +3,9 @@
     class="wasyt bg-[#F4FDFE] mt-[180px] md:mt-[100px] dark:bg-tailwind-dark"
   >
     <div
-      class="containe wasyt__container lg:flex lg:flex-row lg:justify-between lg:items-center lg:py-10"
+      class="container wasyt__container lg:flex lg:flex-row lg:justify-between lg:items-center lg:py-10 lg:px-0"
     >
-      <div class="flex flex-col justify-center items-start">
+      <div class="flex flex-col">
         <h3
           class="wasyt__title mr-auto md:hidden text-[24px] mb-3 text-dark-cyan font-bold leading-[120%] lg:text-[30px] dark:text-white"
         >
@@ -95,6 +95,11 @@ export default {
 <style lang="scss" scoped>
 .wasyt {
   &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 56px;
   }
 
   &__image {
@@ -235,7 +240,7 @@ export default {
     }
 
     &__image {
-      width: 350px;
+      width: 300px;
     }
 
     &__right-box {
