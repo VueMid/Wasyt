@@ -14,9 +14,9 @@
         <p
           class="wasyt__texts md:hidden mb-[0px] dark:text-white text-[#5D5D5F] font-normal leading-[150%] lg:w-[728px] lg:text-[16px] lg:mb-10"
         >
-          Wasyt sizga yuridik va jismoniy shaxslar bilan nasiya savdo va o’zaro
-          shar’iy shartnoma imzolash imkonini beradi. ⚡ ️Shartnoma bir vaqtning
-          o’zida yuridik kuchga ham ega bo’ladi. 🤗
+          Wasyt позволяет подписывать коммерческие и взаимные шариатские
+          договоры с юридическими и физическими лицами. ⚡️При этом договор
+          будет иметь юридическую силу. 🤗
         </p>
       </div>
       <img
@@ -33,18 +33,17 @@
         <p
           class="wasyt__texts hidden md:block dark:text-white text-[#5D5D5F] font-normal leading-[150%] lg:w-[728px] lg:text-[16px] lg:mb-10"
         >
-          Wasyt sizga yuridik va jismoniy shaxslar bilan nasiya savdo va o’zaro
-          shar’iy shartnoma imzolash imkonini beradi. ⚡ ️Shartnoma bir vaqtning
-          o’zida yuridik kuchga ham ega bo’ladi. 🤗
+          Wasyt позволяет торговать и взаимодействовать с юридическими и
+          физическими лицами позволяет подписать шариатский договор. ⚡ ️Договор
+          заключается разово. он также будет иметь юридическую силу. 🤗
         </p>
         <p
           class="wasyt__second-texts dark:text-white text-[#5D5D5F] mb-10 font-normal leading-[150%] lg:w-[728px] lg:text-[16px] lg:mb-[30px]"
         >
-          Ilova qulay va foydalanishga oson interfeysga ega bo’lib, sizga hech
-          qanday qiyinchiliklarsiz shartnoma imzolash imkoniyatini beradi.
-          Endilikda, siz shartnoma tuzish uchun hamkoringiz bilan yuzma-yuz
-          uchrashishingiz shart emas, masofadan turib ham bemalol shartnomalar
-          tuzishingiz mumkin
+          Приложение имеет удобный и простой в использовании интерфейс, который
+          позволяет без каких-либо затруднений подписать договор. Теперь вам не
+          нужно встречаться с партнером лично для заключения контракта, вы
+          можете легко заключать контракты удаленно.
         </p>
         <div
           class="wasyt__main-mini-box flex flex-row justify-between items-center mb-10 md:flex md:flex-row md:justify-between md:items-center md:mb-[16px] lg:flex lg:flex-row lg:justify-between lg:items-center lg:mb-[38px]"
