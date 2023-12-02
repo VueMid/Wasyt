@@ -12,7 +12,7 @@
           Что такое Wasyt?
         </h3>
         <p
-          class="wasyt__texts md:hidden mb-[50px] dark:text-white text-[#5D5D5F] font-normal leading-[150%] lg:w-[728px] lg:text-[16px] lg:mb-10"
+          class="wasyt__texts md:hidden mb-[0px] dark:text-white text-[#5D5D5F] font-normal leading-[150%] lg:w-[728px] lg:text-[16px] lg:mb-10"
         >
           Wasyt sizga yuridik va jismoniy shaxslar bilan nasiya savdo va o’zaro
           shar’iy shartnoma imzolash imkonini beradi. ⚡ ️Shartnoma bir vaqtning
@@ -21,7 +21,7 @@
       </div>
 
       <img
-        class="wasyt__image mb-10 md:mb-0 lg:w-[440px]"
+        class="wasyt__image mb-10 mt-[30px] md:mb-0 lg:w-[440px]"
         src="@/assets/images/card.png"
         alt="card__image"
       />
@@ -39,7 +39,7 @@
           o’zida yuridik kuchga ham ega bo’ladi. 🤗
         </p>
         <p
-          class="wasyt__second-texts dark:text-white text-[#5D5D5F] font-normal leading-[150%] lg:w-[728px] lg:text-[16px] lg:mb-[30px]"
+          class="wasyt__second-texts dark:text-white text-[#5D5D5F] mb-10 font-normal leading-[150%] lg:w-[728px] lg:text-[16px] lg:mb-[30px]"
         >
           Ilova qulay va foydalanishga oson interfeysga ega bo’lib, sizga hech
           qanday qiyinchiliklarsiz shartnoma imzolash imkoniyatini beradi.
@@ -99,7 +99,7 @@ export default {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 56px;
+    padding: 75px 56px;
   }
 
   &__image {
