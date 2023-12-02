@@ -1,20 +1,25 @@
 <template>
-  <section class="wasyt bg-[#F4FDFE] mt-[100px] dark:bg-tailwind-dark">
+  <section
+    class="wasyt bg-[#F4FDFE] mt-[180px] md:mt-[100px] dark:bg-tailwind-dark"
+  >
     <div
       class="containe wasyt__container lg:flex lg:flex-row lg:justify-between lg:items-center lg:py-10"
     >
-      <h3
-        class="wasyt__title md:hidden mr-auto ml-[10px] text-[24px] mb-3 text-dark-cyan font-bold leading-[120%] lg:text-[30px] dark:text-white"
-      >
-        Что такое Wasyt?
-      </h3>
-      <p
-        class="wasyt__texts md:hidden mb-[50px] dark:text-white text-[#5D5D5F] font-normal leading-[150%] lg:w-[728px] lg:text-[16px] lg:mb-10"
-      >
-        Wasyt sizga yuridik va jismoniy shaxslar bilan nasiya savdo va o’zaro
-        shar’iy shartnoma imzolash imkonini beradi. ⚡ ️Shartnoma bir vaqtning
-        o’zida yuridik kuchga ham ega bo’ladi. 🤗
-      </p>
+      <div class="flex flex-col justify-center items-start">
+        <h3
+          class="wasyt__title mr-auto md:hidden text-[24px] mb-3 text-dark-cyan font-bold leading-[120%] lg:text-[30px] dark:text-white"
+        >
+          Что такое Wasyt?
+        </h3>
+        <p
+          class="wasyt__texts md:hidden mb-[50px] dark:text-white text-[#5D5D5F] font-normal leading-[150%] lg:w-[728px] lg:text-[16px] lg:mb-10"
+        >
+          Wasyt sizga yuridik va jismoniy shaxslar bilan nasiya savdo va o’zaro
+          shar’iy shartnoma imzolash imkonini beradi. ⚡ ️Shartnoma bir vaqtning
+          o’zida yuridik kuchga ham ega bo’ladi. 🤗
+        </p>
+      </div>
+
       <img
         class="wasyt__image mb-10 md:mb-0 lg:w-[440px]"
         src="@/assets/images/card.png"
