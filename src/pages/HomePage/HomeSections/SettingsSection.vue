@@ -1,7 +1,7 @@
 <template>
-  <section class="settings mt-[240px] md:mt-[100px] lg:mt-[120px]">
+  <section class="settings mt-[140px] md:mt-[100px] lg:mt-[120px]">
     <div
-      class="container settings__container flex flex-col justify-center items-center gap-6 px-[16px]"
+      class="container settings__container flex flex-col justify-center items-center gap-6 px-[16px] lg:px-[56px]"
     >
       <h2
         class="settings__top-title mr-auto text-dark-cyan font-black leading-[120%] text-[24px] dark:text-white"
