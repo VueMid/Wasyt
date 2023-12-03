@@ -1,9 +1,9 @@
 <template>
   <div class="Home-page">
-    <HeroSection />
+    <!-- <HeroSection />
     <HeroSectionSecond />
     <WasytSection />
-    <ApplicationSection />
+    <ApplicationSection /> -->
     <SettingsSection />
   </div>
 </template>
