@@ -1,7 +1,5 @@
 <template>
-  <section
-    class="application mt-[80px] md:mt-[100px] overflow-hidden hidden md:block"
-  >
+  <section class="application mt-[80px] md:mt-[100px] block md:hidden">
     <div class="container application__container">
       <div
         class="application__wrapper flex flex-col justify-center items-center px-[24px] pt-[40px] pb-[275px] rounded-[32px] md:flex md:flex-col md:justify-center md:items-start md:px-[30px] md:pt-[30px] md:pb-[30px] lg:px-[46px] lg:pt-[46px] lg:pb-[46px]"
@@ -79,19 +77,23 @@ export default {
   &__wrapper {
     background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
     position: relative;
-    position: relative;
+    z-index: 1;
     &::after {
+      z-index: 4 !important;
+      margin: 0 auto;
       position: absolute;
       content: "";
       display: inline-block;
+      height: 0;
+      bottom: -26px;
       width: 100%;
-      max-width: 620px;
-      height: 360px;
-      bottom: 35px;
-      right: -56px;
-      background-image: url("@/assets/images/main__macbookpro.png");
-      background-repeat: no-repeat;
+      max-width: 400px;
+      height: 246px;
+      left: 0;
+      right: 0;
+      background-image: url("@/assets/images/second__macbookpro.png");
       background-position: center;
+      background-repeat: no-repeat;
       background-size: contain;
     }
   }
@@ -102,10 +104,14 @@ export default {
 
   &__text {
     font-family: "TT Interfaces" !important;
+    width: 100%;
+    max-width: 312px;
   }
 
   &__second-text {
     font-family: "TT Interfaces" !important;
+    width: 100%;
+    max-width: 312px;
   }
 
   &__bottom-box {
@@ -117,7 +123,7 @@ export default {
   &__multimedia {
   }
 }
-@media (max-width: 1345px) {
+@media (max-width: 430px) {
   .application {
     &__container {
     }
@@ -125,276 +131,353 @@ export default {
     &__wrapper {
       background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
       position: relative;
-      position: relative;
+      z-index: 1;
       &::after {
+        z-index: 4 !important;
+        margin: 0 auto;
         position: absolute;
         content: "";
         display: inline-block;
+        height: 0;
+        bottom: -22px;
         width: 100%;
-        max-width: 620px;
-        height: 360px;
-        bottom: 95px;
-        right: -26px;
-        background-image: url("@/assets/images/main__macbookpro.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-      }
-    }
-
-    &__title {
-      font-family: "TT Interfaces" !important;
-    }
-
-    &__text {
-      font-family: "TT Interfaces" !important;
-      width: 425px;
-    }
-
-    &__second-text {
-      font-family: "TT Interfaces" !important;
-      width: 425px;
-    }
-
-    &__bottom-box {
-    }
-
-    &__demo {
-    }
-
-    &__multimedia {
-    }
-  }
-}
-@media (max-width: 1110px) {
-  .application {
-    &__container {
-    }
-
-    &__wrapper {
-      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
-      position: relative;
-      position: relative;
-      &::after {
-        position: absolute;
-        content: "";
-        display: inline-block;
-        width: 100%;
-        max-width: 620px;
-        height: 360px;
-        bottom: 125px;
-        right: -26px;
-        background-image: url("@/assets/images/main__macbookpro.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-      }
-    }
-
-    &__title {
-      font-family: "TT Interfaces" !important;
-    }
-
-    &__text {
-      font-family: "TT Interfaces" !important;
-      width: 325px;
-    }
-
-    &__second-text {
-      font-family: "TT Interfaces" !important;
-      width: 325px;
-    }
-
-    &__bottom-box {
-    }
-
-    &__demo {
-    }
-
-    &__multimedia {
-    }
-  }
-}
-@media (max-width: 1024px) {
-  .application {
-    &__container {
-    }
-
-    &__wrapper {
-      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
-      position: relative;
-      position: relative;
-      &::after {
-        position: absolute;
-        content: "";
-        display: inline-block;
-        width: 100%;
-        max-width: 377px;
-        height: 232px;
-        bottom: 110px;
-        right: -15px;
-        background-image: url("@/assets/images/second__macbookpro.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-      }
-    }
-
-    &__title {
-      font-family: "TT Interfaces" !important;
-    }
-
-    &__text {
-      font-family: "TT Interfaces" !important;
-    }
-
-    &__second-text {
-      font-family: "TT Interfaces" !important;
-    }
-
-    &__bottom-box {
-    }
-
-    &__demo {
-    }
-
-    &__multimedia {
-    }
-  }
-}
-@media (max-width: 820px) {
-  .application {
-    &__container {
-    }
-
-    &__wrapper {
-      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
-      position: relative;
-      &::after {
-        position: absolute;
-        content: "";
-        display: inline-block;
-        width: 100%;
-        max-width: 377px;
-        height: 232px;
-        bottom: 110px;
-        right: -15px;
-        background-image: url("@/assets/images/second__macbookpro.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-      }
-    }
-
-    &__title {
-      font-family: "TT Interfaces" !important;
-    }
-
-    &__text {
-      font-family: "TT Interfaces" !important;
-    }
-
-    &__second-text {
-      font-family: "TT Interfaces" !important;
-    }
-
-    &__bottom-box {
-    }
-
-    &__demo {
-    }
-
-    &__multimedia {
-    }
-  }
-}
-@media (max-width: 768px) {
-  .application {
-    &__container {
-    }
-
-    &__wrapper {
-      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
-      position: relative;
-      &::after {
-        position: absolute;
-        content: "";
-        display: inline-block;
-        width: 100%;
-        max-width: 377px;
-        height: 232px;
-        bottom: 110px;
-        left: 345px;
-        background-image: url("@/assets/images/second__macbookpro.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-      }
-    }
-
-    &__title {
-      font-family: "TT Interfaces" !important;
-    }
-
-    &__text {
-      font-family: "TT Interfaces" !important;
-    }
-
-    &__second-text {
-      font-family: "TT Interfaces" !important;
-    }
-
-    &__bottom-box {
-    }
-
-    &__demo {
-    }
-
-    &__multimedia {
-    }
-  }
-}
-@media (max-width: 767px) {
-  .application {
-    position: relative;
-    z-index: 1;
-    &::after {
-      z-index: 4 !important;
-      margin: 0 auto !important;
-      position: absolute;
-      display: inline-block;
-      content: "";
-      display: block;
-      width: 100%;
-      max-width: 377px;
-      height: 232px;
-      bottom: -30px;
-      right: 0;
-      left: -15px;
-      background-image: url("@/assets/images/main__macbookpro.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
-    }
-    &__container {
-    }
-
-    &__wrapper {
-      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
-      position: relative;
-      &::after {
-        position: absolute;
-        display: none;
-        content: "";
-        width: 100%;
-        max-width: 377px;
-        height: 232px;
-        bottom: 0px;
+        max-width: 400px;
+        height: 246px;
+        left: 0;
         right: 0;
-        left: -15px;
-        background-image: url("@/assets/images/main__macbookpro.png");
-        background-repeat: no-repeat;
+        background-image: url("@/assets/images/second__macbookpro.png");
         background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+
+    &__title {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__text {
+      font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
+    }
+
+    &__second-text {
+      font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
+    }
+
+    &__bottom-box {
+    }
+
+    &__demo {
+    }
+
+    &__multimedia {
+    }
+  }
+}
+@media (max-width: 414px) {
+  .application {
+    &__container {
+    }
+
+    &__wrapper {
+      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
+      position: relative;
+      z-index: 1;
+      &::after {
+        z-index: 4 !important;
+        margin: 0 auto;
+        position: absolute;
+        content: "";
+        display: inline-block;
+        height: 0;
+        bottom: -26px;
+        width: 100%;
+        max-width: 400px;
+        height: 246px;
+        left: 0;
+        right: 0;
+        background-image: url("@/assets/images/second__macbookpro.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+
+    &__title {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__text {
+      font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
+    }
+
+    &__second-text {
+      font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
+    }
+
+    &__bottom-box {
+    }
+
+    &__demo {
+    }
+
+    &__multimedia {
+    }
+  }
+}
+@media (max-width: 412px) {
+  .application {
+    &__container {
+    }
+
+    &__wrapper {
+      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
+      position: relative;
+      z-index: 1;
+      &::after {
+        z-index: 4 !important;
+        margin: 0 auto;
+        position: absolute;
+        content: "";
+        display: inline-block;
+        height: 0;
+        bottom: -26px;
+        width: 100%;
+        max-width: 400px;
+        height: 246px;
+        left: 0;
+        right: 0;
+        background-image: url("@/assets/images/second__macbookpro.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+
+    &__title {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__text {
+      font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
+    }
+
+    &__second-text {
+      font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
+    }
+
+    &__bottom-box {
+    }
+
+    &__demo {
+    }
+
+    &__multimedia {
+    }
+  }
+}
+@media (max-width: 390px) {
+  .application {
+    &__container {
+    }
+
+    &__wrapper {
+      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
+      position: relative;
+      z-index: 1;
+      &::after {
+        z-index: 4 !important;
+        margin: 0 auto;
+        position: absolute;
+        content: "";
+        display: inline-block;
+        height: 0;
+        bottom: -32px;
+        width: 100%;
+        max-width: 400px;
+        height: 246px;
+        left: 0;
+        right: 0;
+        background-image: url("@/assets/images/second__macbookpro.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+
+    &__title {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__text {
+      font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
+    }
+
+    &__second-text {
+      font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
+    }
+
+    &__bottom-box {
+    }
+
+    &__demo {
+    }
+
+    &__multimedia {
+    }
+  }
+}
+@media (max-width: 375px) {
+  .application {
+    &__container {
+    }
+
+    &__wrapper {
+      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
+      position: relative;
+      z-index: 1;
+      &::after {
+        z-index: 4 !important;
+        margin: 0 auto;
+        position: absolute;
+        content: "";
+        display: inline-block;
+        height: 0;
+        bottom: -36px;
+        width: 100%;
+        max-width: 400px;
+        height: 246px;
+        left: 0;
+        right: 0;
+        background-image: url("@/assets/images/second__macbookpro.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+
+    &__title {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__text {
+      font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
+    }
+
+    &__second-text {
+      font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
+    }
+
+    &__bottom-box {
+    }
+
+    &__demo {
+    }
+
+    &__multimedia {
+    }
+  }
+}
+@media (max-width: 360px) {
+  .application {
+    &__container {
+    }
+
+    &__wrapper {
+      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
+      position: relative;
+      z-index: 1;
+      &::after {
+        z-index: 4 !important;
+        margin: 0 auto;
+        position: absolute;
+        content: "";
+        display: inline-block;
+        height: 0;
+        bottom: -42px;
+        width: 100%;
+        max-width: 400px;
+        height: 246px;
+        left: 0;
+        right: 0;
+        background-image: url("@/assets/images/second__macbookpro.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+
+    &__title {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__text {
+      font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
+    }
+
+    &__second-text {
+      font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
+    }
+
+    &__bottom-box {
+    }
+
+    &__demo {
+    }
+
+    &__multimedia {
+    }
+  }
+}
+@media (max-width: 350px) {
+  .application {
+    &__container {
+    }
+
+    &__wrapper {
+      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
+      position: relative;
+      z-index: 1;
+      &::after {
+        z-index: 4 !important;
+        margin: 0 auto;
+        position: absolute;
+        content: "";
+        display: inline-block;
+        height: 0;
+        bottom: -55px;
+        width: 100%;
+        max-width: 400px;
+        height: 246px;
+        left: 0;
+        right: 0;
+        background-image: url("@/assets/images/second__macbookpro.png");
+        background-position: center;
+        background-repeat: no-repeat;
         background-size: contain;
       }
     }

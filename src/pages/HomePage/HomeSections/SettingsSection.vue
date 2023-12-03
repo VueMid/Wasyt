@@ -1,5 +1,5 @@
 <template>
-  <section class="settings mt-[240px]">
+  <section class="settings mt-[240px] md:mt-[100px] lg:mt-[120px]">
     <div
       class="container settings__container flex flex-col justify-center items-center gap-6 px-[16px]"
     >
@@ -18,12 +18,12 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles w-max-[141px] text-[#010E38] text-[16px] font-bold leading-[120%] mt-3"
+            class="settings__mini-titles w-max-[141px] text-dark-cyan text-[16px] font-bold leading-[120%] mt-3"
           >
             Создание предварительно проданных контрактов
           </h4>
           <p
-            class="settings__texts w-max-[144px] text-[#010E38] text-[12px] font-normal leading-[150%] mt-2"
+            class="settings__texts w-max-[144px] text-[#7F9B99] text-[12px] font-normal leading-[150%] mt-2"
           >
             Wasyt позволяет торговать юридическим и физическим лицам позволяет
             подписать взаимный шариатский договор.
@@ -38,12 +38,12 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles w-max-[141px] text-[#010E38] text-[16px] font-bold leading-[120%] mt-3"
+            class="settings__mini-titles w-max-[141px] text-dark-cyan text-[16px] font-bold leading-[120%] mt-3"
           >
             Создание предварительно проданных контрактов
           </h4>
           <p
-            class="settings__texts w-max-[144px] text-[#010E38] text-[12px] font-normal leading-[150%] mt-2"
+            class="settings__texts w-max-[144px] text-[#7F9B99] text-[12px] font-normal leading-[150%] mt-2"
           >
             Wasyt позволяет торговать юридическим и физическим лицам позволяет
             подписать взаимный шариатский договор.
@@ -58,12 +58,12 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles w-max-[141px] text-[#010E38] text-[16px] font-bold leading-[120%] mt-3"
+            class="settings__mini-titles w-max-[141px] text-dark-cyan text-[16px] font-bold leading-[120%] mt-3"
           >
             Создание предварительно проданных контрактов
           </h4>
           <p
-            class="settings__texts w-max-[144px] text-[#010E38] text-[12px] font-normal leading-[150%] mt-2"
+            class="settings__texts w-max-[144px] text-[#7F9B99] text-[12px] font-normal leading-[150%] mt-2"
           >
             Wasyt позволяет торговать юридическим и физическим лицам позволяет
             подписать взаимный шариатский договор.
@@ -78,12 +78,12 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles w-max-[141px] text-[#010E38] text-[16px] font-bold leading-[120%] mt-3"
+            class="settings__mini-titles w-max-[141px] text-dark-cyan text-[16px] font-bold leading-[120%] mt-3"
           >
             Создание предварительно проданных контрактов
           </h4>
           <p
-            class="settings__texts w-max-[144px] text-[#010E38] text-[12px] font-normal leading-[150%] mt-2"
+            class="settings__texts w-max-[144px] text-[#7F9B99] text-[12px] font-normal leading-[150%] mt-2"
           >
             Wasyt позволяет торговать юридическим и физическим лицам позволяет
             подписать взаимный шариатский договор.
@@ -98,12 +98,12 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles w-max-[141px] text-[#010E38] text-[16px] font-bold leading-[120%] mt-3"
+            class="settings__mini-titles w-max-[141px] text-dark-cyan text-[16px] font-bold leading-[120%] mt-3"
           >
             Создание предварительно проданных контрактов
           </h4>
           <p
-            class="settings__texts w-max-[144px] text-[#010E38] text-[12px] font-normal leading-[150%] mt-2"
+            class="settings__texts w-max-[144px] text-[#7F9B99] text-[12px] font-normal leading-[150%] mt-2"
           >
             Wasyt позволяет торговать юридическим и физическим лицам позволяет
             подписать взаимный шариатский договор.
@@ -118,12 +118,12 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles w-max-[141px] text-[#010E38] text-[16px] font-bold leading-[120%] mt-3"
+            class="settings__mini-titles w-max-[141px] text-dark-cyan text-[16px] font-bold leading-[120%] mt-3"
           >
             Создание предварительно проданных контрактов
           </h4>
           <p
-            class="settings__texts w-max-[144px] text-[#010E38] text-[12px] font-normal leading-[150%] mt-2"
+            class="settings__texts w-max-[144px] text-[#7F9B99] text-[12px] font-normal leading-[150%] mt-2"
           >
             Wasyt позволяет торговать юридическим и физическим лицам позволяет
             подписать взаимный шариатский договор.
@@ -138,12 +138,12 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles w-max-[141px] text-[#010E38] text-[16px] font-bold leading-[120%] mt-3"
+            class="settings__mini-titles w-max-[141px] text-dark-cyan text-[16px] font-bold leading-[120%] mt-3"
           >
             Создание предварительно проданных контрактов
           </h4>
           <p
-            class="settings__texts w-max-[144px] text-[#010E38] text-[12px] font-normal leading-[150%] mt-2"
+            class="settings__texts w-max-[144px] text-[#7F9B99] text-[12px] font-normal leading-[150%] mt-2"
           >
             Wasyt позволяет торговать юридическим и физическим лицам позволяет
             подписать взаимный шариатский договор.
@@ -158,12 +158,12 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles w-max-[141px] text-[#010E38] text-[16px] font-bold leading-[120%] mt-3"
+            class="settings__mini-titles w-max-[141px] text-dark-cyan text-[16px] font-bold leading-[120%] mt-3"
           >
             Создание предварительно проданных контрактов
           </h4>
           <p
-            class="settings__texts w-max-[144px] text-[#010E38] text-[12px] font-normal leading-[150%] mt-2"
+            class="settings__texts w-max-[144px] text-[#7F9B99] text-[12px] font-normal leading-[150%] mt-2"
           >
             Wasyt позволяет торговать юридическим и физическим лицам позволяет
             подписать взаимный шариатский договор.
@@ -174,6 +174,46 @@
   </section>
 </template>
 <style lang="scss" scoped>
+.settings {
+  &__container {
+  }
+
+  &__top-title {
+    font-family: "TT Interfaces";
+  }
+
+  &__bottom-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__mini-skyblue-box {
+    width: 100%;
+    max-width: 360px;
+    height: 260px;
+  }
+
+  &__images {
+  }
+
+  &__mini-titles {
+    font-family: "Hauora";
+  }
+
+  &__texts {
+    font-family: "TT Interfaces";
+  }
+
+  &__mini-white-box {
+    width: 100%;
+    max-width: 360px;
+    height: 260px;
+  }
+}
 @media (max-width: 767px) {
   .settings {
     &__container {
