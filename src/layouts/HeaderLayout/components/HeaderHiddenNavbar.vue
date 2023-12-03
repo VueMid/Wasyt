@@ -3,9 +3,9 @@
     class="main fixed top-[0px] w-full z-[999] h-[100vh] backdrop-blur-sm bg-white/30 dark:bg-tailwind-dark/30"
   >
     <nav
-      class="nav w-full h-[610px] pt-[62px] z-[999] bg-white rounded-b-[40px] dark:bg-tailwind-dark fixed px-4 mx-auto top-0 md:px-10 md:py-[16px] md:h-[800px] md:pt-[68px] block lg:hidden"
+      class="nav w-full h-[620px] pt-[78px] z-[999] bg-white rounded-b-[40px] dark:bg-tailwind-dark fixed px-4 mx-auto top-0 md:px-10 md:py-[16px] md:h-[800px] md:pt-[68px] block lg:hidden"
     >
-      <hr class="mb-[24px]" />
+      <hr />
       <ul class="ul flex flex-col gap-3 md:flex md:flex-col md:gap-5">
         <li
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-medium"
