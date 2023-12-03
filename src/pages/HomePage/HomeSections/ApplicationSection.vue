@@ -369,13 +369,12 @@ export default {
         display: inline-block;
         width: 100%;
         max-width: 340px;
-        height: 232px;
+        height: 332px;
         left: 0;
         right: 0;
-        bottom: -40px;
+        bottom: -80px;
         background-image: url("@/assets/images/macbookpro.png");
         background-repeat: no-repeat;
-        background-position: center;
         background-size: contain;
       }
     }
