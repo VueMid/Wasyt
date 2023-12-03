@@ -386,10 +386,14 @@ export default {
 
     &__text {
       font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
     }
 
     &__second-text {
       font-family: "TT Interfaces" !important;
+      width: 100%;
+      max-width: 312px;
     }
 
     &__bottom-box {
