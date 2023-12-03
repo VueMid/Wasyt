@@ -4,13 +4,13 @@
       class="container settings__container flex flex-col justify-center items-center gap-6 px-[16px]"
     >
       <h2
-        class="settings__top-title mr-auto text-dark-cyan font-black leading-[120%] text-[24px]"
+        class="settings__top-title mr-auto text-dark-cyan font-black leading-[120%] text-[24px] dark:text-white"
       >
         Системные настройки
       </h2>
       <div class="settings__bottom-box">
         <div
-          class="settings__mini-skyblue-box flex flex-col justify-center items-start bg-[#E1F5F4] px-4 py-4 rounded-[32px]"
+          class="settings__mini-skyblue-box flex flex-col justify-center items-start bg-[#E1F5F4] px-4 py-4 rounded-[22px]"
         >
           <img
             class="settings__images w-[41px]"
@@ -264,14 +264,14 @@
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       gap: 8px;
     }
 
     &__mini-skyblue-box {
       width: 100%;
-      max-width: 198px;
+      max-width: 190px;
       height: 280px;
     }
 
@@ -286,12 +286,12 @@
 
     &__mini-white-box {
       width: 100%;
-      max-width: 198px;
+      max-width: 190px;
       height: 280px;
     }
   }
 }
-@media (max-width: 399px) {
+@media (max-width: 420px) {
   .settings {
     &__container {
     }
@@ -303,7 +303,7 @@
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       gap: 8px;
     }
@@ -311,6 +311,7 @@
     &__mini-skyblue-box {
       width: 100%;
       max-width: 176px;
+      height: 280px;
     }
 
     &__images {
@@ -325,10 +326,50 @@
     &__mini-white-box {
       width: 100%;
       max-width: 176px;
+      height: 280px;
     }
   }
 }
-@media (max-width: 391px) {
+@media (max-width: 392px) {
+  .settings {
+    &__container {
+    }
+
+    &__top-title {
+    }
+
+    &__bottom-box {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    &__mini-skyblue-box {
+      width: 100%;
+      max-width: 160px;
+      height: 290px;
+    }
+
+    &__images {
+    }
+
+    &__mini-titles {
+    }
+
+    &__texts {
+    }
+
+    &__mini-white-box {
+      width: 100%;
+      max-width: 160px;
+      height: 290px;
+    }
+  }
+}
+@media (max-width: 359px) {
   .settings {
     &__container {
     }
@@ -347,7 +388,8 @@
 
     &__mini-skyblue-box {
       width: 100%;
-      max-width: 360px;
+      max-width: 330px;
+      height: 290px;
     }
 
     &__images {
@@ -361,7 +403,8 @@
 
     &__mini-white-box {
       width: 100%;
-      max-width: 360px;
+      max-width: 330px;
+      height: 290px;
     }
   }
 }
