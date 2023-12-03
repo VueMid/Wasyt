@@ -45,9 +45,9 @@
           <TheDarkMode />
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat"> </i>
         </div>
-        <TheButtonSecond class="TheButtonSecond"
-          >Свяжется с нами</TheButtonSecond
-        >
+        <TheButtonSecond class="TheButtonSecond">
+          Свяжется с нами
+        </TheButtonSecond>
       </ul>
     </nav>
   </div>

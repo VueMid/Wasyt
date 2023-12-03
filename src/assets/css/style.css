@@ -86,7 +86,7 @@ html {
     .container {
         width: 100%;
         max-width: 1250px !important;
-        padding: 0 16px;
+        padding: 0 30px;
         margin: 0 auto;
     }
 }

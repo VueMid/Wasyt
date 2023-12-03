@@ -1,23 +1,23 @@
 <template>
-  <section class="application overflow-y-hidden">
+  <section class="application mt-[80px] md:mt-[100px] overflow-hidden">
     <div class="container application__container">
       <div
-        class="application__wrapper flex flex-col justify-center items-center px-[24px] pt-[40px] pb-[275px] rounded-[32px]"
+        class="application__wrapper flex flex-col justify-center items-center px-[24px] pt-[40px] pb-[275px] rounded-[32px] md:flex md:flex-col md:justify-center md:items-start md:px-[30px] md:pt-[30px] md:pb-[30px] lg:px-[46px] lg:pt-[46px] lg:pb-[46px]"
       >
         <h3
-          class="application__title text-[24px] leading-[120%] font-bold w-max-[312px] text-white mb-4"
+          class="application__title text-[24px] leading-[120%] font-bold w-max-[312px] text-white mb-4 md:text-[20px] md:mb-[14px] md:w-[664px]"
         >
           Как использовать наше приложение?
         </h3>
         <p
-          class="application__text text-white/80 text-[14px] leading-[140%] font-normal w-max-[312px] mb-5"
+          class="application__text text-white/80 text-[14px] leading-[140%] font-normal w-max-[312px] mb-5 md:w-[325px] md:text-[14px] md:mb-6 lg:text-[18px] lg:w-[664px]"
         >
           Васыт позволяет торговать и взаимодействовать с юридическими и
           физическими лицами позволяет подписать шариатский договор. ⚡ ️Договор
           заключается разово. он также будет иметь юридическую силу. 🤗
         </p>
         <p
-          class="application__second-text text-white/80 text-[14px] leading-[140%] font-normal w-max-[312px] mb-10"
+          class="application__second-text text-white/80 text-[14px] leading-[140%] font-normal w-max-[312px] mb-10 md:w-[325px] md:text-[14px] md:mb-[30px] lg:text-[18px] lg:w-[664px]"
         >
           Приложение имеет удобный и простой в использовании интерфейс, поэтому
           вам не придется дает возможность подписать договор без каких-либо
@@ -26,9 +26,9 @@
           легко даже удаленно ты можешь сделать
         </p>
         <div
-          class="application__bottom-box w-full flex flex-row justify-between items-center gap-4"
+          class="application__bottom-box w-full flex flex-row justify-between items-center gap-4 md:flex md:flex-row md:justify-start md:items-center md:gap-[26px]"
         >
-          <TheDownload class="application__button w-full">
+          <TheDownload class="application__button w-full md:w-max">
             Получить Демо
           </TheDownload>
           <div
@@ -77,18 +77,17 @@ export default {
   &__wrapper {
     background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
     position: relative;
+    position: relative;
     &::after {
-      margin: 0 auto !important;
       position: absolute;
       content: "";
       display: inline-block;
       width: 100%;
-      max-width: 340px;
-      height: 232px;
-      left: 0;
-      right: 0;
-      bottom: -40px;
-      background-image: url("@/assets/images/macbookpro.png");
+      max-width: 620px;
+      height: 360px;
+      bottom: 35px;
+      right: -56px;
+      background-image: url("@/assets/images/main__macbookpro.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
@@ -114,6 +113,293 @@ export default {
   }
 
   &__multimedia {
+  }
+}
+@media (max-width: 1345px) {
+  .application {
+    &__container {
+    }
+
+    &__wrapper {
+      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
+      position: relative;
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 100%;
+        max-width: 620px;
+        height: 360px;
+        bottom: 95px;
+        right: -26px;
+        background-image: url("@/assets/images/main__macbookpro.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+    }
+
+    &__title {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__text {
+      font-family: "TT Interfaces" !important;
+      width: 425px;
+    }
+
+    &__second-text {
+      font-family: "TT Interfaces" !important;
+      width: 425px;
+    }
+
+    &__bottom-box {
+    }
+
+    &__demo {
+    }
+
+    &__multimedia {
+    }
+  }
+}
+@media (max-width: 1110px) {
+  .application {
+    &__container {
+    }
+
+    &__wrapper {
+      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
+      position: relative;
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 100%;
+        max-width: 620px;
+        height: 360px;
+        bottom: 125px;
+        right: -26px;
+        background-image: url("@/assets/images/main__macbookpro.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+    }
+
+    &__title {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__text {
+      font-family: "TT Interfaces" !important;
+      width: 325px;
+    }
+
+    &__second-text {
+      font-family: "TT Interfaces" !important;
+      width: 325px;
+    }
+
+    &__bottom-box {
+    }
+
+    &__demo {
+    }
+
+    &__multimedia {
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .application {
+    &__container {
+    }
+
+    &__wrapper {
+      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
+      position: relative;
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 100%;
+        max-width: 377px;
+        height: 232px;
+        bottom: 110px;
+        right: -15px;
+        background-image: url("@/assets/images/second__macbookpro.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+    }
+
+    &__title {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__text {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__second-text {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__bottom-box {
+    }
+
+    &__demo {
+    }
+
+    &__multimedia {
+    }
+  }
+}
+@media (max-width: 820px) {
+  .application {
+    &__container {
+    }
+
+    &__wrapper {
+      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
+      position: relative;
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 100%;
+        max-width: 377px;
+        height: 232px;
+        bottom: 110px;
+        right: -15px;
+        background-image: url("@/assets/images/second__macbookpro.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+    }
+
+    &__title {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__text {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__second-text {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__bottom-box {
+    }
+
+    &__demo {
+    }
+
+    &__multimedia {
+    }
+  }
+}
+@media (max-width: 768px) {
+  .application {
+    &__container {
+    }
+
+    &__wrapper {
+      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
+      position: relative;
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 100%;
+        max-width: 377px;
+        height: 232px;
+        bottom: 110px;
+        left: 345px;
+        background-image: url("@/assets/images/second__macbookpro.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+    }
+
+    &__title {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__text {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__second-text {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__bottom-box {
+    }
+
+    &__demo {
+    }
+
+    &__multimedia {
+    }
+  }
+}
+@media (max-width: 767px) {
+  .application {
+    &__container {
+    }
+
+    &__wrapper {
+      background: linear-gradient(101deg, #2db7ca 0.41%, #01889a 108.74%);
+      position: relative;
+      &::after {
+        margin: 0 auto !important;
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 100%;
+        max-width: 340px;
+        height: 232px;
+        left: 0;
+        right: 0;
+        bottom: -40px;
+        background-image: url("@/assets/images/macbookpro.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+    }
+
+    &__title {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__text {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__second-text {
+      font-family: "TT Interfaces" !important;
+    }
+
+    &__bottom-box {
+    }
+
+    &__demo {
+    }
+
+    &__multimedia {
+    }
   }
 }
 </style>
