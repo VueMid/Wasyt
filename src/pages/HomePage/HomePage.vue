@@ -6,6 +6,8 @@
     <ApplicationSection />
     <ApplicationSecondSection />
     <SettingsSection />
+    <SettingsSecondSection />
+    <SettingsThirdSection />
   </div>
 </template>
 <script>
@@ -15,6 +17,8 @@ import WasytSection from "./HomeSections/WasytSection.vue";
 import ApplicationSection from "./HomeSections/ApplicationSection.vue";
 import ApplicationSecondSection from "./HomeSections/ApplicationSecondSection.vue";
 import SettingsSection from "./HomeSections/SettingsSection.vue";
+import SettingsSecondSection from "./HomeSections/SettingsSecondSection.vue";
+import SettingsThirdSection from "./HomeSections/SettingsThirdSection.vue";
 export default {
   components: {
     HeroSection,
@@ -23,6 +27,8 @@ export default {
     ApplicationSection,
     ApplicationSecondSection,
     SettingsSection,
+    SettingsSecondSection,
+    SettingsThirdSection,
   },
 };
 </script>
