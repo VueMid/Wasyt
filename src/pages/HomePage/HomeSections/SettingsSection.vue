@@ -8,7 +8,9 @@
       >
         Системные настройки
       </h2>
-      <div class="settings__main-bottom flex flex-col justify-center items-center gap-2">
+      <div
+        class="settings__main-bottom flex flex-col justify-center items-center gap-2"
+      >
         <div
           class="settings__bottom-box flex flex-row justify-between items-center gap-2"
         >
@@ -196,6 +198,7 @@
     }
 
     &__top-title {
+      font-family: "TT Interfaces";
     }
 
     &__bottom-box {
@@ -212,9 +215,11 @@
     }
 
     &__mini-titles {
+      font-family: "Hauora";
     }
 
     &__texts {
+      font-family: "TT Interfaces";
     }
 
     &__mini-white-box {

@@ -179,6 +179,35 @@
 export default {};
 </script>
 <style lang="scss" scoped>
+.settings {
+  &__container {
+  }
+
+  &__top-title {
+    font-family: "TT Interfaces";
+  }
+
+  &__bottom-box {
+  }
+
+  &__mini-skyblue-box {
+  }
+
+  &__images {
+  }
+
+  &__mini-titles {
+    font-family: "Hauora";
+  }
+
+  &__texts {
+    font-family: "TT Interfaces";
+  }
+
+  &__mini-white-box {
+  }
+}
+
 @media (max-width: 1355px) {
   .settings {
     &__container {
