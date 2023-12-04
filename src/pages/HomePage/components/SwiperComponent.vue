@@ -34,7 +34,7 @@
         {{ item.name }}
       </p>
       <h3
-        class="carousel__swiper-titles text-[18px] w-[220px] text-[#010E38] mt-[8px] font-medium leading-[120%] lg:text-[20px] lg:mt-[12px] lg:w-[313px] dark:text-white"
+        class="carousel__swiper-titles text-[18px] w-[220px] text-[#010E38] mt-[8px] font-bold leading-[120%] lg:text-[20px] lg:mt-[12px] lg:w-[313px] dark:text-white"
       >
         {{ item.title }}
       </h3>
@@ -81,6 +81,12 @@ export default {
 };
 </script>
 <style scoped>
+.carousel__swiper-texts {
+  font-family: "TT Interfaces";
+}
+.carousel__swiper-titles {
+  font-family: "TT Interfaces";
+}
 @media (max-width: 412px) {
   .mySwiper {
     padding-right: 0px;

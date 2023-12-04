@@ -1,18 +1,16 @@
 <template>
-  <section class="carousel mt-[120px] block md:hidden">
+  <section class="carousel mt-[80px] block md:hidden">
     <div class="container carousel__container">
       <div
         class="carousel__top lg:flex lg:flex-row lg:justify-between lg:items-center mb-[24px] lg:mb-12 flex flex-col justify-center items-start"
       >
         <h2
-          class="carousel__main-title text-[24px] lg:text-[40px] text-[#172D33] font-bold leading-[120%] dark:text-white duration-[410ms]"
-          v-motion-slide-visible-once-left
+          class="carousel__main-title text-[30px] lg:text-[40px] text-[#172D33] font-bold leading-[120%] dark:text-white duration-[410ms]"
         >
           Все новости
         </h2>
         <div
           class="carousel__btns hidden md:flex md:flex-row md:justify-center md:items-center md:gap-6 duration-[400ms]"
-          v-motion-slide-visible-once-bottom
         >
           <button
             class="carousel__btns prev bg-[#F5F5F7] lg:w-[56px] lg:h-[56px] flex justify-center items-center rounded-[100%] dark:border-[1px] dark:border-white dark:bg-tailwind-dark dark:text-white"
@@ -41,3 +39,19 @@ export default {
   components: { SwiperComponent },
 };
 </script>
+<style lang="scss" scoped>
+.carousel {
+  &__container {
+  }
+
+  &__top {
+  }
+
+  &__main-title {
+    font-family: "TT Interfaces";
+  }
+
+  &__btns {
+  }
+}
+</style>
