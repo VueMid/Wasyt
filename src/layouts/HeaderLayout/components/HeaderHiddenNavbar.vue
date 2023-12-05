@@ -1,6 +1,6 @@
 <template>
   <div
-    class="main fixed top-[0px] w-full z-[999] h-[100vh] backdrop-blur-sm bg-white/30 dark:bg-tailwind-dark/30"
+    class="main fixed top-[0px] w-full z-[999] h-[100vh] backdrop-blur-sm bg-white/30 dark:bg-tailwind-dark/30 overflow-x-hidden"
   >
     <nav
       class="nav w-full h-[620px] pt-[78px] z-[999] bg-white rounded-b-[40px] dark:bg-tailwind-dark fixed px-4 mx-auto top-0 md:px-10 md:py-[16px] md:h-[800px] md:pt-[68px] block lg:hidden"
@@ -19,7 +19,7 @@
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-medium"
         >
           <img class="" src="@/assets/icons/about.svg" alt="" />
-          <a class="link ml-4" href="#wasyt"> О Продукте </a>
+          <a class="link ml-4" href="#wasyt">О Продукте</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
@@ -27,7 +27,7 @@
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-medium"
         >
           <img class="" src="@/assets/icons/demo.svg" alt="" />
-          <a class="link ml-4" href="#application"> Демо </a>
+          <a class="link ml-4" href="#application">Демо</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
@@ -35,7 +35,7 @@
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-medium"
         >
           <img class="" src="@/assets/icons/partnership.svg" alt="" />
-          <a class="link ml-4" href="#partnership"> Партнерство </a>
+          <a class="link ml-4" href="#partnership">Партнерство</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>

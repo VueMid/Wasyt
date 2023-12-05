@@ -1,5 +1,6 @@
 <template>
   <section
+    id="wasyt"
     class="wasyt bg-[#F4FDFE] mt-[180px] md:mt-[100px] dark:bg-tailwind-dark"
   >
     <div

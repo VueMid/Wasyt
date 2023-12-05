@@ -6,7 +6,7 @@
       <Languages class="languages" />
     </div>
     <TheDarkMode class="TheDarkMode" />
-    <TheButton class="TheButton">Свяжется с нами</TheButton>
+    <TheButton @click="openModal" class="TheButton">Свяжется с нами</TheButton>
     <div class="menu">
       <div class="flex flex-row justify-center items-center" v-if="!isOpen">
         <p class="uppercase text-[16px] font-medium">Меню</p>
@@ -46,17 +46,33 @@
         />
       </button>
     </div>
+    <Transition name="modal" class="relative z-[1111]">
+      <div v-if="isModalOpened">
+        <HeaderComponent @closeModal="closeModal" />
+      </div>
+    </Transition>
   </div>
 </template>
 <script>
 import TheDarkMode from "../../../MaterialUI/TheDarkMode.vue";
 import TheButton from "../../../MaterialUI/TheButton.vue";
 import Languages from "../components/Languages.vue";
+import HeaderComponent from "./HeaderComponent.vue";
 export default {
   data() {
-    return {};
+    return { isModalOpened: false };
   },
-  components: { TheDarkMode, TheButton, Languages },
+  methods: {
+    openModal() {
+      this.isModalOpened = true;
+      document.body.style.overflow = "hidden";
+    },
+    closeModal() {
+      this.isModalOpened = false;
+      document.body.style.overflow = "auto";
+    },
+  },
+  components: { TheDarkMode, TheButton, Languages, HeaderComponent },
   props: {
     isOpen: {
       type: Boolean,
@@ -65,6 +81,14 @@ export default {
 };
 </script>
 <style scoped>
+.modal-enter-active,
+.modal-leave-active {
+  transition: opacity 0.3s ease;
+}
+.modal-enter-from,
+.modal-leave-to {
+  opacity: 0;
+}
 .uppercase {
   font-family: "TT Interfaces";
 }

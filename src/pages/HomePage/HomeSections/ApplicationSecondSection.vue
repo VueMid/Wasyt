@@ -1,5 +1,8 @@
 <template>
-  <section class="application mt-[80px] md:mt-[100px] block md:hidden">
+  <section
+    id="application"
+    class="application mt-[80px] md:mt-[100px] md:hidden"
+  >
     <div class="container application__container">
       <div
         class="application__wrapper flex flex-col justify-center items-center px-[24px] pt-[40px] pb-[275px] rounded-[32px] md:flex md:flex-col md:justify-center md:items-start md:px-[30px] md:pt-[30px] md:pb-[30px] lg:px-[46px] lg:pt-[46px] lg:pb-[46px]"

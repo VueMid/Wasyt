@@ -46,15 +46,6 @@ p {
     font-family: inherit;
 }
 
-input,
-input:focus,
-textarea {
-    all: unset;
-    border: none;
-    outline: none;
-    resize: none;
-}
-
 ul,
 ol,
 li {
@@ -64,15 +55,27 @@ li {
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-    display: inline-block;
-}
-
 html {
     height: 100%;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+body {
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'TT Interfaces';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: var(--white);
+    color: var(--black);
+    overflow-x: hidden;
 }
 
 .container {
