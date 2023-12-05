@@ -9,6 +9,7 @@
     <SettingsSecondSection />
     <SettingsThirdSection />
     <CarouselSection />
+    <CarouselSecondSection />
   </div>
 </template>
 <script>
@@ -21,6 +22,7 @@ import SettingsSection from "./HomeSections/SettingsSection.vue";
 import SettingsSecondSection from "./HomeSections/SettingsSecondSection.vue";
 import SettingsThirdSection from "./HomeSections/SettingsThirdSection.vue";
 import CarouselSection from "./HomeSections/CarouselSection.vue";
+import CarouselSecondSection from "./HomeSections/CarouselSecondSection.vue";
 export default {
   components: {
     HeroSection,
@@ -32,6 +34,7 @@ export default {
     SettingsSecondSection,
     SettingsThirdSection,
     CarouselSection,
+    CarouselSecondSection,
   },
 };
 </script>

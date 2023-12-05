@@ -20,7 +20,7 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles md:w-[221px] md:text-dark-cyan md:text-[15 px] md:font-bold md:leading-[130%] md:mt-[20px]"
+            class="settings__mini-titles md:w-[221px] md:text-dark-cyan md:text-[15px] md:font-bold md:leading-[130%] md:mt-[20px]"
           >
             Создание предварительно проданных контрактов
           </h4>
@@ -40,7 +40,7 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles md:w-[221px] md:text-dark-cyan md:text-[15 px] md:font-bold md:leading-[130%] md:mt-[20px]"
+            class="settings__mini-titles md:w-[221px] md:text-dark-cyan md:text-[15px] md:font-bold md:leading-[130%] md:mt-[20px]"
           >
             Создание предварительно проданных контрактов
           </h4>
@@ -60,7 +60,7 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles md:w-[221px] md:text-dark-cyan md:text-[15 px] md:font-bold md:leading-[130%] md:mt-[20px]"
+            class="settings__mini-titles md:w-[221px] md:text-dark-cyan md:text-[15px] md:font-bold md:leading-[130%] md:mt-[20px]"
           >
             Создание предварительно проданных контрактов
           </h4>
@@ -80,7 +80,7 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles md:w-[221px] md:text-dark-cyan md:text-[15 px] md:font-bold md:leading-[130%] md:mt-[20px]"
+            class="settings__mini-titles md:w-[221px] md:text-dark-cyan md:text-[15px] md:font-bold md:leading-[130%] md:mt-[20px]"
           >
             Создание предварительно проданных контрактов
           </h4>
@@ -100,7 +100,7 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles md:w-[221px] md:text-dark-cyan md:text-[15 px] md:font-bold md:leading-[130%] md:mt-[20px]"
+            class="settings__mini-titles md:w-[221px] md:text-dark-cyan md:text-[15px] md:font-bold md:leading-[130%] md:mt-[20px]"
           >
             Создание предварительно проданных контрактов
           </h4>
@@ -120,7 +120,7 @@
             alt="icon"
           />
           <h4
-            class="settings__mini-titles md:w-[221px] md:text-dark-cyan md:text-[15 px] md:font-bold md:leading-[130%] md:mt-[20px]"
+            class="settings__mini-titles md:w-[221px] md:text-dark-cyan md:text-[15px] md:font-bold md:leading-[130%] md:mt-[20px]"
           >
             Создание предварительно проданных контрактов
           </h4>

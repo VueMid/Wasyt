@@ -1,5 +1,5 @@
 <template>
-  <section class="carousel mt-[80px] block md:hidden">
+  <section class="carousel mt-[80px] md:hidden">
     <div class="container carousel__container">
       <div
         class="carousel__top lg:flex lg:flex-row lg:justify-between lg:items-center mb-[24px] lg:mb-12 flex flex-col justify-center items-start"
