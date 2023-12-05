@@ -16,6 +16,7 @@
           управления складом (WMS) и другие системы управления операциями.
         </p>
         <TheWhiteButton
+          @click="openModal"
           class="hero__button md:m-0 mb-[25px] md:mb-[25px] lg:mb-[35px"
         >
           Свяжется с нами
@@ -37,15 +38,44 @@
         />
       </div>
     </div>
+    <Transition name="modal" class="relative z-[1111]">
+      <div v-if="isModalOpened">
+        <HeaderComponent @closeModal="closeModal" />
+      </div>
+    </Transition>
   </section>
 </template>
 <script>
 import TheWhiteButton from "../../../MaterialUI/TheWhiteButton.vue";
+import HeaderComponent from "../../../layouts/HeaderLayout/components/HeaderComponent.vue";
 export default {
-  components: { TheWhiteButton },
+  data() {
+    return {
+      isModalOpened: false,
+    };
+  },
+  components: { TheWhiteButton, HeaderComponent },
+  methods: {
+    openModal() {
+      this.isModalOpened = true;
+      document.body.style.overflow = "hidden";
+    },
+    closeModal() {
+      this.isModalOpened = false;
+      document.body.style.overflow = "auto";
+    },
+  },
 };
 </script>
 <style lang="scss" scoped>
+.modal-enter-active,
+.modal-leave-active {
+  transition: opacity 0.3s ease;
+}
+.modal-enter-from,
+.modal-leave-to {
+  opacity: 0;
+}
 .hero {
   &__container {
   }

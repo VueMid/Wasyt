@@ -78,17 +78,38 @@
             </p>
           </div>
         </div>
-        <TheButton class="wasyt__button w-full md:w-max">
+        <TheButton @click="openModal" class="wasyt__button w-full md:w-max">
           Свяжется с нами
         </TheButton>
       </div>
     </div>
+    <Transition name="modal" class="relative z-[1111]">
+      <div v-if="isModalOpened">
+        <HeaderComponent @closeModal="closeModal" />
+      </div>
+    </Transition>
   </section>
 </template>
 <script>
 import TheButton from "../../../MaterialUI/TheButton.vue";
+import HeaderComponent from "../../../layouts/HeaderLayout/components/HeaderComponent.vue";
 export default {
-  components: { TheButton },
+  data() {
+    return {
+      isModalOpened: false,
+    };
+  },
+  methods: {
+    openModal() {
+      this.isModalOpened = true;
+      document.body.style.overflow = "hidden";
+    },
+    closeModal() {
+      this.isModalOpened = false;
+      document.body.style.overflow = "auto";
+    },
+  },
+  components: { TheButton, HeaderComponent },
 };
 </script>
 <style lang="scss" scoped>

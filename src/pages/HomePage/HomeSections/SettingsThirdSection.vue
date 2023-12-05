@@ -207,7 +207,6 @@ export default {};
   &__mini-white-box {
   }
 }
-
 @media (max-width: 1355px) {
   .settings {
     &__container {
