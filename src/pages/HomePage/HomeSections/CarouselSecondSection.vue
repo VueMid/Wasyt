@@ -89,7 +89,7 @@
               alt="carousel__images"
             />
             <p
-              class="carousel__bottom-date md:text-[#7F9B9B] md:text-[14px] md:font-medium md:leading-[140%]"
+              class="carousel__bottom-date md:text-[#7F9B9B] md:text-[14px] md:font-medium md:leading-[140%] dark:text-white"
             >
               17 мая 2023 г
             </p>
