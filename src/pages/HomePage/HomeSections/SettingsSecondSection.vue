@@ -4,7 +4,7 @@
       class="container settings__container md:flex md:flex-col md:justify-center md:items-center md:gap-[20px]"
     >
       <h2
-        class="settings__top-title text-dark-cyan font-black leading-[120%] dark:text-white md:text-[24px]"
+        class="settings__top-title text-dark-cyan font-black leading-[120%] dark:text-white md:text-[24px] "
       >
         Системные настройки
       </h2>

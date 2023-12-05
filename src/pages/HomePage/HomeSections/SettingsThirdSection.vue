@@ -4,7 +4,7 @@
       class="container settings__container lg:flex lg:flex-col lg:justify-center lg:items-center lg:gap-8"
     >
       <h4
-        class="settings__top-title lg:text-[#172D33] lg:font-bold lg:text-[30px] lg:leading-[120%]"
+        class="settings__top-title lg:text-[#172D33] lg:font-bold lg:text-[30px] lg:leading-[120%] dark:text-white"
       >
         Системные настройки
       </h4>

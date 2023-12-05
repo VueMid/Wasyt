@@ -7,7 +7,7 @@
         class="carousel__top-box md:flex md:flex-row md:justify-between md:items-center"
       >
         <h1
-          class="carousel__top-title md:text-dark-cyan md:text-[30px] md:font-bold md:leading-[120%]"
+          class="carousel__top-title md:text-dark-cyan md:text-[30px] md:font-bold md:leading-[120%] dark:text-white"
         >
           Все новости
         </h1>
@@ -56,7 +56,7 @@
               17 мая 2023 г
             </p>
             <h5
-              class="carousel__bottom-titles md:text-[#010E38] md:text-[15px] md:font-bold md:leading-[120%] md:w-[226px] lg:w-[250px] lg:text-[16px]"
+              class="carousel__bottom-titles md:text-[#010E38] md:text-[15px] md:font-bold md:leading-[120%] md:w-[226px] lg:w-[250px] lg:text-[16px] dark:text-white"
             >
               Полное руководство по работе из дома
             </h5>
@@ -75,7 +75,7 @@
               17 мая 2023 г
             </p>
             <h5
-              class="carousel__bottom-titles md:text-[#010E38] md:text-[15px] md:font-bold md:leading-[120%] md:w-[226px] lg:w-[250px] lg:text-[16px]"
+              class="carousel__bottom-titles md:text-[#010E38] md:text-[15px] md:font-bold md:leading-[120%] md:w-[226px] lg:w-[250px] lg:text-[16px] dark:text-white"
             >
               Полное руководство по работе из дома
             </h5>
@@ -94,7 +94,7 @@
               17 мая 2023 г
             </p>
             <h5
-              class="carousel__bottom-titles md:text-[#010E38] md:text-[15px] md:font-bold md:leading-[120%] md:w-[226px] lg:w-[250px] lg:text-[16px]"
+              class="carousel__bottom-titles md:text-[#010E38] md:text-[15px] md:font-bold md:leading-[120%] md:w-[226px] lg:w-[250px] lg:text-[16px] dark:text-white"
             >
               Полное руководство по работе из дома
             </h5>

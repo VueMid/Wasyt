@@ -29,7 +29,7 @@
         alt="carousel__images"
       />
       <p
-        class="carousel__swiper-texts dark:text-white mt-[26px] text-[18px] font-medium leading-[140%] text-[#7F9B9B]"
+        class="carousel__swiper-texts mt-[26px] text-[18px] font-medium leading-[140%] text-[#7F9B9B]"
       >
         {{ item.name }}
       </p>
