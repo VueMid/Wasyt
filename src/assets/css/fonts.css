@@ -280,3 +280,12 @@
     font-family: 'Hauora';
     src: url('../fonts/Hauora-SemiBold.woff2') format('woff2');
 }
+
+
+/* TT Firs Neue */
+@font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TTFirsneue-Regular.ttf.ttf") format("ttf");
+}
