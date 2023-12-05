@@ -40,7 +40,7 @@ export default {
 <style scoped>
 .fade-enter-active,
 .fade-leave-active {
-  transition: 3s ease;
+  transition: 1s ease;
   transform: scale(1);
   pointer-events: none;
 }

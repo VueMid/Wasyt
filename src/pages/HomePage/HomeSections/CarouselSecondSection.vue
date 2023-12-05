@@ -1,5 +1,5 @@
 <template>
-  <section class="carousel hidden md:block md:mt-[120px] lg:mt-[120px]">
+  <section class="carousel hidden md:block md:mt-[100px] lg:mt-[120px]">
     <div
       class="container carousel__container md:flex md:flex-col md:justify-between md:gap-[20px] lg:flex lg:flex-col lg:justify-between lg:gap-[50px]"
     >
@@ -12,7 +12,7 @@
           Все новости
         </h1>
         <div
-          class="carousel__buttons md:flex md:flex-row md:justify-between md:items-center md:gap-4"
+          class="carousel__top-buttons md:flex md:flex-row md:justify-between md:items-center md:gap-4"
         >
           <button
             style="
@@ -41,53 +41,63 @@
         </div>
       </div>
       <div class="row">
-        <div
-          class="owl-carousel owl-theme md:flex md:flex-row md:justify-center md:items-center md:gap-4"
-        >
+        <div class="owl-carousel owl-theme cursor-grab">
           <div
-            class="item md:flex md:flex-col md:justify-center md:items-start md:gap-[14px]"
+            class="carousel__mini-boxes md:flex md:flex-col md:justify-center md:items-start md:gap-[14px]"
           >
-            <img src="@/assets/images/boy.png" alt="boy" />
+            <img
+              class="carousel__bottom-images md:w-[249px] md:rounded-[16px]"
+              src="@/assets/images/girl.png"
+              alt="carousel__images"
+            />
             <p
-              class="carousel__bottom-data md:text-[#7F9B9B] md:text-[14px] md:font-medium md:leading-[140%]"
+              class="carousel__bottom-date md:text-[#7F9B9B] md:text-[14px] md:font-medium md:leading-[140%]"
             >
-              17 мая 2023 г.
+              17 мая 2023 г
             </p>
-            <h3
-              class="carousel__bottom-titles md:text-[#010E38] md:text-[20px] md:font-bold md:leading-[120%] lg:w-[303px]"
+            <h5
+              class="carousel__bottom-titles md:text-[#010E38] md:text-[15px] md:font-bold md:leading-[120%] md:w-[226px] lg:w-[250px] lg:text-[16px]"
             >
               Полное руководство по работе из дома
-            </h3>
+            </h5>
           </div>
           <div
-            class="item md:flex md:flex-col md:justify-center md:items-start md:gap-[10px]"
+            class="carousel__mini-boxes md:flex md:flex-col md:justify-center md:items-start md:gap-[14px]"
           >
-            <img src="@/assets/images/girl.png" alt="girl" />
+            <img
+              class="carousel__bottom-images md:w-[249px] md:rounded-[16px]"
+              src="@/assets/images/girl__second.png"
+              alt="carousel__images"
+            />
             <p
-              class="carousel__bottom-data md:text-[#7F9B9B] md:text-[14px] md:font-medium md:leading-[140%]"
+              class="carousel__bottom-date md:text-[#7F9B9B] md:text-[14px] md:font-medium md:leading-[140%]"
             >
-              17 мая 2023 г.
+              17 мая 2023 г
             </p>
-            <h3
-              class="carousel__bottom-titles md:text-[#010E38] md:text-[20px] md:font-bold md:leading-[120%] lg:w-[303px]"
+            <h5
+              class="carousel__bottom-titles md:text-[#010E38] md:text-[15px] md:font-bold md:leading-[120%] md:w-[226px] lg:w-[250px] lg:text-[16px]"
             >
               Полное руководство по работе из дома
-            </h3>
+            </h5>
           </div>
           <div
-            class="item md:flex md:flex-col md:justify-center md:items-start md:gap-[14px]"
+            class="carousel__mini-boxes md:flex md:flex-col md:justify-center md:items-start md:gap-[14px]"
           >
-            <img src="@/assets/images/girl__second.png" alt="girl__second" />
+            <img
+              class="carousel__bottom-images md:w-[249px] md:rounded-[16px]"
+              src="@/assets/images/boy.png"
+              alt="carousel__images"
+            />
             <p
-              class="carousel__bottom-data md:text-[#7F9B9B] md:text-[14px] md:font-medium md:leading-[140%]"
+              class="carousel__bottom-date md:text-[#7F9B9B] md:text-[14px] md:font-medium md:leading-[140%]"
             >
-              17 мая 2023 г.
+              17 мая 2023 г
             </p>
-            <h3
-              class="carousel__bottom-titles md:text-[#010E38] md:text-[20px] md:font-bold md:leading-[120%] lg:w-[303px]"
+            <h5
+              class="carousel__bottom-titles md:text-[#010E38] md:text-[15px] md:font-bold md:leading-[120%] md:w-[226px] lg:w-[250px] lg:text-[16px]"
             >
               Полное руководство по работе из дома
-            </h3>
+            </h5>
           </div>
         </div>
       </div>
@@ -102,7 +112,7 @@ export default {
     onMounted(() => {
       owlCarousel.value = $(".owl-carousel").owlCarousel({
         loop: true,
-        margin: 20,
+        margin: 16,
         nav: false,
         responsive: {
           768: {
@@ -111,27 +121,33 @@ export default {
           820: {
             items: 3,
           },
+          900: {
+            items: 3,
+          },
           1000: {
-            items: 1,
+            items: 3,
           },
           1150: {
-            items: 2,
+            items: 3,
           },
           1200: {
+            items: 3,
+          },
+          1400: {
+            items: 3,
+          },
+          1500: {
             items: 3,
           },
         },
       });
     });
-
     const nextSlide = () => {
       owlCarousel.value.trigger("next.owl.carousel");
     };
-
     const prevSlide = () => {
       owlCarousel.value.trigger("prev.owl.carousel");
     };
-
     return {
       nextSlide,
       prevSlide,
@@ -139,3 +155,4 @@ export default {
   },
 };
 </script>
+<style lang="scss" scoped></style>
