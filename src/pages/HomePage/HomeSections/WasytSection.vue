@@ -83,7 +83,7 @@
         </TheButton>
       </div>
     </div>
-    <Transition name="modal" class="relative z-[1111]">
+    <Transition name="modal" class="relative z-[2222]">
       <div v-if="isModalOpened">
         <HeaderComponent @closeModal="closeModal" />
       </div>
