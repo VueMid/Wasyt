@@ -113,6 +113,14 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.modal-enter-active,
+.modal-leave-active {
+  transition: opacity 0.3s ease;
+}
+.modal-enter-from,
+.modal-leave-to {
+  opacity: 0;
+}
 .wasyt {
   &__container {
     display: flex;
