@@ -23,7 +23,6 @@
 import HeaderLayout from "./layouts/HeaderLayout/HeaderLayout.vue";
 import FooterLayout from "./layouts/FooterLayout/FooterLayout.vue";
 import FooterBottomLayout from "./layouts/FooterBottomLayout/FooterBottomLayout.vue";
-
 export default {
   components: {
     HeaderLayout,

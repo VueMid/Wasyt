@@ -1,7 +1,7 @@
 <template>
   <section
     id="application"
-    class="application mt-[80px] md:mt-[100px] overflow-hidden hidden md:block"
+    class="application mt-[80px] md:mt-[100px] hidden md:block"
   >
     <div class="container application__container">
       <div

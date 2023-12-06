@@ -10,15 +10,15 @@
         <li
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-medium"
         >
-          <img class="" src="@/assets/icons/home.svg" alt="" />
-          <a class="link ml-4" href="#"> Главная </a>
+          <img class="" src="@/assets/icons/home.svg" alt="icon" />
+          <a class="link ml-4" href="#">Главная</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
         <li
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-medium"
         >
-          <img class="" src="@/assets/icons/about.svg" alt="" />
+          <img class="" src="@/assets/icons/about.svg" alt="icon" />
           <a class="link ml-4" href="#wasyt">О Продукте</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
@@ -26,15 +26,15 @@
         <li
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-medium"
         >
-          <img class="" src="@/assets/icons/demo.svg" alt="" />
-          <a class="link ml-4" href="#application">Демо</a>
+          <img class="" src="@/assets/icons/demo.svg" alt="icon" />
+          <a class="link ml-4" href="#applicationSecond">Демо</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
         <li
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-medium"
         >
-          <img class="" src="@/assets/icons/partnership.svg" alt="" />
+          <img class="" src="@/assets/icons/partnership.svg" alt="icon" />
           <a class="link ml-4" href="#partnership">Партнерство</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
@@ -43,7 +43,7 @@
           class="px-6 py-2 md:px-6 md:py-4 border-[1px] Interfaces rounded-[88px] bg-white dark:bg-tailwind-dark flex flex-row justify-between items-center"
         >
           <TheDarkMode />
-          <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat"> </i>
+          <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat"></i>
         </div>
         <TheButtonSecond class="TheButtonSecond">
           Свяжется с нами

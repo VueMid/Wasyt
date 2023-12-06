@@ -1,6 +1,6 @@
 <template>
   <section
-    id="application"
+    id="applicationSecond"
     class="application mt-[80px] md:mt-[100px] md:hidden"
   >
     <div class="container application__container">
