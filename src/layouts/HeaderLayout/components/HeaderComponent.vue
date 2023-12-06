@@ -3,7 +3,7 @@
     class="fixed top-0 left-0 right-0 w-full p-4 duration-100 overflow-y-auto h-full max-h-full backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 flex justify-center items-center xl:px-[0px]"
   >
     <div
-      class="bg-white card dark:bg-tailwind-dark flex flex-col justify-center items-center w-[360px] h-[610px] px-[24px] xl:w-[748px] xl:h-[570px] xl:px-[106px] xl:py-12 rounded-[32px] relative dark:border-[2px] dark:border-dark-cyan"
+      class="bg-white card dark:bg-tailwind-dark flex flex-col justify-center items-center w-[360px] h-[600px] px-[24px] xl:w-[748px] xl:h-[570px] xl:px-[106px] xl:py-12 rounded-[32px] relative dark:border-[2px] dark:border-dark-cyan"
     >
       <form
         class="w-full flex flex-col gap-4"
@@ -21,7 +21,7 @@
           <button
             type="button"
             @click="$emit('closeModal')"
-            class="text-[#020105] font-bold top-[31px] right-[31px] xl:top-[23px] xl:right-[23px] absolute"
+            class="text-[#020105] font-bold top-[16px] right-[16px] xl:top-[23px] xl:right-[23px] absolute"
             data-modal-hide="staticModal"
           >
             <svg
