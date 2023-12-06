@@ -1,12 +1,12 @@
 <template>
   <div class="footer__numbers flex flex-col justify-center items-start gap-2">
     <p
-      class="footer__title text-[#4B5E5E] text-[12px] font-normal leading-[130%] dark:text-white"
+      class="footer__title text-[#4B5E5E] text-[12px] font-normal leading-[130%] dark:text-white md:text-[14px]"
     >
       Тел.номер:
     </p>
     <a
-      class="footer__tel-link text-[12px] font-bold leading-[150%] text-dark-cyan dark:text-white w-[105px]"
+      class="footer__tel-link text-[12px] font-bold leading-[150%] text-dark-cyan dark:text-white w-[105px] md:text-[18px] md:w-[162px] md:font-bold"
       href="tel:+998939825001"
     >
       +998 93 982 50 01
@@ -15,7 +15,7 @@
 </template>
 <style scoped>
 .footer__title {
-  font-family: "TT Interfaces";
+  font-family: "TT Firs Neue";
 }
 .footer__tel-link {
   font-family: "TT Interfaces";

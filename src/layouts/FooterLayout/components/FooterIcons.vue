@@ -1,39 +1,46 @@
 <template>
-  <div
-    class="footerIcons__main-box flex flex-col justify-center items-start gap-2"
-  >
+  <div class="footerIcons__main-box flex flex-col justify-center items-start">
     <h6
-      class="footer__title text-[#4B5E5E] font-normal leading-[130%] text-[12px] dark:text-white md:text-[14px]"
+      class="footer__title text-[#4B5E5E] font-normal leading-[130%] text-[12px] dark:text-white lg:text-[14px]"
     >
       Социальная сеть
     </h6>
     <div
-      class="footer__icon flex flex-row justify-center items-center gap-[18px]"
+      class="footer__icon flex flex-row justify-center items-center gap-[18px] lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-[25px]"
     >
       <a href="#" class="footer__icons">
         <i
-          class="fa-brands cursor-pointer fa-instagram text-dark-cyan dark:text-white text-[14px]"
+          class="fa-brands cursor-pointer fa-instagram text-dark-cyan dark:text-white text-[14px] md:text-[24px]"
         >
         </i>
       </a>
-      <span class="w-[1px] h-[18px] mt-2 bg-[#A2BDBD]"></span>
+      <span
+        class="w-[1px] h-[18px] mt-2 lg:w-[1px] lg:h-5 lg:mt-0 bg-[#A2BDBD] lg:bg-[#1A3636]"
+      >
+      </span>
       <a href="#" class="footer__icons">
         <i
-          class="fa-brands cursor-pointer fa-youtube text-dark-cyan dark:text-white text-[14px]"
+          class="fa-brands cursor-pointer fa-youtube text-dark-cyan dark:text-white text-[14px] md:text-[24px]"
         >
         </i>
       </a>
-      <span class="w-[1px] h-[18px] mt-2 bg-[#A2BDBD]"></span>
+      <span
+        class="w-[1px] h-[18px] mt-2 lg:w-[1px] lg:h-5 lg:mt-0 bg-[#A2BDBD] lg:bg-[#1A3636]"
+      >
+      </span>
       <a href="#" class="footer__icons">
         <i
-          class="fa-brands cursor-pointer fa-linkedin-in text-dark-cyan dark:text-white text-[14px]"
+          class="fa-brands cursor-pointer fa-linkedin-in text-dark-cyan dark:text-white text-[14px] md:text-[24px]"
         >
         </i>
       </a>
-      <span class="w-[1px] h-[18px] mt-2 bg-[#A2BDBD]"></span>
+      <span
+        class="w-[1px] h-[18px] mt-2 lg:w-[1px] lg:h-5 lg:mt-0 bg-[#A2BDBD] lg:bg-[#1A3636]"
+      >
+      </span>
       <a href="#" class="footer__icons">
         <i
-          class="fa-brands cursor-pointer fa-twitter text-dark-cyan dark:text-white text-[14px]"
+          class="fa-brands cursor-pointer fa-twitter text-dark-cyan dark:text-white text-[14px] md:text-[24px]"
         >
         </i>
       </a>

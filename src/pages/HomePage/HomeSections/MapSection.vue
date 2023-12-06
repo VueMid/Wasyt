@@ -1,7 +1,6 @@
 <template>
   <section
     class="map mt-[80px] md:mt-[100px] lg:mt-[120px] dark:bg-tailwind-dark md:px-[10px] duration-[400ms]"
-    v-motion-pop-visible-once
   >
     <div class="container map__container">
       <iframe

@@ -1,12 +1,18 @@
 <template>
-  <footer class="footer mt-[40px]">
-    <div class="container footer__container">
-      <div class="footer__top flex flex-row justify-between items-center mb-4">
+  <footer class="footer mt-[40px] md:mt-[30px]">
+    <div
+      class="container footer__container flex flex-row justify-between items-start lg:flex lg:flex-row lg:justify-between lg:items-start"
+    >
+      <div
+        class="footer__top flex flex-col justify-center items-start gap-4 md:flex md:flex-col md:justify-center md:items-start md:gap-[30px] lg:flex lg:flex-row lg:justify-center lg:items-start lg:gap-[100px]"
+      >
         <FooterLoaction class="FooterLoaction" />
-        <FooterNumbers class="FooterNumbers mr-[60px]" />
+        <FooterEmail class="FooterEmail" />
       </div>
-      <div class="footer__bottom flex flex-row justify-between items-center">
-        <FooterEmail />
+      <div
+        class="footer__bottom flex flex-col justify-center items-start gap-[34px] md:flex md:flex-col md:justify-center md:items-start md:gap-[62px] lg:flex lg:flex-row lg:justify-center lg:items-start lg:gap-[100px]"
+      >
+        <FooterNumbers class="FooterNumbers" />
         <FooterIcons class="FooterIcons" />
       </div>
     </div>
@@ -22,39 +28,24 @@ export default {
 };
 </script>
 <style>
-@media (max-width: 350px) {
+@media (max-width: 1260px) {
   .footer__container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    gap: 35px;
-    transform: translateX(-90px) !important;
   }
   .footer__top {
-    margin: 0 auto !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 35px;
+    align-items: flex-start;
   }
   .footer__bottom {
-    margin: 0 auto !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 35px;
-  }
-  .FooterNumbers {
-    margin: 0 auto !important;
-  }
-  .FooterLoaction {
-    transform: translateX(40px) !important;
-  }
-  .FooterIcons {
-    transform: translateX(30px) !important;
+    align-items: flex-start;
   }
 }
 </style>
