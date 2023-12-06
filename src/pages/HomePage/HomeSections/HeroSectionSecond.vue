@@ -65,9 +65,7 @@ export default {
 }
 .hero {
   position: relative;
-  z-index: 1;
   &::after {
-    z-index: 4 !important;
     margin: 0 auto !important;
     position: absolute;
     content: "";
