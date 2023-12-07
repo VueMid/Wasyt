@@ -11,7 +11,7 @@
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-semibold"
         >
           <img class="" src="@/assets/icons/home.svg" alt="icon" />
-          <a class="link ml-4" href="#">Главная</a>
+          <a class="link ml-4 w-full" href="#">Главная</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
@@ -19,7 +19,7 @@
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-semibold"
         >
           <img class="" src="@/assets/icons/about.svg" alt="icon" />
-          <a class="link ml-4" href="#wasyt">О Продукте</a>
+          <a class="link ml-4 w-full" href="#wasyt">О Продукте</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
@@ -27,7 +27,7 @@
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-semibold"
         >
           <img class="" src="@/assets/icons/demo.svg" alt="icon" />
-          <a class="link ml-4" href="#applicationSecond">Демо</a>
+          <a class="link ml-4 w-full" href="#applicationSecond">Демо</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
@@ -35,14 +35,14 @@
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-semibold"
         >
           <img class="" src="@/assets/icons/partnership.svg" alt="icon" />
-          <a class="link ml-4" href="#partnership">Партнерство</a>
+          <a class="link ml-4 w-full" href="#partnership">Партнерство</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
         <div
           class="px-6 py-2 md:px-6 md:py-4 border-[1px] Interfaces rounded-[88px] bg-white dark:bg-tailwind-dark flex flex-row justify-between items-center"
         >
-          <TheDarkMode />
+          <TheDarkMode class="" />
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat"></i>
         </div>
         <TheButtonSecond class="TheButtonSecond">
