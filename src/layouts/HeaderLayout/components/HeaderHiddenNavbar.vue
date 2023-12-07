@@ -42,7 +42,7 @@
         <div
           class="px-6 py-2 md:px-6 md:py-4 border-[1px] Interfaces rounded-[88px] bg-white dark:bg-tailwind-dark flex flex-row justify-between items-center"
         >
-          <TheDarkMode class="" />
+          <TheDarkMode class="w-full" />
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat"></i>
         </div>
         <TheButtonSecond class="TheButtonSecond">
