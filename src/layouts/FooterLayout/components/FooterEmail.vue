@@ -8,7 +8,7 @@
       Эл.адрес
     </p>
     <a
-      class="footer__email text-dark-cyan text-[12px] font-bold leading-[150%] dark:text-white md:font-semibold md:text-[20px]"
+      class="footer__email text-dark-cyan text-[12px] font-bold leading-[150%] dark:text-white md:font-semibold md:text-[20px] lg:hover:text-[#01889A] duration-200 lg:hover:text-[21px] active:text-[#01889A] active:text-[12px]"
       href="mailto:info@icangroup.uz"
     >
       info@icangroup.uz

@@ -15,7 +15,7 @@
         </i>
       </a>
       <span
-        class="w-[1px] h-[18px] mt-2 lg:w-[1px] lg:h-5 lg:mt-0 bg-[#A2BDBD] lg:bg-[#1A3636]"
+        class="w-[1px] h-[18px] mt-2 lg:w-[1px] lg:h-5 lg:mt-0 bg-[#A2BDBD] lg:bg-[#1A3636] dark:bg-[#a2bdbd]"
       >
       </span>
       <a href="#" class="footer__icons">
@@ -25,7 +25,7 @@
         </i>
       </a>
       <span
-        class="w-[1px] h-[18px] mt-2 lg:w-[1px] lg:h-5 lg:mt-0 bg-[#A2BDBD] lg:bg-[#1A3636]"
+        class="w-[1px] h-[18px] mt-2 lg:w-[1px] lg:h-5 lg:mt-0 bg-[#A2BDBD] lg:bg-[#1A3636] dark:bg-[#a2bdbd]"
       >
       </span>
       <a href="#" class="footer__icons">
@@ -35,7 +35,7 @@
         </i>
       </a>
       <span
-        class="w-[1px] h-[18px] mt-2 lg:w-[1px] lg:h-5 lg:mt-0 bg-[#A2BDBD] lg:bg-[#1A3636]"
+        class="w-[1px] h-[18px] mt-2 lg:w-[1px] lg:h-5 lg:mt-0 bg-[#A2BDBD] lg:bg-[#1A3636] dark:bg-[#a2bdbd]"
       >
       </span>
       <a href="#" class="footer__icons">
