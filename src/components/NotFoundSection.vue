@@ -93,7 +93,7 @@
       margin-top: 0;
     }
     50% {
-      margin-bottom: 10px;
+      margin-bottom: 30px;
     }
     100% {
       margin-top: 0;
