@@ -6,7 +6,7 @@
       Тел.номер:
     </p>
     <a
-      class="footer__tel-link text-[12px] font-bold leading-[150%] text-dark-cyan dark:text-white w-[105px] md:text-[18px] md:w-[174px] md:font-medium lg:hover:text-[#01889A] duration-200 lg:hover:text-[19px] active:text-[#01889A] active:text-[12px] hover:w-[195px]"
+      class="footer__tel-link text-[12px] font-bold leading-[150%] text-dark-cyan dark:text-white w-[220px] md:text-[18px] md:w-[174px] md:font-medium lg:hover:text-[#01889A] duration-200 lg:hover:text-[19px] active:text-[#01889A] active:text-[12px] hover:w-[195px]"
       href="tel:+998939825001"
       ><i class="fa-solid fa-phone fa-shake"></i>
       +998 93 982 50 01

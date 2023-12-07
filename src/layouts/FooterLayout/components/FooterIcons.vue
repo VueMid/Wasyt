@@ -6,7 +6,7 @@
       Социальная сеть
     </h6>
     <div
-      class="footer__icon flex flex-row justify-center items-center gap-[18px] lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-[25px]"
+      class="footer__icon flex flex-row justify-center items-center gap-[14px] lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-[25px]"
     >
       <a href="#" class="footer__icons">
         <i

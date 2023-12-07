@@ -4,7 +4,7 @@
       class="container footer__container flex flex-row justify-between items-start lg:flex lg:flex-row lg:justify-between lg:items-start"
     >
       <div
-        class="footer__top flex flex-col justify-center items-start gap-4 md:flex md:flex-col md:justify-center md:items-start md:gap-[30px] lg:flex lg:flex-row lg:justify-center lg:items-start lg:gap-[100px]"
+        class="footer__top flex flex-col justify-center items-start gap-6 md:flex md:flex-col md:justify-center md:items-start md:gap-[30px] lg:flex lg:flex-row lg:justify-center lg:items-start lg:gap-[100px]"
       >
         <FooterLoaction class="FooterLoaction" />
         <FooterEmail class="FooterEmail" />
@@ -46,6 +46,9 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+  }
+  .FooterIcons{
+    transform: translateY(5px);
   }
 }
 </style>
