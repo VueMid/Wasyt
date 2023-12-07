@@ -98,6 +98,9 @@ export default {
 .menus {
   display: none;
 }
+.languages {
+
+}
 @media (max-width: 1250px) {
   .menu {
     display: block;

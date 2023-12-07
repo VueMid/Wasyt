@@ -1,7 +1,7 @@
 <template>
   <div class="footerIcons__main-box flex flex-col justify-center items-start">
     <h6
-      class="footer__title text-[#4B5E5E] font-normal leading-[130%] text-[12px] dark:text-white lg:text-[14px]"
+      class="footer__title text-[#283535] font-normal leading-[130%] text-[12px] dark:text-white lg:text-[14px]"
     >
       Социальная сеть
     </h6>

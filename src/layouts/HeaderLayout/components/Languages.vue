@@ -89,6 +89,7 @@ p {
   background: #fff;
   border-radius: 10px;
   padding-bottom: 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .chooseLanguage li {
   width: 130px;

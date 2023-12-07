@@ -65,7 +65,7 @@ body {
     min-width: 320px;
     display: flex;
     flex-direction: column;
-    font-family: 'TT Interfaces', 'Hauora', 'ALS Hauss';
+    font-family: 'TT Interfaces', 'Hauora', 'ALS Hauss', 'TTInterphasel';
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
@@ -122,6 +122,17 @@ body {
 
 #preloader {
     background-image: url('../icons/loader.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 19999;
+}
+
+#preloader2 {
+    background-image: url('../icons/white-loader.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25%;
