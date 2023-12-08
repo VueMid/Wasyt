@@ -1,5 +1,5 @@
 <template>
-  <div class="footer__location flex flex-col justify-center items-start gap-2">
+  <div class="footer__location flex flex-col justify-start items-start gap-2">
     <p
       class="footer__title text-[#283535] text-[12px] font-normal leading-[130%] dark:text-white md:text-[14px] md:font-medium"
     >
