@@ -4,7 +4,7 @@
       class="container settings__container md:flex md:flex-col md:justify-center md:items-center md:gap-[20px]"
     >
       <h2
-        class="settings__top-title text-dark-cyan font-black leading-[120%] dark:text-white md:text-[24px] "
+        class="settings__top-title text-dark-cyan font-black leading-[120%] dark:text-white md:text-[24px]"
       >
         Системные настройки
       </h2>
@@ -165,6 +165,70 @@
 
     &__mini-white-box {
       width: 241px !important;
+    }
+  }
+}
+@media (max-width: 820px) {
+  .settings {
+    &__container {
+    }
+
+    &__top-title {
+      font-family: "TT Interfaces";
+    }
+
+    &__bottom-box {
+    }
+
+    &__mini-skyblue-box {
+      width: 231px !important;
+    }
+
+    &__images {
+    }
+
+    &__mini-titles {
+      font-family: "Hauora";
+    }
+
+    &__texts {
+      font-family: "TT Interfaces";
+    }
+
+    &__mini-white-box {
+      width: 231px !important;
+    }
+  }
+}
+@media (max-width: 780px) {
+  .settings {
+    &__container {
+    }
+
+    &__top-title {
+      font-family: "TT Interfaces";
+    }
+
+    &__bottom-box {
+    }
+
+    &__mini-skyblue-box {
+      width: 221px !important;
+    }
+
+    &__images {
+    }
+
+    &__mini-titles {
+      font-family: "Hauora";
+    }
+
+    &__texts {
+      font-family: "TT Interfaces";
+    }
+
+    &__mini-white-box {
+      width: 221px !important;
     }
   }
 }
