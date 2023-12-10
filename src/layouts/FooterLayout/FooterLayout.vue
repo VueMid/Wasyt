@@ -28,7 +28,7 @@ export default {
 };
 </script>
 <style>
-@media (max-width: 1260px) {
+@media (max-width: 1300px) {
   .footer__container {
     display: flex;
     flex-direction: row;
@@ -76,7 +76,7 @@ export default {
     margin-left: 0 !important;
   }
   .FooterIcons {
-    transform: translateY(0px);
+    transform: translateY(-1px);
   }
 }
 @media (max-width: 350px) {
