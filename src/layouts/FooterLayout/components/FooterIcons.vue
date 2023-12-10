@@ -89,4 +89,46 @@
   color: #01889a !important;
   transition: 400ms ease all;
 }
+
+@media (max-width: 767px) {
+  .footerIcons__main-box {
+    margin-top: 0px;
+  }
+  .footer__icons {
+    font-size: 24px;
+    transition: 400ms ease all;
+  }
+  .footer__icons:active {
+    transition: 400ms ease all;
+    transform: translateY(-4px);
+  }
+  .fa-instagram {
+    transition: 400ms ease all;
+  }
+  .fa-instagram:active {
+    color: #01889a !important;
+    transition: 400ms ease all;
+  }
+  .fa-youtube {
+    transition: 400ms ease all;
+  }
+  .fa-youtube:active {
+    color: #01889a !important;
+    transition: 400ms ease all;
+  }
+  .fa-linkedin-in {
+    transition: 400ms ease all;
+  }
+  .fa-linkedin-in:active {
+    color: #01889a !important;
+    transition: 400ms ease all;
+  }
+  .fa-twitter {
+    transition: 400ms ease all;
+  }
+  .fa-twitter:active {
+    color: #01889a !important;
+    transition: 400ms ease all;
+  }
+}
 </style>
