@@ -1,6 +1,6 @@
 <template>
   <div class="Home-page">
-    <!-- <HeroSection />
+    <HeroSection />
     <HeroSectionSecond />
     <WasytSection />
     <ApplicationSection />
@@ -9,9 +9,9 @@
     <SettingsSecondSection />
     <SettingsThirdSection />
     <CarouselSection />
-    <CarouselSecondSection /> -->
+    <CarouselSecondSection />
     <FormSection />
-    <!-- <MapSection /> -->
+    <MapSection />
   </div>
 </template>
 <script>
