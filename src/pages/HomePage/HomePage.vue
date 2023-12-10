@@ -1,6 +1,6 @@
 <template>
   <div class="Home-page">
-    <HeroSection />
+    <!-- <HeroSection />
     <HeroSectionSecond />
     <WasytSection />
     <ApplicationSection />
@@ -9,10 +9,9 @@
     <SettingsSecondSection />
     <SettingsThirdSection />
     <CarouselSection />
-    <CarouselSecondSection />
+    <CarouselSecondSection /> -->
     <FormSection />
-    <FormSecondSection />
-    <MapSection />
+    <!-- <MapSection /> -->
   </div>
 </template>
 <script>
@@ -28,7 +27,6 @@ import CarouselSection from "./HomeSections/CarouselSection.vue";
 import CarouselSecondSection from "./HomeSections/CarouselSecondSection.vue";
 import MapSection from "./HomeSections/MapSection.vue";
 import FormSection from "./HomeSections/FormSection.vue";
-import FormSecondSection from "./HomeSections/FormSecondSection.vue";
 export default {
   components: {
     HeroSection,
@@ -42,7 +40,6 @@ export default {
     CarouselSection,
     CarouselSecondSection,
     FormSection,
-    FormSecondSection,
     MapSection,
   },
 };
