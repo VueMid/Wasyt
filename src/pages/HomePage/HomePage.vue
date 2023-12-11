@@ -1,17 +1,16 @@
 <template>
   <div class="Home-page">
-    <HeroSection />
+    <!-- <HeroSection />
     <HeroSectionSecond />
-    <WasytSection />
+    <WasytSection /> -->
     <ApplicationSection />
-    <ApplicationSecondSection />
-    <SettingsSection />
+    <!-- <SettingsSection />
     <SettingsSecondSection />
     <SettingsThirdSection />
     <CarouselSection />
     <CarouselSecondSection />
     <FormSection />
-    <MapSection />
+    <MapSection /> -->
   </div>
 </template>
 <script>
@@ -19,7 +18,6 @@ import HeroSection from "./HomeSections/HeroSection.vue";
 import HeroSectionSecond from "./HomeSections/HeroSectionSecond.vue";
 import WasytSection from "./HomeSections/WasytSection.vue";
 import ApplicationSection from "./HomeSections/ApplicationSection.vue";
-import ApplicationSecondSection from "./HomeSections/ApplicationSecondSection.vue";
 import SettingsSection from "./HomeSections/SettingsSection.vue";
 import SettingsSecondSection from "./HomeSections/SettingsSecondSection.vue";
 import SettingsThirdSection from "./HomeSections/SettingsThirdSection.vue";
@@ -33,7 +31,6 @@ export default {
     HeroSectionSecond,
     WasytSection,
     ApplicationSection,
-    ApplicationSecondSection,
     SettingsSection,
     SettingsSecondSection,
     SettingsThirdSection,

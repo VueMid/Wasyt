@@ -1,6 +1,5 @@
 <template>
   <section
-    id="partnership"
     class="form mt-[80px] px-4 md:mt-[100px] md:px-[30px] lg:px-[56px] lg:mt-[120px]"
   >
     <div
