@@ -6,7 +6,7 @@
       Местоположение
     </p>
     <p
-      class="footer__address text-dark-cyan text-[12px] font-bold leading-[150%] w-[176px] dark:text-white md:w-[324px] md:text-[18px] md:font-bold md:leading-[150%]"
+      class="footer__address text-dark-cyan text-[12px] font-bold leading-[150%] w-[176px] dark:text-white md:w-[343px] md:text-[18px] md:font-bold md:leading-[150%]"
     >
       <i class="fa-solid fa-location-dot fa-bounce"></i>
       Город Ташкент, улица Шахрисабз 16А

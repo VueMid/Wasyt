@@ -28,7 +28,7 @@ export default {
 };
 </script>
 <style>
-@media (max-width: 1300px) {
+@media (max-width: 1310px) {
   .footer__container {
     display: flex;
     flex-direction: row;
