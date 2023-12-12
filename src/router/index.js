@@ -20,6 +20,16 @@ const router = createRouter({
       path: '/:pathMatch(.*)*',
       redirect: '/NotFoundSection',
     },
+    {
+      path: '/en',
+      name: 'HomeEn',
+      component: import('../pages/HomeEn/HomeEn.vue'),
+    },
+    {
+      path: '/ru',
+      name: 'HomeRu',
+      component: import('../pages/HomePage/HomePage.vue'),
+    },
   ]
 })
 export default router

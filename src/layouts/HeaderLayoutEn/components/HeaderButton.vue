@@ -6,10 +6,10 @@
       <Languages class="languages" />
     </div>
     <TheDarkMode class="TheDarkMode" />
-    <TheButton @click="openModal" class="TheButton">Свяжется с нами</TheButton>
+    <TheButton @click="openModal" class="TheButton">Contact us</TheButton>
     <div class="menu">
       <div class="flex flex-row justify-center items-center" v-if="!isOpen">
-        <p class="uppercase text-[16px] font-medium">Меню</p>
+        <p class="uppercase text-[16px] font-medium">Menu</p>
         <button class="open-second-menu" @click="$emit('openMenu')">
           <img
             class="w-[40px] h-[40px]"

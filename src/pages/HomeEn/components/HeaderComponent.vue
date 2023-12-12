@@ -14,7 +14,7 @@
         <h5
           class="text text-xl font-bold text-dark-cyan dark:text-white title xl:mb-[0px]"
         >
-          Свяжется с нами
+          Contact us
         </h5>
         <hr class="hr w-full xl:mb-[20px] border opacity-30" />
         <div class="form-control" :class="error.nameError ? 'invalid' : ''">
@@ -48,7 +48,7 @@
             id="username"
             autocomplete="off"
             class="bg-gray-50 border border-gray-300 rounded-[32px] text-sm text-[#8d8a8a] focus:ring-blue-500 focus:border-blue-500 block w-full dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 py-4 pl-[18px] xl:py-4 xl:pl-[30px] outline-none"
-            placeholder="Имя"
+            placeholder="Name"
           />
           <small class="text-red-600 font-black text-[14px]">
             {{ error.nameError }}
@@ -82,7 +82,7 @@
             id="message"
             autocomplete="off"
             class="bg-gray-50 border border-gray-300 rounded-[32px] text-[#8d8a8a] text-sm focus:ring-blue-500 focus:border-blue-500 block w-full dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 pt-4 pl-4 pb-[200px] xl:pt-[20px] xl:pb-[134px] xl:pl-[30px] outline-none"
-            placeholder="Сообщение"
+            placeholder="Message"
           />
           <small class="text-red-600 font-black text-[14px]">
             {{ errorThird.nameErrorThird }}
@@ -93,7 +93,7 @@
           type="submit"
           class="modal-button flex flex-row justify-center items-center gap-4 bg-blue text-white px-[32px] py-[14px] rounded-[85px] active:opacity-60"
         >
-          <span class="">Отправить</span>
+          <span class="">Send</span>
           <i class="icon fa-solid fa-arrow-right-long fa-beat"></i>
         </button>
       </form>

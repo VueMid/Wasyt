@@ -14,7 +14,7 @@
         <h5
           class="text text-xl font-bold text-dark-cyan dark:text-white title xl:mb-[0px]"
         >
-          Свяжется с нами
+          Contact us
         </h5>
         <hr class="hr w-full xl:mb-[20px] border opacity-30" />
         <div class="form-control" :class="error.nameError ? 'invalid' : ''">
@@ -93,7 +93,7 @@
           type="submit"
           class="modal-button flex flex-row justify-center items-center gap-4 bg-blue text-white px-[32px] py-[14px] rounded-[85px] active:opacity-60"
         >
-          <span class="">Отправить</span>
+          <span class="">Send</span>
           <i class="icon fa-solid fa-arrow-right-long fa-beat"></i>
         </button>
       </form>

@@ -9,7 +9,7 @@
         <h1
           class="carousel__top-title md:text-dark-cyan md:text-[30px] md:font-bold md:leading-[120%] dark:text-white"
         >
-          Все новости
+          All news
         </h1>
         <div
           class="carousel__top-buttons md:flex md:flex-row md:justify-between md:items-center md:gap-4"
@@ -53,12 +53,12 @@
             <p
               class="carousel__bottom-date md:text-[#7F9B9B] md:text-[14px] md:font-medium md:leading-[140%] dark:text-white"
             >
-              17 мая 2023 г
+              May 17, 2023
             </p>
             <h5
               class="carousel__bottom-titles md:text-[#010E38] md:text-[15px] md:font-bold md:leading-[120%] md:w-[226px] lg:w-[250px] lg:text-[16px] dark:text-white"
             >
-              Полное руководство по работе из дома
+              The complete guide to working from home
             </h5>
           </div>
           <div
@@ -72,12 +72,12 @@
             <p
               class="carousel__bottom-date md:text-[#7F9B9B] md:text-[14px] md:font-medium md:leading-[140%] dark:text-white"
             >
-              17 мая 2023 г
+              May 17, 2023
             </p>
             <h5
               class="carousel__bottom-titles md:text-[#010E38] md:text-[15px] md:font-bold md:leading-[120%] md:w-[226px] lg:w-[250px] lg:text-[16px] dark:text-white"
             >
-              Полное руководство по работе из дома
+              The complete guide to working from home
             </h5>
           </div>
           <div
@@ -91,12 +91,12 @@
             <p
               class="carousel__bottom-date md:text-[#7F9B9B] md:text-[14px] md:font-medium md:leading-[140%] dark:text-white"
             >
-              17 мая 2023 г
+              May 17, 2023
             </p>
             <h5
               class="carousel__bottom-titles md:text-[#010E38] md:text-[15px] md:font-bold md:leading-[120%] md:w-[226px] lg:w-[250px] lg:text-[16px] dark:text-white"
             >
-              Полное руководство по работе из дома
+              The complete guide to working from home
             </h5>
           </div>
         </div>

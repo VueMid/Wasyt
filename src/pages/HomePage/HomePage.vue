@@ -1,4 +1,5 @@
 <template>
+  <HeaderLayout />
   <div class="Home-page">
     <HeroSection />
     <HeroSectionSecond />
@@ -11,9 +12,12 @@
     <CarouselSecondSection />
     <FormSection />
     <MapSection />
+    <FooterLayout />
+    <FooterBottomLayout />
   </div>
 </template>
 <script>
+import HeaderLayout from "../../layouts/HeaderLayout/HeaderLayout.vue";
 import HeroSection from "./HomeSections/HeroSection.vue";
 import HeroSectionSecond from "./HomeSections/HeroSectionSecond.vue";
 import WasytSection from "./HomeSections/WasytSection.vue";
@@ -25,8 +29,11 @@ import CarouselSection from "./HomeSections/CarouselSection.vue";
 import CarouselSecondSection from "./HomeSections/CarouselSecondSection.vue";
 import MapSection from "./HomeSections/MapSection.vue";
 import FormSection from "./HomeSections/FormSection.vue";
+import FooterLayout from "../../layouts/FooterLayout/FooterLayout.vue";
+import FooterBottomLayout from "../../layouts/FooterBottomLayout/FooterBottomLayout.vue";
 export default {
   components: {
+    HeaderLayout,
     HeroSection,
     HeroSectionSecond,
     WasytSection,
@@ -38,6 +45,8 @@ export default {
     CarouselSecondSection,
     FormSection,
     MapSection,
+    FooterLayout,
+    FooterBottomLayout,
   },
 };
 </script>
