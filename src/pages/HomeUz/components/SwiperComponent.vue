@@ -60,18 +60,18 @@ export default {
       modules: [Pagination, Autoplay, Navigation],
       galleryArray: [
         {
-          name: `May 17, 2023`,
-          title: `The complete guide to working from home`,
+          name: `2023 yil 17 may`,
+          title: `Uydan ishlash bo'yicha to'liq qo'llanma`,
           image: boy,
         },
         {
-          name: `May 17, 2023`,
-          title: `The complete guide to working from home`,
+          name: `2023 yil 17 may`,
+          title: `Uydan ishlash bo'yicha to'liq qo'llanma`,
           image: girl1,
         },
         {
-          name: `May 17, 2023`,
-          title: `The complete guide to working from home`,
+          name: `2023 yil 17 may`,
+          title: `Uydan ishlash bo'yicha to'liq qo'llanma`,
           image: girl2,
         },
       ],

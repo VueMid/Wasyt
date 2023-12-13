@@ -21,7 +21,6 @@
       class="carousel__swiper-slide cursor-grab lg:pt-[90px] mr-[300px] w-[268px] duration-[400ms]"
       v-for="item in galleryArray"
       :key="item"
-      v-motion-slide-visible-once-right
     >
       <img
         class="lg:w-[479px] lg:h-[319px] object-cover rounded-[12px] img-block__img-show"

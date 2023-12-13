@@ -1,5 +1,5 @@
 <template>
-  <section class="notFound dark:bg-tailwind-dark w-full h-[100vh]">
+  <section class="notFound bg-white dark:bg-tailwind-dark w-full h-[100vh]">
     <div
       class="container notFound__container flex flex-col justify-center items-center min-h-screen"
     >
@@ -8,7 +8,8 @@
       >
         <span
           class="notFound__numbers text-[165px] text-[#172D33] dark:text-white"
-          >4
+        >
+          4
         </span>
         <div>
           <img
@@ -26,7 +27,8 @@
         </div>
         <span
           class="notFound__numbers text-[165px] text-[#172D33] dark:text-white"
-          >4
+        >
+          4
         </span>
       </div>
       <div
@@ -44,7 +46,7 @@
             <i
               class="fa-solid dark:text-white fa-arrow-right-long fa-beat mr-4"
             />
-            Вернуться на главную
+            Вернуться к главному
           </button>
         </router-link>
       </div>
@@ -58,7 +60,6 @@
 .text {
   font-family: "Hauora";
 }
-
 .icon {
   animation: animate 2s infinite !important;
 }
@@ -73,7 +74,6 @@
     margin-top: 0;
   }
 }
-
 @media (max-width: 500px) {
   .notFound__numbers {
     font-size: 100px;

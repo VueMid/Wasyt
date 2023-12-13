@@ -9,13 +9,13 @@
         <h2
           class="form__title mb-4 text-white w-max-[312px] text-[24px] font-bold leading-[130%] md:text[20px] md:w-[317px] lg:text-[30px] lg:w-[399px]"
         >
-          Feedback form
+          Fikr-mulohaza shakli
         </h2>
         <p
           class="form__text text-white/80 mb-6 w-max-[312px] text-sm font-normal leading-[140%] md:w-[361px] md:mb-[40px] lg:w-[570px] lg:leading-[150%]"
         >
-          We describe any complex digital systems in terms of requirements, We
-          draw up detailed project documentation
+          Biz har qanday murakkab raqamli tizimlarni talablar nuqtai nazaridan
+          tavsiflaymiz, Biz batafsil loyiha hujjatlarini tuzamiz
         </p>
       </div>
       <form
@@ -34,7 +34,7 @@
             id="username"
             autocomplete="off"
             class="form__number-text w-full bg-blue text-white border-[1px] border-[#70D2DF] rounded-[57px] py-4 pl-[18px] outline-none md:py-[18px] md:pl-6 md:border-e-0 md:rounded-e-none md:w-max md:pr-10 lg:pr-20"
-            placeholder="Name"
+            placeholder="Ism"
             required
           />
 
@@ -49,16 +49,16 @@
               id="tel"
               autocomplete="off"
               class="form__number-input w-full text-white bg-blue border-[1px] border-[#70D2DF] rounded-[57px] py-4 pl-[18px] outline-none md:py-[18px] md:pl-6 md:border-s-0 md:rounded-s-none lg:w-max lg:pr-48"
-              placeholder="Phone number"
+              placeholder="Telefon raqam"
               maxlength="13"
               required
             />
           </div>
           <button
             type="submit"
-            class="form__button w-full bg-white rounded-[85px] py-[14px] flex flex-row justify-center items-center gap-4 text-blue active:opacity-80 duration-200 md:w-max md:absolute md:py-[14px] md:px-6 md:right-[30px] lg:right-0 lg:left-[592px]"
+            class="form__button w-full bg-white rounded-[85px] py-[14px] flex flex-row justify-center items-center gap-4 text-blue active:opacity-80 duration-200 md:w-max md:absolute md:py-[14px] md:px-6 md:right-[30px] lg:right-0 lg:left-[567px]"
           >
-            Send
+            Yuborish
             <i class="icon fa-solid fa-arrow-right-long fa-beat"></i>
           </button>
         </div>
@@ -330,13 +330,9 @@ export default {
     }
 
     &__title {
-      width: 100%;
-      max-width: 312px;
     }
 
     &__text {
-      width: 100%;
-      max-width: 312px;
     }
 
     &__bottom {

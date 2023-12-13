@@ -13,30 +13,30 @@
           <h3
             class="application__title text-white w-max-[312px] text-[24px] font-bold leading-[120%] mb-[16px] md:w-[365px] md:text-[20px] md:font-bold md:leading-[120%] md:mb-[14px] lg:w-[664px] lg:text-[30px] lg:font-bold lg:leading-[120%] lg:mb-4"
           >
-            How to use our application?
+            Bizning ilovamizdan qanday foydalanish kerak?
           </h3>
           <p
             class="application__text text-white/90 w-max-[312px] text-[14px] font-normal leading-[140%] mb-[14px] md:w-[325px] md:text-[14px] md:font-normal md:leading-[140%] md:mb-[14px] lg:text-[16px] lg:font-normal lg:leading-[150%] lg:w-[664px] lg:mb-4"
           >
-            Wasyt allows you to trade and interact with legal and allows
-            individuals to sign a Shariah agreement. ⚡ ️The agreement is
-            concluded once. it will also have legal effect. 🤗
+            Wasyt sizga yuridik va jismoniy shaxslar bilan nasiya savdo va
+            o’zaro shar’iy shartnoma imzolash imkonini beradi. ⚡ ️Shartnoma bir
+            vaqtning o’zida yuridik kuchga ham ega bo’ladi. 🤗
           </p>
           <p
             class="application__second-text text-white/90 w-max-[312px] text-[14px] font-normal leading-[140%] mb-[40px] md:w-[325px] md:text-[14px] md:font-normal md:leading-[140%] md:mb-[30px] lg:text-[16px] lg:font-normal lg:leading-[150%] lg:w-[664px] lg:mb-12"
           >
-            The application has a convenient and easy to use interface, so you
-            don't have to be given the opportunity to sign a contract without
-            any difficulties. 🥇 Now you are face to face with your partner to
-            make a deal. you don't have to meet, agree easily, even remotely you
-            can do
+            Ilova qulay va foydalanishga oson interfeysga ega bo’lib, sizga hech
+            qanday qiyinchiliklarsiz shartnoma imzolash imkoniyatini beradi. 🥇
+            Endilikda, siz shartnoma tuzish uchun hamkoringiz bilan yuzma-yuz
+            uchrashishingiz shart emas, masofadan turib ham bemalol shartnomalar
+            tuzishingiz mumkin
           </p>
           <div
             class="application__bottom-box flex flex-row justify-center items-center gap-[26px] md:flex md:flex-row md:justify-center md:items-center md:gap-[26px] lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-[36px]"
           >
-            <TheDownload class="application__button w-[222px]"
-              >Get Demo</TheDownload
-            >
+            <TheDownload class="application__button w-[221px]">
+              Demo yuklab oling
+            </TheDownload>
             <div
               @click="openModals"
               class="application__multimedia active:opacity-75 cursor-pointer duration-100"
@@ -269,7 +269,7 @@ export default {
         width: 600px;
         height: 235px;
         bottom: -120px;
-        right: -245px;
+        right: -240px;
         background-image: url("@/assets/images/main__macbookpro.png");
         background-repeat: no-repeat;
         background-size: contain;

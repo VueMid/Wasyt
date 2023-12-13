@@ -2,25 +2,25 @@
   <section class="hero lg:mt-[64px] hidden md:block">
     <div class="container hero__container">
       <div
-        class="hero__wrapper px-[24px] md:pt-[90px] md:px-[30px] lg:pt-[40px] lg:pb-[0px] lg:px-[40px]"
+        class="hero__wrapper px-[24px] md:pt-[90px] md:px-[30px] lg:pt-[50px] lg:px-[40px]"
       >
         <h2
           class="hero__title text-white md:font-bold md:w-[477px] mb-4 md:mb-5 md:leading-[105%] md:text-[40px] lg:text-[58px] lg:w-[650px] lg:mb-4 not-italic"
         >
-          Highly secure and reliable warehouse system
+          Yuqori darajada xavfsiz va ishonchli ombor tizimi
         </h2>
         <p
-          class="hero__text text-white/90 md:font-normal md:leading-[150%] md:mb-[34px] md:w-[444px] lg:w-[681px] lg:mb-[50px] md:text-[14px] lg:text-[16px]"
+          class="hero__text text-white/90 md:font-normal md:leading-[150%] md:mb-[34px] md:w-[444px] lg:w-[681px] lg:mb-[50px] md:text-[14px] lg:text-[16px ]"
         >
-          This article will help you quickly compare and evaluate the best
-          system warehouse management system (WMS) and other operations
-          management systems.
+          Ushbu maqola sizga eng yaxshi tizimni tezda solishtirish va baholashga
+          yordam beradi omborlarni boshqarish tizimi (WMS) va boshqa
+          operatsiyalarni boshqarish tizimlari.
         </p>
         <TheWhiteButton
           @click="openModal"
-          class="hero__button md:m-0 mb-[25px] md:mb-[25px] lg:mb-[35px"
+          class="hero__button md:m-0 mb-[25px] md:mb-[25px] lg:mb-[35px]"
         >
-          Contact us
+          Biz bilan bog'lanish
         </TheWhiteButton>
         <img
           class="hero__icons"
@@ -48,7 +48,7 @@
 </template>
 <script>
 import TheWhiteButton from "../../../MaterialUI/TheWhiteButton.vue";
-import HeaderComponent from "../components/HeaderComponent.vue";
+import HeaderComponent from "../../../layouts/HeaderLayoutUz/components/HeaderComponent.vue";
 export default {
   data() {
     return {
@@ -101,7 +101,7 @@ export default {
     font-family: "TT Interfaces";
   }
 }
-@media (max-width: 1310px) {
+@media (max-width: 1341px) {
   .hero {
     &__container {
     }
@@ -114,9 +114,6 @@ export default {
       background-position: top;
       background-size: contain;
     }
-    &__text{
-      width: 484px;
-    }
     &__icons {
       display: none;
     }
@@ -125,40 +122,13 @@ export default {
     }
     &__third-icons {
       display: none;
-    }
-  }
-}
-@media (max-width: 1120px) {
-  .hero {
-    &__container {
-    }
-    &__wrapper {
-      padding-top: 100px;
-      width: 100%;
-      height: 600px;
-      background-image: url("@/assets/images/hero__second-background.png");
-      background-repeat: no-repeat;
-      background-position: top;
-      background-size: contain;
-    }
-    &__icons {
-      display: none;
-    }
-    &__second-icons {
-      display: block;
-    }
-    &__third-icons {
-      display: none;
-    }
-    &__title {
-      width: 577px;
     }
     &__text {
       width: 484px !important;
     }
   }
 }
-@media (max-width: 1100px) {
+@media (max-width: 1080px) {
   .hero {
     margin-top: 132px;
     &__wrapper {

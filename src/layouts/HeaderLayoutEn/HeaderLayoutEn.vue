@@ -41,7 +41,7 @@ export default {
 <style>
 .navbar-enter-active,
 .navbar-leave-active {
-  transition: 0.4s ease;
+  transition: 0.5s ease;
 }
 .navbar-enter-from,
 .navbar-leave-to {

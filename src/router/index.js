@@ -30,6 +30,11 @@ const router = createRouter({
       name: 'HomeRu',
       component: import('../pages/HomePage/HomePage.vue'),
     },
+    {
+      path: '/uz',
+      name: 'HomeUz',
+      component: import('../pages/HomeUz/HomeUz.vue'),
+    },
   ]
 })
 export default router

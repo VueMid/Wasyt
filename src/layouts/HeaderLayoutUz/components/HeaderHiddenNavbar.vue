@@ -12,7 +12,7 @@
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-semibold"
         >
           <img class="" src="@/assets/icons/home.svg" alt="icon" />
-          <a class="link ml-4 w-full" href="#">Главная</a>
+          <a class="link ml-4 w-full" href="#">Bosh sahifa</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
@@ -21,7 +21,7 @@
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-semibold"
         >
           <img class="" src="@/assets/icons/about.svg" alt="icon" />
-          <a class="link ml-4 w-full" href="#wasyt">О Продукте</a>
+          <a class="link ml-4 w-full" href="#wasyt">Mahsulot haqida</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
@@ -30,7 +30,7 @@
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-semibold"
         >
           <img class="" src="@/assets/icons/demo.svg" alt="icon" />
-          <a class="link ml-4 w-full" href="#application">Демо</a>
+          <a class="link ml-4 w-full" href="#application">Namoyish</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
@@ -39,7 +39,7 @@
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-semibold"
         >
           <img class="" src="@/assets/icons/partnership.svg" alt="icon" />
-          <a class="link ml-4 w-full" href="#partnership">Партнерство</a>
+          <a class="link ml-4 w-full" href="#partnership">Hamkorlik</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
@@ -50,7 +50,7 @@
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat"></i>
         </div>
         <TheButtonSecond class="TheButtonSecond">
-          Свяжется с нами
+          Biz bilan bog'lanish
         </TheButtonSecond>
       </ul>
     </nav>
@@ -86,7 +86,7 @@ export default {
 .link {
   font-family: "TT Interfaces" !important;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1101px) {
   .nav {
     display: block;
   }
