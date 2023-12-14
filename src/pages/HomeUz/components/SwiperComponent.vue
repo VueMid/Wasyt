@@ -2,7 +2,6 @@
   <swiper
     ref="{swiperRef}"
     :initialSlides="true"
-    :loop="true"
     :slidesPerView="1"
     :centeredSlides="true"
     :spaceBetween="20"
@@ -15,7 +14,6 @@
       delay: 3000,
       disableOnInteraction: false,
     }"
-    class="mySwiper"
   >
     <swiper-slide
       class="carousel__swiper-slide cursor-grab lg:pt-[90px] mr-[300px] w-[268px] duration-[400ms]"
@@ -85,10 +83,5 @@ export default {
 }
 .carousel__swiper-titles {
   font-family: "TT Interfaces";
-}
-@media (max-width: 412px) {
-  .mySwiper {
-    padding-right: 0px;
-  }
 }
 </style>

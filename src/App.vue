@@ -1,5 +1,6 @@
 <template>
   <main class="overflow-x-hidden bg-white dark:bg-tailwind-dark">
+    <div></div>
     <Transition name="fade">
       <RouterView />
     </Transition>
@@ -33,10 +34,11 @@ export default {
 <style scoped>
 .fade-enter-active,
 .fade-leave-active {
-  transition: 0.5s ease;
+  transition: 0.4s ease;
   transform: scale(1);
   pointer-events: none;
 }
+
 .fade-enter-from,
 .fade-leave-to {
   pointer-events: all;

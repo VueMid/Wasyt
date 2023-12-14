@@ -8,9 +8,10 @@
     <SettingsSection />
     <SettingsSecondSection />
     <SettingsThirdSection />
-    <CarouselSection />
+    <!-- <CarouselSection /> -->
     <CarouselSecondSection />
     <FormSection />
+    <PartnershipSection />
     <MapSection />
     <FooterLayout />
     <FooterBottomLayout />
@@ -27,8 +28,9 @@ import SettingsSecondSection from "./HomeSections/SettingsSecondSection.vue";
 import SettingsThirdSection from "./HomeSections/SettingsThirdSection.vue";
 import CarouselSection from "./HomeSections/CarouselSection.vue";
 import CarouselSecondSection from "./HomeSections/CarouselSecondSection.vue";
-import MapSection from "./HomeSections/MapSection.vue";
 import FormSection from "./HomeSections/FormSection.vue";
+import PartnershipSection from "./HomeSections/PartnershipSection.vue";
+import MapSection from "./HomeSections/MapSection.vue";
 import FooterLayout from "../../layouts/FooterLayout/FooterLayout.vue";
 import FooterBottomLayout from "../../layouts/FooterBottomLayout/FooterBottomLayout.vue";
 export default {
@@ -44,6 +46,7 @@ export default {
     CarouselSection,
     CarouselSecondSection,
     FormSection,
+    PartnershipSection,
     MapSection,
     FooterLayout,
     FooterBottomLayout,

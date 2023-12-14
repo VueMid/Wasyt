@@ -8,9 +8,10 @@
     <SettingsSection />
     <SettingsSecondSection />
     <SettingsThirdSection />
-    <CarouselSection />
+    <!-- <CarouselSection /> -->
     <CarouselSecondSection />
     <FormSection />
+    <PartnershipSection />
     <MapSection />
     <FooterLayout />
     <FooterBottomLayout />
@@ -18,17 +19,18 @@
 </template>
 <script>
 import HeaderLayout from "../../layouts/HeaderLayoutUz/HeaderLayout.vue";
-import HeroSection from "../HomeUz/HomeSections/HeroSection.vue";
-import HeroSectionSecond from "../HomeUz/HomeSections/HeroSectionSecond.vue";
-import WasytSection from "../HomeUz/HomeSections/WasytSection.vue";
-import ApplicationSection from "../HomeUz/HomeSections/ApplicationSection.vue";
-import SettingsSection from "../HomeUz/HomeSections/SettingsSection.vue";
-import SettingsSecondSection from "../HomeUz/HomeSections/SettingsSecondSection.vue";
-import SettingsThirdSection from "../HomeUz/HomeSections/SettingsThirdSection.vue";
-import CarouselSection from "../HomeUz/HomeSections/CarouselSection.vue";
-import CarouselSecondSection from "../HomeUz/HomeSections/CarouselSecondSection.vue";
-import FormSection from "../HomeUz/HomeSections/FormSection.vue";
-import MapSection from "../HomeUz/HomeSections/MapSection.vue";
+import HeroSection from "./HomeSections/HeroSection.vue";
+import HeroSectionSecond from "./HomeSections/HeroSectionSecond.vue";
+import WasytSection from "./HomeSections/WasytSection.vue";
+import ApplicationSection from "./HomeSections/ApplicationSection.vue";
+import SettingsSection from "./HomeSections/SettingsSection.vue";
+import SettingsSecondSection from "./HomeSections/SettingsSecondSection.vue";
+import SettingsThirdSection from "./HomeSections/SettingsThirdSection.vue";
+import CarouselSection from "./HomeSections/CarouselSection.vue";
+import CarouselSecondSection from "./HomeSections/CarouselSecondSection.vue";
+import FormSection from "./HomeSections/FormSection.vue";
+import PartnershipSection from "./HomeSections/PartnershipSection.vue";
+import MapSection from "./HomeSections/MapSection.vue";
 import FooterLayout from "../../layouts/FooterLayoutUz/FooterLayout.vue";
 import FooterBottomLayout from "../../layouts/FooterBottomLayoutUz/FooterBottomLayout.vue";
 export default {
@@ -48,6 +50,7 @@ export default {
     CarouselSection,
     CarouselSecondSection,
     FormSection,
+    PartnershipSection,
     MapSection,
     FooterLayout,
     FooterBottomLayout,

@@ -29,7 +29,7 @@
   </section>
 </template>
 <script>
-import SwiperComponent from "../components/SwiperComponent.vue";
+import SwiperComponent from "../../HomePage/components/SwiperComponent.vue";
 export default {
   data() {
     return {};

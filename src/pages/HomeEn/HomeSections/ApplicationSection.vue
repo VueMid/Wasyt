@@ -34,7 +34,7 @@
           <div
             class="application__bottom-box flex flex-row justify-center items-center gap-[26px] md:flex md:flex-row md:justify-center md:items-center md:gap-[26px] lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-[36px]"
           >
-            <TheDownload class="application__button w-[222px]"
+            <TheDownload class="application__button w-[223px]"
               >Get Demo</TheDownload
             >
             <div
