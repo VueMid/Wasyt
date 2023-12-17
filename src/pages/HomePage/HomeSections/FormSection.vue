@@ -1,6 +1,6 @@
 <template>
   <section
-    class="form mt-[80px] px-4 md:mt-[100px] md:px-[30px] lg:px-[56px] lg:mt-[120px]"
+    class="form mt-[80px] px-4 md:mt-[100px] md:px-[30px] lg:px-[56px] lg:mt-[120px] mb-[100px]"
   >
     <div
       class="container form__container flex flex-col justify-center items-start rounded-[32px] px-6 pt-6 pb-[137px] md:flex md:flex-col md:justify-center md:items-start md:rounded-[28px] md:px-6 md:pt-[30px] md:pb-[30px] lg:rounded-[38px] lg:px-[50px] lg:pt-[50px] lg:pb-[50px]"

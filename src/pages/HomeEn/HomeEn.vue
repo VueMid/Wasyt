@@ -1,20 +1,20 @@
 <template>
   <HeaderLayoutEn />
   <div class="Home-en">
-    <HeroSection />
+    <!-- <HeroSection />
     <HeroSectionSecond />
     <WasytSection />
     <ApplicationSection />
     <SettingsSection />
     <SettingsSecondSection />
-    <SettingsThirdSection />
+    <SettingsThirdSection /> -->
     <!-- <CarouselSection /> -->
-    <CarouselSecondSection />
-    <FormSection />
+    <!-- <CarouselSecondSection />
+    <FormSection /> -->
     <PartnershipSection />
-    <MapSection />
+    <!-- <MapSection />
     <FooterLayout />
-    <FooterBottomLayout />
+    <FooterBottomLayout /> -->
   </div>
 </template>
 <script>
