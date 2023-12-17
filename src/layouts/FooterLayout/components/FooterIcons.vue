@@ -89,7 +89,6 @@
   color: #01889a !important;
   transition: 400ms ease all;
 }
-
 @media (max-width: 767px) {
   .footerIcons__main-box {
     margin-top: 0px;

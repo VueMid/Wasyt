@@ -40,12 +40,16 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    gap: 50px;
+    transform: translateY(0px);
   }
   .footer__bottom {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    gap: 50px;
+    transform: translateY(8px);
   }
   .FooterIcons {
     transform: translateY(0px);
@@ -70,7 +74,7 @@ export default {
     flex-direction: column;
     justify-content: end;
     align-items: flex-end;
-    gap: 45px;
+    gap: 30px;
   }
   .FooterNumbers {
     margin-left: 0 !important;
@@ -86,6 +90,7 @@ export default {
     justify-content: space-between;
     align-items: flex-start;
     gap: 25px;
+    transform: translateY(0px);
   }
   .footer__top {
     display: flex;
@@ -93,6 +98,7 @@ export default {
     justify-content: center;
     align-items: flex-start;
     gap: 25px;
+    transform: translateY(0px);
   }
   .footer__bottom {
     display: flex;
@@ -100,9 +106,11 @@ export default {
     justify-content: end;
     align-items: flex-start;
     gap: 25px;
+    transform: translateY(0px);
   }
   .FooterNumbers {
     margin-left: 0 !important;
+    transform: translateY(0px);
   }
   .FooterIcons {
     transform: translateY(0px);
