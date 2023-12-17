@@ -10,7 +10,7 @@
     <SettingsThirdSection />
     <CarouselSection />
     <CarouselSecondSection />
-    <FormSection />
+    <FormSection /> 
     <PartnershipSection />
     <MapSection />
     <FooterLayout />

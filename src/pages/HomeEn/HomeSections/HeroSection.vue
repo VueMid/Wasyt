@@ -158,7 +158,7 @@ export default {
     }
   }
 }
-@media (max-width: 1100px) {
+@media (max-width: 1101px) {
   .hero {
     margin-top: 132px;
     &__wrapper {

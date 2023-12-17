@@ -34,7 +34,7 @@
           <div
             class="application__bottom-box flex flex-row justify-center items-center gap-[26px] md:flex md:flex-row md:justify-center md:items-center md:gap-[26px] lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-[36px]"
           >
-            <TheDownload class="application__button w-[223px]">
+            <TheDownload class="application__button w-full">
               Demo yuklab oling
             </TheDownload>
             <div
@@ -334,6 +334,15 @@ export default {
         background-size: contain;
       }
     }
+  }
+}
+@media (max-width: 360px) {
+  .application__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0px !important;
   }
 }
 </style>

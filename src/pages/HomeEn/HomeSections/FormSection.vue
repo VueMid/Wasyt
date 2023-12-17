@@ -206,7 +206,7 @@ export default {
         display: block;
         width: 700px;
         height: 152px;
-        bottom: 150px;
+        bottom: 120px;
         right: -150px;
         background-image: url("@/assets/images/main__ipad-pro.png");
         background-position: center;
@@ -259,8 +259,8 @@ export default {
         content: "";
         display: block;
         width: 700px;
-        height: 142px;
-        bottom: 100px;
+        height: 132px;
+        bottom: 90px;
         right: -185px;
         background-image: url("@/assets/images/main__ipad-pro.png");
         background-position: center;

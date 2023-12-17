@@ -29,7 +29,7 @@
               Divisions, departments, franchisees
             </h6>
             <p
-              class="partnershipSecond__mini-texts md:text-sm md:font-normal md:leading-[140%] md:w-[253px] md:mb-[16px] lg:w-[464px] lg:text-[14px] lg:font-normal lg:leading-[140%] lg:mb-4 text-white/80"
+              class="partnershipSecond__mini-texts md:text-sm md:font-normal md:leading-[140%] md:w-[253px] md:mb-[16px] lg:w-[424px] lg:text-[14px] lg:font-normal lg:leading-[140%] lg:mb-4 text-white/80"
             >
               Combine several legal entities, offices or warehouses in one
               system. Limit access to data for different departments
@@ -44,7 +44,7 @@
               Access control
             </h6>
             <p
-              class="partnershipSecond__mini-texts md:text-sm md:font-normal md:leading-[140%] md:w-[253px] md:mb-[16px] lg:w-[464px] lg:text-[14px] lg:font-normal lg:leading-[140%] lg:mb-4 text-white/80"
+              class="partnershipSecond__mini-texts md:text-sm md:font-normal md:leading-[140%] md:w-[253px] md:mb-[16px] lg:w-[424px] lg:text-[14px] lg:font-normal lg:leading-[140%] lg:mb-4 text-white/80"
             >
               Separate user rights into menus and functions, hide unnecessary
               data. Complete record of employee actions.
@@ -59,7 +59,7 @@
               Analytics
             </h6>
             <p
-              class="partnershipSecond__mini-texts-second md:text-sm md:font-normal md:leading-[140%] md:w-[253px] md:mb-[32px] lg:w-[464px] lg:text-[14px] lg:font-normal lg:leading-[140%] lg:mb-[49px] text-white/80"
+              class="partnershipSecond__mini-texts-second md:text-sm md:font-normal md:leading-[140%] md:w-[253px] md:mb-[32px] lg:w-[424px] lg:text-[14px] lg:font-normal lg:leading-[140%] lg:mb-[49px] text-white/80"
             >
               View reports from your smartphone or in the mail: turnover,
               balances, sales and profitability by product and customer, cash
