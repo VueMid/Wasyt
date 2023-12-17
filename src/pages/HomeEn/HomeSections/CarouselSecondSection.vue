@@ -113,7 +113,6 @@ export default {
       owlCarousel.value = $(".owl-carousel").owlCarousel({
         loop: true,
         margin: 16,
-        nav: false,
         responsive: {
           768: {
             items: 3,

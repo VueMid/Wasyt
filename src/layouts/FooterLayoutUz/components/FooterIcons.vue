@@ -1,6 +1,6 @@
 <template>
   <div
-    class="footerIcons__main-box flex flex-col justify-start items-start gap-2"
+    class="footerIcons__main-box flex flex-col justify-start items-start gap-0"
   >
     <h6
       class="footer__title text-[#283535] font-normal leading-[130%] text-[12px] dark:text-white lg:text-[14px]"

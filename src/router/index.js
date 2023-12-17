@@ -21,14 +21,14 @@ const router = createRouter({
       redirect: '/NotFoundSection',
     },
     {
+      path: '/ru',
+      name: 'HomeRu',
+      component: import('../pages/HomeRu/HomeRu.vue'),
+    },
+    {
       path: '/en',
       name: 'HomeEn',
       component: import('../pages/HomeEn/HomeEn.vue'),
-    },
-    {
-      path: '/ru',
-      name: 'HomeRu',
-      component: import('../pages/HomePage/HomePage.vue'),
     },
     {
       path: '/uz',
