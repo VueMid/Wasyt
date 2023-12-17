@@ -8,7 +8,7 @@
     <SettingsSection />
     <SettingsSecondSection />
     <SettingsThirdSection />
-    <!-- <CarouselSection /> -->
+    <CarouselSection />
     <CarouselSecondSection />
     <FormSection />
     <PartnershipSection />

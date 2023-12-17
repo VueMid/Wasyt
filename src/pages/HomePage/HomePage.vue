@@ -1,7 +1,7 @@
 <template>
   <HeaderLayout />
   <div class="Home-page">
-    <!-- <HeroSection />
+    <HeroSection />
     <HeroSectionSecond />
     <WasytSection />
     <ApplicationSection />
@@ -10,11 +10,11 @@
     <SettingsThirdSection />
     <CarouselSection />
     <CarouselSecondSection />
-    <FormSection /> -->
+    <FormSection />
     <PartnershipSection />
-    <!-- <MapSection />
+    <MapSection />
     <FooterLayout />
-    <FooterBottomLayout /> -->
+    <FooterBottomLayout />
   </div>
 </template>
 <script>

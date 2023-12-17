@@ -114,7 +114,7 @@ export default {
       background-position: top;
       background-size: contain;
     }
-    &__text{
+    &__text {
       width: 484px;
     }
     &__icons {
