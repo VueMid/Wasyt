@@ -39,7 +39,7 @@
           class="header__lists px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-semibold"
         >
           <img class="" src="@/assets/icons/partnership.svg" alt="icon" />
-          <a class="link ml-4 w-full" href="#partnership">Partnership</a>
+          <a class="link ml-4 w-full" href="#partnershipSecond">Partnership</a>
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>

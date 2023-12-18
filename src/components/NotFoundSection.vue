@@ -1,51 +1,32 @@
 <template>
-  <section class="notFound bg-white dark:bg-tailwind-dark w-full h-[100vh]">
+  <section class="notFound bg-white w-full h-[100vh]">
     <div
       class="container notFound__container flex flex-col justify-center items-center min-h-screen"
     >
       <div
         class="notFound__main flex flex-row justify-center items-center h-full max-h-full"
       >
-        <span
-          class="notFound__numbers text-[165px] text-[#172D33] dark:text-white"
-        >
-          4
-        </span>
+        <span class="notFound__numbers text-[165px] text-[#172D33]">4</span>
         <div>
           <img
-            class="icon w-[288px] h-[148px] dark:hidden"
+            class="icon w-[288px] h-[148px]"
             src="@/assets/icons/ghost.svg"
             alt="ghost__image"
           />
         </div>
-        <div class="">
-          <img
-            class="icon w-[288px] h-[148px] hidden dark:block"
-            src="@/assets/icons/white__ghost.svg"
-            alt="ghost__image"
-          />
-        </div>
-        <span
-          class="notFound__numbers text-[165px] text-[#172D33] dark:text-white"
-        >
-          4
-        </span>
+        <span class="notFound__numbers text-[165px] text-[#172D33]">4</span>
       </div>
       <div
         class="notFound__bottom-box flex flex-col justify-center items-center gap-10"
       >
-        <h4
-          class="text text-[30px] font-semibold text-[#172D33] dark:text-white"
-        >
+        <h4 class="text text-[30px] font-semibold text-[#172D33]">
           Страница не найдена!
         </h4>
         <router-link to="/">
           <button
             class="btn primary w-max bg-blue text-white py-[14px] px-[32px] text-base font-semibold leading-[150%] rounded-[85px] active:opacity-60 duration-100"
           >
-            <i
-              class="fa-solid dark:text-white fa-arrow-right-long fa-beat mr-4"
-            />
+            <i class="fa-solid fa-arrow-right-long fa-beat mr-4" />
             Вернуться к главному
           </button>
         </router-link>

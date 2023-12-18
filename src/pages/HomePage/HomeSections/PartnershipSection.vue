@@ -76,7 +76,7 @@
     </div>
   </section>
   <section
-    id="partnership"
+    id="partnershipSecond"
     class="mt-[100px] partnership bg-[#F9F9FB] md:hidden dark:bg-tailwind-dark"
   >
     <div
