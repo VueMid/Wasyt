@@ -4,7 +4,7 @@
   >
     <div class="left__box md:hidden"></div>
     <div
-      class="right__box flex flex-col justify-center items-start bg-white card dark:bg-tailwind-dark rounded-[32px] relative dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] mt-[295px]"
+      class="right__box relative flex flex-col justify-center items-start bg-white card dark:bg-tailwind-dark rounded-[32px] dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] mt-[350px] mb-[35px]"
     >
       <h3
         class="right__title text-dark-cyan text-2xl font-bold leading-[130%] dark:text-white mb-4"
@@ -88,7 +88,7 @@
             v-model.trim="username"
             id="username"
             autocomplete="off"
-            class="right__form-text w-full bg-gray-50 border border-gray-300 rounded-[32px] text-sm text-[#8d8a8a] dark:text-white dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 py-4 pl-[18px] outline-none mb-2"
+            class="right__form-text w-full bg-gray-50 border border-gray-300 rounded-[32px] text-sm text-dark-cyan dark:text-white dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 py-4 pl-[18px] outline-none mb-2"
             placeholder="Имя"
             required
           />
@@ -100,7 +100,7 @@
               v-model.number="tel"
               id="tel"
               autocomplete="off"
-              class="right__form-number w-full bg-gray-50 border border-gray-300 rounded-[32px] text-sm text-[#8d8a8a] dark:text-white dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 py-4 pl-[18px] outline-none mb-2"
+              class="right__form-number w-full bg-gray-50 border border-gray-300 rounded-[32px] text-sm text-dark-cyan dark:text-white dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 py-4 pl-[18px] outline-none mb-2"
               placeholder="Телефон номер"
               maxlength="13"
               required
@@ -112,7 +112,7 @@
             v-model.trim="message"
             id="message"
             autocomplete="off"
-            class="right__form-message w-full bg-gray-50 border border-gray-300 rounded-[32px] text-[#8d8a8a] text-sm dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 pt-4 pl-4 pb-[200px] outline-none mb-2"
+            class="right__form-message w-full bg-gray-50 border border-gray-300 rounded-[32px] text-dark-cyan text-sm dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 pt-4 pl-4 pb-[200px] outline-none mb-2"
             placeholder="Сообщение"
           />
           <button

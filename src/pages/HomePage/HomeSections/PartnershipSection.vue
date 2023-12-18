@@ -171,11 +171,11 @@ export default {
   methods: {
     openModal() {
       this.isModalOpened = true;
-      document.body.style.overflowY = "hidden";
+      document.body.style.overflow = "hidden";
     },
     closeModal() {
       this.isModalOpened = false;
-      document.body.style.overflowY = "auto";
+      document.body.style.overflow = "auto";
     },
   },
 };

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed top-0 left-0 right-0 w-full p-4 duration-100 overflow-y-auto h-full max-h-full backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 flex justify-center items-center xl:px-[0px]"
+    class="fixed top-0 left-0 right-0 w-full p-4 duration-100 overflow-y-auto h-full backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 flex justify-center items-center xl:px-[0px]"
   >
     <div
       class="bg-white card dark:bg-tailwind-dark flex flex-col justify-center items-center w-[360px] h-[620px] px-[24px] xl:w-[748px] xl:h-[570px] xl:px-[106px] xl:py-12 rounded-[32px] relative dark:border-[2px] dark:border-dark-cyan"
@@ -47,7 +47,7 @@
             v-model.trim="username"
             id="username"
             autocomplete="off"
-            class="bg-gray-50 border border-gray-300 rounded-[32px] text-sm text-[#8d8a8a] focus:ring-blue-500 focus:border-blue-500 block w-full dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 py-4 pl-[18px] xl:py-4 xl:pl-[30px] outline-none"
+            class="bg-gray-50 border border-gray-300 rounded-[32px] text-sm text-[#8d8a8a] w-full dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 py-4 pl-[18px] xl:py-4 xl:pl-[30px] outline-none"
             placeholder="Имя"
           />
           <small class="text-red-600 font-black text-[14px]">
@@ -64,7 +64,7 @@
             v-model.number="tel"
             id="tel"
             autocomplete="off"
-            class="bg-gray-50 border border-gray-300 rounded-[32px] text-sm text-[#8d8a8a] focus:ring-blue-500 focus:border-blue-500 block w-full dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 py-4 pl-[18px] xl:py-4 xl:pl-[30px] outline-none"
+            class="bg-gray-50 border border-gray-300 rounded-[32px] text-sm text-[#8d8a8a] w-full dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 py-4 pl-[18px] xl:py-4 xl:pl-[30px] outline-none"
             maxlength="13"
           />
           <small class="text-red-600 font-black text-[14px]">
@@ -81,7 +81,7 @@
             v-model.trim="message"
             id="message"
             autocomplete="off"
-            class="bg-gray-50 border border-gray-300 rounded-[32px] text-[#8d8a8a] text-sm focus:ring-blue-500 focus:border-blue-500 block w-full dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 pt-4 pl-4 pb-[200px] xl:pt-[20px] xl:pb-[134px] xl:pl-[30px] outline-none"
+            class="bg-gray-50 border border-gray-300 rounded-[32px] text-[#8d8a8a] text-sm w-full dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 pt-4 pl-4 pb-[200px] xl:pt-[20px] xl:pb-[134px] xl:pl-[30px] outline-none"
             placeholder="Сообщение"
           />
           <small class="text-red-600 font-black text-[14px]">

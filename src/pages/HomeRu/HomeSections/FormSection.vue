@@ -330,9 +330,13 @@ export default {
     }
 
     &__title {
+      width: 100%;
+      max-width: 312px;
     }
 
     &__text {
+      width: 100%;
+      max-width: 312px;
     }
 
     &__bottom {
