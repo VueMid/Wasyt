@@ -21,7 +21,7 @@
           <button
             type="button"
             @click="$emit('closeModal')"
-            class="text-[#020105] font-bold top-[16px] right-[16px] xl:top-[23px] xl:right-[23px] absolute"
+            class="text-[#020105] font-bold top-[26px] right-[26px] xl:top-[23px] xl:right-[23px] absolute"
             data-modal-hide="staticModal"
           >
             <svg

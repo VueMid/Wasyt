@@ -140,6 +140,7 @@
             </li>
           </ul>
           <button
+            @click="openModal"
             class="partnership__button w-full text-base font-semibold leading-[150%] bg-white text-blue px-8 py-[14px] flex flex-row justify-center items-center gap-4 rounded-[85px] m-auto active:opacity-60 duration-150 outline-none"
           >
             <img src="@/assets/icons/user-add.svg" alt="candidate" />
@@ -151,12 +152,43 @@
         ></div>
       </div>
     </div>
+    <Transition name="modal" class="relative z-[1111]">
+      <div v-if="isModalOpened">
+        <PartnershipComponent @closeModal="closeModal" />
+      </div>
+    </Transition>
   </section>
 </template>
 <script>
-export default {};
+import PartnershipComponent from "../components/PartnershipComponent.vue";
+export default {
+  data() {
+    return {
+      isModalOpened: false,
+    };
+  },
+  components: { PartnershipComponent, TheWhiteButton },
+  methods: {
+    openModal() {
+      this.isModalOpened = true;
+      document.body.style.overflow = "hidden";
+    },
+    closeModal() {
+      this.isModalOpened = false;
+      document.body.style.overflow = "auto";
+    },
+  },
+};
 </script>
 <style lang="scss" scoped>
+.modal-enter-active,
+.modal-leave-active {
+  transition: opacity 0.3s ease;
+}
+.modal-enter-from,
+.modal-leave-to {
+  opacity: 0;
+}
 .partnershipSecond {
   &__container {
   }
