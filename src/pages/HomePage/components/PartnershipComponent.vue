@@ -1,10 +1,10 @@
 <template>
   <div
-    class="right fixed top-0 w-full h-full backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 flex flex-col justify-center items-center px-4 overflow-auto"
+    class="right fixed top-0 w-full h-full backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 flex flex-col justify-center items-center px-4"
   >
     <div class="left__box md:hidden"></div>
     <div
-      class="right__box flex flex-col justify-center items-start bg-white card dark:bg-tailwind-dark rounded-[32px] relative dark:border-[2px] dark:border-dark-cyan px-6 py-[26px]"
+      class="right__box flex flex-col justify-center items-start bg-white card dark:bg-tailwind-dark rounded-[32px] relative dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] mt-[295px]"
     >
       <h3
         class="right__title text-dark-cyan text-2xl font-bold leading-[130%] dark:text-white mb-4"
