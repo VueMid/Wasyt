@@ -1,6 +1,6 @@
 <template>
   <div
-    class="right fixed top-0 w-full h-full backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 flex flex-col justify-center items-center px-4"
+    class="right fixed top-0 w-full h-full backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 flex flex-col justify-center items-center px-4 overflow-y-auto"
   >
     <div class="left__box md:hidden"></div>
     <div
