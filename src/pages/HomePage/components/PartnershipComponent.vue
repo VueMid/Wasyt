@@ -4,7 +4,7 @@
   >
     <div class="left__box md:hidden"></div>
     <div
-      class="right__box relative flex flex-col justify-center items-start bg-white card dark:bg-tailwind-dark rounded-[32px] dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] mt-[0px] mb-[0px] "
+      class="right__box relative flex flex-col justify-center items-start bg-white card dark:bg-tailwind-dark rounded-[32px] dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] mt-[405px] mb-[30px]"
     >
       <h3
         class="right__title text-dark-cyan text-2xl font-bold leading-[130%] dark:text-white mb-4"
@@ -51,31 +51,8 @@
             и рентабельность по товарам и клиентам, движение денег.
           </p>
         </li>
-        <button
-          type="right__form-button"
-          @click="$emit('closeModal')"
-          class="text-[#020105] font-bold top-[35px] right-[24px] absolute"
-          data-modal-hide="staticModal"
-        >
-          <svg
-            class="w-[17px] h-[17px] dark:text-white"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 14 14"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
-            />
-          </svg>
-          <span class="sr-only">Close modal</span>
-        </button>
       </ul>
-      <!-- <form
+      <form
         class="right__form-bottom w-full"
         @submit.prevent="sendInformation"
         action="https://echo.htmlacademy.ru"
@@ -146,7 +123,7 @@
             <i class="icon fa-solid fa-arrow-right-long fa-beat"></i>
           </button>
         </div>
-      </form> -->
+      </form>
     </div>
   </div>
 </template>
@@ -226,4 +203,3 @@ export default {};
   }
 }
 </style>
-<!-- mt-[405px] mb-[30px] -->
