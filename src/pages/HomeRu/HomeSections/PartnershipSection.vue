@@ -167,7 +167,7 @@ export default {
       isModalOpened: false,
     };
   },
-  components: { PartnershipComponent, TheWhiteButton },
+  components: { PartnershipComponent },
   methods: {
     openModal() {
       this.isModalOpened = true;
