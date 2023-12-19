@@ -67,6 +67,7 @@
           </li>
         </ul>
         <button
+          @click="openModal"
           class="partnershipSecond__button w-max text-base font-semibold leading-[150%] bg-white text-blue px-8 py-[14px] flex flex-row justify-center items-center gap-4 rounded-[85px] active:opacity-60 duration-150 outline-none md:ml-[34px] lg:ml-9"
         >
           <img src="@/assets/icons/user-add.svg" alt="candidate" />
@@ -74,6 +75,11 @@
         </button>
       </div>
     </div>
+    <Transition name="modal" class="relative z-[1111]">
+      <div v-if="isModalOpened">
+        <PartnershipComponent @closeModal="closeModal" />
+      </div>
+    </Transition>
   </section>
   <section
     id="partnershipSecond"
