@@ -4,7 +4,7 @@
   >
     <div class="left__box md:hidden"></div>
     <div
-      class="right__box relative flex flex-col justify-center items-start bg-white card dark:bg-tailwind-dark rounded-[32px] dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] mt-[410px] mb-[30px]"
+      class="right__box relative flex flex-col justify-center items-start bg-white card dark:bg-tailwind-dark rounded-[32px] dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] mt-[405px] mb-[30px]"
     >
       <h3
         class="right__title text-dark-cyan text-2xl font-bold leading-[130%] dark:text-white mb-4"
