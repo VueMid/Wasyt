@@ -55,5 +55,8 @@ export default {
     FooterLayout,
     FooterBottomLayout,
   },
+  mounted() {
+    document.title = `WASYT ERP | Kichik va o'rta biznes uchun omborni raqamlashtirish`
+  }
 };
 </script>

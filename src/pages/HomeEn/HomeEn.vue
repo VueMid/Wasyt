@@ -10,7 +10,7 @@
     <SettingsThirdSection />
     <CarouselSection />
     <CarouselSecondSection />
-    <FormSection /> 
+    <FormSection />
     <PartnershipSection />
     <MapSection />
     <FooterLayout />
@@ -54,6 +54,9 @@ export default {
     MapSection,
     FooterLayout,
     FooterBottomLayout,
+  },
+  mounted() {
+    document.title = `WASYT ERP | Digitalization of Warehouse for Small and Medium Businesses`;
   },
 };
 </script>

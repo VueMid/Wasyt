@@ -51,5 +51,8 @@ export default {
     FooterLayout,
     FooterBottomLayout,
   },
+  mounted() {
+    document.title = `WASYT ERP | Цифровизация Склада для Малого и Среднего Бизнеса`;
+  },
 };
 </script>

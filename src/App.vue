@@ -28,6 +28,10 @@ export default {
         scrollUp.classList.remove("show-scroll");
       }
     });
+
+    
+    
+
   },
 };
 </script>
