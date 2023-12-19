@@ -5,14 +5,12 @@ import {
 import HomePage from '../pages/HomePage/HomePage.vue'
 import HomeEn from '../pages/HomeEn/HomeEn.vue'
 import HomeUz from '../pages/HomeUz/HomeUz.vue'
-import HomeRu from '../pages/HomeRu/HomeRu.vue'
 const language = localStorage.getItem('selectedLanguage')
 console.log(language);
 let currentLanguage = ''
-
 switch (language) {
   case 'Ru':
-    currentLanguage = HomeRu
+    currentLanguage = HomePage
     break;
   case 'En':
     currentLanguage = HomeEn
@@ -42,11 +40,6 @@ const router = createRouter({
       redirect: '/NotFoundSection',
     },
     {
-      path: '/ru',
-      name: 'HomeRu',
-      component: import('../pages/HomeRu/HomeRu.vue'),
-    },
-    {
       path: '/en',
       name: 'HomeEn',
       component: import('../pages/HomeEn/HomeEn.vue'),
@@ -55,6 +48,11 @@ const router = createRouter({
       path: '/uz',
       name: 'HomeUz',
       component: import('../pages/HomeUz/HomeUz.vue'),
+    },
+    {
+      path: '/ru',
+      name: 'HomePage',
+      component: import('../pages/HomePage/HomePage.vue'),
     },
   ]
 })
