@@ -1,7 +1,7 @@
 <template>
   <section
     id="partnership"
-    class="md:mt-[100px] lg:mt-[120px] partnership bg-[#F9F9FB] hidden md:block dark:bg-tailwind-dark"
+    class="md:mt-[100px] lg:mt-[120px] partnership bg-[#F9F9FB] hidden md:block dark:bg-tailwind-dark overflow-x-hidden"
   >
     <div
       class="container partnershipSecond__container md:flex md:flex-col md:items-start md:gap-8 md:pt-11 md:pb-14 lg:flex lg:flex-col lg:items-start lg:gap-8 lg:pt-10 lg:pb-14"
