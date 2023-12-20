@@ -43,7 +43,7 @@
     />
 
     <div
-      class="right__box relative flex flex-col justify-center items-start bg-white card dark:bg-tailwind-dark rounded-[32px] dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] mt-[300px] md:flex md:flex-col md:justify-center md:items-start md:rounded-none md:rounded-b-[48px] md:mt-0 md:mb-[0px] md:py-[20px] md:px-[27px]"
+      class="right__box relative flex flex-col justify-center items-start bg-white card dark:bg-tailwind-dark rounded-[32px] dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] mt-[400px] md:flex md:flex-col md:justify-center md:items-start md:rounded-none md:rounded-b-[48px] md:mt-0 md:mb-[0px] md:py-[20px] md:px-[27px]"
     >
       <h3
         class="right__title text-dark-cyan text-2xl font-bold leading-[130%] dark:text-white mb-4 md:text-[32px] md:font-bold md:leading-[130%] md:mb-4"
