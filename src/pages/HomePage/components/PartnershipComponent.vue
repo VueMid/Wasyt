@@ -3,7 +3,7 @@
     class="partnership fixed w-full h-full top-0 backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 px-4 overflow-y-auto overflow-x-hidden flex flex-col justify-center items-center"
   >
     <div
-      class="partnership__wrapper flex flex-col justify-center items-center gap-0 mt-[200px] relative"
+      class="partnership__wrapper flex flex-col justify-center items-center gap-0 mt-[300px] relative"
     >
       <div class="partnership__left-box hidden md:block">
         <img
