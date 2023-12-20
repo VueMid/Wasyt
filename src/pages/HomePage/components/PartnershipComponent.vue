@@ -74,7 +74,7 @@
             data-modal-hide="staticModal"
           >
             <svg
-              class="partnership__right-svg absolute w-5 h-5 top-9 right-6"
+              class="partnership__right-svg absolute w-5 h-5 top-8 right-6"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
