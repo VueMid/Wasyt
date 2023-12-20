@@ -99,7 +99,7 @@
               v-model.trim="username"
               id="username"
               autocomplete="off"
-              class="partnership__right-username-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-normal leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white"
+              class="partnership__right-username-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white"
               placeholder="Имя"
               required
             />
@@ -111,7 +111,7 @@
                 v-model.number="tel"
                 id="tel"
                 autocomplete="off"
-                class="partnership__right-tel-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-normal leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white"
+                class="partnership__right-tel-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white"
                 placeholder="Телефон номер"
                 maxlength="13"
                 required
@@ -124,12 +124,12 @@
             v-model.trim="message"
             id="message"
             autocomplete="off"
-            class="partnership__right-message-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-normal leading-[140%] rounded-[32px] border-[1px] border-[#EBF0F0] pt-4 pb-[201px] pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white"
+            class="partnership__right-message-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[32px] border-[1px] border-[#EBF0F0] pt-4 pb-[201px] pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white"
             placeholder="Сообщение"
           />
           <button
             type="submit"
-            class="partnership__submit-button flex flex-row justify-center items-center gap-4 text-white w-full bg-[#2DB7CA] rounded-[85px] outline-none py-[14px] active:opacity-60 duration-100"
+            class="partnership__submit-button flex flex-row justify-center items-center gap-4 text-white w-full bg-[#2DB7CA] rounded-[85px] outline-none py-[14px] active:opacity-60 duration-100 text-base font-semibold leading-[150%]"
           >
             Отправить
             <i class="icon fa-solid fa-arrow-right-long fa-beat"></i>
