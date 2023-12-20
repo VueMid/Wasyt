@@ -143,6 +143,15 @@
 export default {};
 </script>
 <style scoped lang="scss">
+#username::placeholder {
+  color: rgb(141, 138, 138) !important;
+}
+#tel::placeholder {
+  color: rgb(141, 138, 138) !important;
+}
+#message::placeholder {
+  color: rgb(141, 138, 138) !important;
+}
 @media (max-width: 767px) {
   .partnership {
     &__wrapper {
