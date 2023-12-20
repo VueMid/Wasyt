@@ -86,7 +86,6 @@ export default {
     background-image: url("@/assets/images/hero__background.png");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
   }
   &__second-icons {
     display: none;

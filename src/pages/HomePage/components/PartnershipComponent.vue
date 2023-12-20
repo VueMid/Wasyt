@@ -3,10 +3,10 @@
     class="right fixed top-0 w-full h-full backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 flex flex-col justify-center items-center px-4 overflow-y-auto overflow-x-hidden md:flex md:flex-col md:justify-center md:items-center md:px-[30px] md:w-full"
   >
     <div
-      class="left__box hidden md:block bg-white card dark:bg-tailwind-dark rounded-[48px] dark:border-[2px] dark:border-dark-cyan md:w-full md:relative md:mt-[300px]"
+      class="left__box hidden md:block bg-white card dark:bg-tailwind-dark rounded-[48px] dark:border-[2px] dark:border-dark-cyan md:w-full md:relative md:mt-[20px]"
     >
       <img
-        class="md:rounded-t-[48px] md:w-full md:object-cover md:h-[325px]"
+        class="hidden md:block lg:hidden md:rounded-t-[48px] md:w-full md:object-cover md:h-[325px]"
         src="@/assets/images/boy__second.png"
         alt="guy"
       />
@@ -34,8 +34,16 @@
         <span class="sr-only">Close modal</span>
       </button>
     </div>
+    <img
+      class="hidden lg:block rounded-s-[48px] translate-y-[100px] p-0"
+      src="@/assets/images/guy.png"
+      alt="guy"
+      width="508"
+      height="600"
+    />
+
     <div
-      class="right__box relative flex flex-col justify-center items-start bg-white card dark:bg-tailwind-dark rounded-[32px] dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] mt-[405px] mb-[30px] md:flex md:flex-col md:justify-center md:items-start md:rounded-none md:rounded-b-[48px] md:mt-0 md:mb-[20px] md:py-[30px] md:px-[27px]"
+      class="right__box relative flex flex-col justify-center items-start bg-white card dark:bg-tailwind-dark rounded-[32px] dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] mt-[300px] mb-[20px] md:flex md:flex-col md:justify-center md:items-start md:rounded-none md:rounded-b-[48px] md:mt-0 md:mb-[0px] md:py-[20px] md:px-[27px]"
     >
       <h3
         class="right__title text-dark-cyan text-2xl font-bold leading-[130%] dark:text-white mb-4 md:text-[32px] md:font-bold md:leading-[130%] md:mb-4"
@@ -71,7 +79,7 @@
         </li>
         <li class="right__lists list-disc text-[#2DB7CA] ml-6">
           <h5
-            class="right__mini-titles text-base font-semibold leading-[150%] mb-2 first-letter: md:text-xl md:font-semibold md:leading-[150%] md:mb-2"
+            class="right__mini-titles text-base font-semibold leading-[150%] mb-2 first-letter: md:text-xl md:font-semibold md:leading-[150%] md:mb-2 lg:w-[464px]"
           >
             Аналитика
           </h5>
@@ -92,7 +100,7 @@
         <button
           type="right__form-button"
           @click="$emit('closeModal')"
-          class="text-[#020105] font-bold top-[33px] right-[24px] absolute md:hidden"
+          class="text-[#020105] font-bold top-[33px] right-[24px] absolute md:hidden lg:block lg:top-[25px] lg:right-[25px]"
           data-modal-hide="staticModal"
         >
           <svg
@@ -126,7 +134,7 @@
             />
             <div class="right__mini-inputs w-full">
               <span
-                class="form__span hidden md:block md:w-[1px] md:h-[35px] md:mt-[10px] bg-[#EBF0F0] absolute"
+                class="form__span hidden md:block lg:block md:w-[1px] md:h-[35px] md:mt-[10px] absolute"
               ></span>
               <input
                 type="tel"
