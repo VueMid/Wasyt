@@ -75,11 +75,6 @@
         </button>
       </div>
     </div>
-    <Transition name="modal" class="relative z-[1111]">
-      <div v-if="isModalOpened">
-        <PartnershipComponent @closeModal="closeModal" />
-      </div>
-    </Transition>
   </section>
   <section
     id="partnershipSecond"
