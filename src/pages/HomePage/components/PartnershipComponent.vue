@@ -1,19 +1,26 @@
 <template>
   <div
-    class="partnership fixed w-full h-full top-0 backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 px-4 overflow-y-auto overflow-x-hidden flex flex-col justify-center items-center md:flex md:flex-col md:justify-center md:items-center md:px-[30px]"
+    class="partnership fixed w-full h-full top-0 backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 px-4 overflow-y-auto overflow-x-hidden flex flex-col justify-center items-center md:flex md:flex-col md:justify-center md:items-center md:px-[30px] lg:flex lg:flex-row lg:justify-center lg:items-center lg:px-[56px]"
   >
     <div
-      class="partnership__wrapper flex flex-col justify-center items-center gap-0 mt-[315px] relative md:flex md:flex-col md:justify-center md:items-center md:mt-[250px]"
+      class="partnership__wrapper rounded-[32px] flex flex-col justify-center items-center gap-0 mt-[315px] relative md:w-full md:flex md:flex-col md:justify-center md:items-center md:rounded-[32px] md:mt-[250px] lg:flex lg:flex-row lg:justify-center lg:items-center lg:rounded-[48px] lg:w-auto" 
     >
-      <div class="partnership__left-box hidden md:block">
+      <div
+        class="partnership__left-box md:w-full hidden md:block lg:dark:border-[2px] lg:dark:border-dark-cyan lg:rounded-none lg:rounded-s-[48px] lg:w-auto"
+      >
         <img
-          class="partnership__left-image rounded-t-[32px]"
+          class="partnership__left-image w-full rounded-t-[32px] object-contain hidden md:block lg:hidden"
           src="@/assets/images/boy__second.png"
+          alt="guy"
+        />
+        <img
+          class="partnership__left-image rounded-t-[32px] hidden lg:block lg:rounded-none lg:rounded-s-[48px] lg:h-[773px] object-cover"
+          src="@/assets/images/guy.png"
           alt="guy"
         />
       </div>
       <div
-        class="partnership__right-box flex flex-col justify-center items-start bg-white dark:bg-tailwind-dark dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] rounded-[32px] md:flex md:flex-col md:justify-center md:items-start md:px-[27px] md:py-[30px] md:rounded-none md:rounded-b-[32px]"
+        class="partnership__right-box flex flex-col justify-center items-start bg-white dark:bg-tailwind-dark dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] rounded-[32px] md:flex md:flex-col md:justify-center md:items-start md:px-[27px] md:py-[30px] md:rounded-none md:rounded-b-[32px] lg:py-[0px] lg:h-[773px] lg:rounded-none lg:rounded-e-[48px]"
       >
         <h3
           class="partnership__right-title text-2xl font-bold leading-[130%] dark:text-white mb-4 md:text-[22px]"
@@ -105,7 +112,7 @@
             />
             <div class="w-full">
               <span
-                class="md:w-[1px] md:h-[30px] md:mt-3 absolute bg-gray-500"
+                class="md:w-[1px] md:h-[30px] md:mt-3 absolute bg-[#EBF0F0] dark:bg-gray-500"
               ></span>
               <input
                 type="tel"
@@ -153,6 +160,59 @@ export default {};
 }
 #message::placeholder {
   color: rgb(141, 138, 138) !important;
+}
+.partnership {
+  &__wrapper {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  &__left-box {
+  }
+
+  &__left-image {
+  }
+
+  &__right-box {
+  }
+
+  &__right-title {
+  }
+
+  &__right-main-list {
+  }
+
+  &__right-lists {
+  }
+
+  &__right-mini-titles {
+  }
+
+  &__right-mini-texts {
+  }
+
+  &__right-form {
+  }
+
+  &__right-buttons {
+  }
+
+  &__right-svg {
+  }
+
+  &__right-main-input {
+  }
+
+  &__right-username-input {
+  }
+
+  &__right-tel-input {
+  }
+
+  &__right-message-input {
+  }
+
+  &__submit-button {
+  }
 }
 @media (max-width: 767px) {
   .partnership {
