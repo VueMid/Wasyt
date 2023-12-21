@@ -286,6 +286,10 @@ export default {
 
     &__main-title {
       margin-bottom: 16px;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
     }
 
     &__wrapper {

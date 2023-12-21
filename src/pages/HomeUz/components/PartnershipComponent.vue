@@ -20,51 +20,54 @@
         />
       </div>
       <div
-        class="partnership__right-box flex flex-col justify-center items-start bg-white dark:bg-tailwind-dark dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] rounded-[32px] md:flex md:flex-col md:justify-center md:items-start md:px-[27px] md:py-[30px] md:rounded-none md:rounded-b-[32px] lg:py-[0px] lg:h-[773px] lg:rounded-none lg:rounded-e-[48px]"
+        class="partnership__right-box flex flex-col justify-center items-start bg-white dark:bg-tailwind-dark dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] rounded-[32px] md:w-full md:flex md:flex-col md:justify-center md:items-start md:px-[27px] md:py-[30px] md:rounded-none md:rounded-b-[32px] lg:py-[0px] lg:h-[773px] lg:rounded-none lg:rounded-e-[48px] lg:w-auto"
       >
         <h3
           class="partnership__right-title text-2xl font-bold leading-[130%] dark:text-white mb-4 md:text-[22px]"
         >
-          Готовы сотрудничать с нами?
+          Biz bilan hamkorlik qilishga tayyormisiz?
         </h3>
         <ul class="partnership__right-main-list">
           <li class="partnership__right-lists list-disc text-[#2DB7CA] ml-6">
             <h5
               class="partnership__right-mini-titles w-max-[292px] text-base font-semibold leading-[150%] mb-2 md:text-lg md:w-[310px]"
             >
-              Подразделения, отделы, франчайзи
+              Bo'limlar, bo'limlar, franchayzilar
             </h5>
             <p
               class="partnership__right-mini-texts w-max-[292px] text-dark-cyan text-sm font-normal leading-[140%] dark:text-white mb-6 md:mb-6"
             >
-              Объедините несколько юрлиц, офисов или складов в одной системе.
-              Ограничьте доступ к данным для разных подразделений
+              Bir nechta yuridik shaxslarni, ofislarni yoki omborlarni
+              birlashtiring tizimi. Turli bo'limlar uchun ma'lumotlarga kirishni
+              cheklash
             </p>
           </li>
           <li class="partnership__right-lists list-disc text-[#2DB7CA] ml-6">
             <h5
               class="partnership__right-mini-titles w-max-[292px] text-base font-semibold leading-[150%] mb-2 md:text-lg md:w-[310px]"
             >
-              Разграничение доступа
+              Kirish nazorati
             </h5>
             <p
               class="partnership__right-mini-texts w-max-[292px] text-dark-cyan text-sm font-normal leading-[140%] dark:text-white mb-6 md:mb-6"
             >
-              Разделите права пользователей на меню и функции, скройте ненужные
-              данные. Полная запись действий сотрудников.
+              Foydalanuvchi huquqlarini menyu va funksiyalarga ajrating,
+              keraksizlarini yashiring ma'lumotlar. Xodimlarning harakatlarini
+              to'liq qayd etish.
             </p>
           </li>
           <li class="partnership__right-lists list-disc text-[#2DB7CA] ml-6">
             <h5
               class="partnership__right-mini-titles w-max-[292px] text-base font-semibold leading-[150%] mb-2 md:text-lg md:w-[310px]"
             >
-              Аналитика
+              Analitika
             </h5>
             <p
               class="partnership__right-mini-texts w-max-[292px] text-dark-cyan text-sm font-normal leading-[140%] dark:text-white mb-10 md:mb-8"
             >
-              Смотрите отчеты со смартфона или в почте: обороты, остатки,
-              продажи и рентабельность по товарам и клиентам, движение денег.
+              Hisobotlarni smartfon yoki pochta orqali ko'ring: aylanma,
+              balanslar, mahsulot va mijoz bo'yicha sotish va rentabellik, naqd
+              pul oqim.
             </p>
           </li>
         </ul>
@@ -107,7 +110,7 @@
               id="username"
               autocomplete="off"
               class="partnership__right-username-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white md:border-e-0 md:rounded-e-none"
-              placeholder="Имя"
+              placeholder="Ism"
               required
             />
             <div class="w-full">
@@ -121,7 +124,7 @@
                 id="tel"
                 autocomplete="off"
                 class="partnership__right-tel-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white md:border-s-0 md:rounded-s-none"
-                placeholder="Телефон номер"
+                placeholder="Telefon raqam"
                 maxlength="13"
                 required
               />
@@ -134,14 +137,14 @@
             id="message"
             autocomplete="off"
             class="partnership__right-message-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[32px] border-[1px] border-[#EBF0F0] pt-4 pb-[201px] pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white"
-            placeholder="Сообщение"
+            placeholder="Xabar"
             required
           />
           <button
             type="submit"
             class="partnership__submit-button flex flex-row justify-center items-center gap-4 text-white w-full bg-[#2DB7CA] rounded-[85px] outline-none py-[14px] active:opacity-60 duration-100 text-base font-semibold leading-[150%]"
           >
-            Отправить
+            Yuborish
             <i class="icon fa-solid fa-arrow-right-long fa-beat"></i>
           </button>
         </form>

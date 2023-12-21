@@ -1,13 +1,13 @@
 <template>
   <section
     id="partnership"
-    class="md:mt-[100px] lg:mt-[120px] partnership bg-[#F9F9FB] hidden md:block dark:bg-tailwind-dark"
+    class="md:mt-[100px] lg:mt-[120px] partnership bg-[#F9F9FB] hidden md:block dark:bg-tailwind-dark overflow-x-hidden"
   >
     <div
-      class="container partnershipSecond__container md:flex md:flex-col md:items-start md:gap-[32px] md:pt-11 md:pb-14 lg:flex lg:flex-col lg:justify-center lg:items-start lg:gap-8 lg:pt-10 lg:pb-14"
+      class="container partnershipSecond__container md:flex md:flex-col md:items-start md:gap-8 md:pt-11 md:pb-14 lg:flex lg:flex-col lg:items-start lg:gap-8 lg:pt-10 lg:pb-14"
     >
       <h4
-        class="partnershipSecond__main-title text-dark-cyan dark:text-white md:text-[20px] md:font-bold md:leading-[120%] lg:text-3xl lg:font-bold lg:leading-[120%]"
+        class="partnershipSecond__main-title text-dark-cyan dark:text-white lg:text-3xl lg:font-bold lg:leading-[120%]"
       >
         Our partners
       </h4>
@@ -15,7 +15,7 @@
         class="partnershipSecond__wrapper md:flex md:flex-col md:justify-center md:items-start lg:flex lg:flex-col lg:justify-center lg:items-start"
       >
         <h5
-          class="partnershipSecond__title text-white md:text-xl md:font-bold md:leading-[130%] md:mb-4 md:ml-[34px] lg:text-[22px] lg:font-bold lg:leading-[130%] lg:mb-4 lg:ml-9"
+          class="partnershipSecond__title text-white md:text-xl md:font-bold md:leading-[130%] md:mb-[10px] md:ml-[34px] lg:text-[22px] lg:font-bold lg:leading-[130%] lg:mb-4 lg:ml-9"
         >
           Become a partner
         </h5>
@@ -24,12 +24,12 @@
             class="partnershipSecond__lists text-white list-disc md:ml-[54px] lg:ml-14"
           >
             <h6
-              class="partnershipSecond__mini-titles text-white md:text-base md:font-semibold md:leading-[150%] md:mb-[14px] md:w-[253px] lg:text-lg lg:font-semibold lg:leading-[150%] lg:mb-[11px] lg:w-[310px]"
+              class="partnershipSecond__mini-titles text-white md:text-base md:font-semibold md:leading-[150%] md:mb-[10px] md:w-[253px] lg:text-lg lg:font-semibold lg:leading-[150%] lg:mb-[11px]"
             >
               Divisions, departments, franchisees
             </h6>
             <p
-              class="partnershipSecond__mini-texts md:text-sm md:font-normal md:leading-[140%] md:w-[253px] md:mb-[16px] lg:w-[424px] lg:text-[14px] lg:font-normal lg:leading-[140%] lg:mb-4 text-white/80"
+              class="partnershipSecond__mini-texts md:text-sm md:font-normal md:leading-[140%] md:w-[253px] md:mb-[10px] lg:w-[464px] lg:text-[14px] lg:font-normal lg:leading-[140%] lg:mb-4 text-white/80"
             >
               Combine several legal entities, offices or warehouses in one
               system. Limit access to data for different departments
@@ -39,14 +39,14 @@
             class="partnershipSecond__lists text-white list-disc md:ml-[54px] lg:ml-14"
           >
             <h6
-              class="partnershipSecond__mini-titles text-white md:text-base md:font-semibold md:leading-[150%] md:mb-[14px] md:w-[253px] lg:text-lg lg:font-semibold lg:leading-[150%] lg:mb-[11px] lg:w-[310px]"
+              class="partnershipSecond__mini-titles text-white md:text-base md:font-semibold md:leading-[150%] md:mb-[10px] md:w-[253px] lg:text-lg lg:font-semibold lg:leading-[150%] lg:mb-[11px]"
             >
               Access control
             </h6>
             <p
-              class="partnershipSecond__mini-texts md:text-sm md:font-normal md:leading-[140%] md:w-[253px] md:mb-[16px] lg:w-[424px] lg:text-[14px] lg:font-normal lg:leading-[140%] lg:mb-4 text-white/80"
+              class="partnershipSecond__mini-texts md:text-sm md:font-normal md:leading-[140%] md:w-[253px] md:mb-[10px] lg:w-[464px] lg:text-[14px] lg:font-normal lg:leading-[140%] lg:mb-4 text-white/80"
             >
-              Separate user rights into menus and functions, hide unnecessary
+              Divide user rights into menus and functions, hide unnecessary ones
               data. Complete record of employee actions.
             </p>
           </li>
@@ -54,12 +54,12 @@
             class="partnershipSecond__lists text-white list-disc md:ml-[54px] lg:ml-14"
           >
             <h6
-              class="partnershipSecond__mini-titles text-white md:text-base md:font-semibold md:leading-[150%] md:mb-[14px] md:w-[253px] lg:text-lg lg:font-semibold lg:leading-[150%] lg:mb-[11px] lg:w-[310px]"
+              class="partnershipSecond__mini-titles text-white md:text-base md:font-semibold md:leading-[150%] md:mb-[10px] md:w-[253px] lg:text-lg lg:font-semibold lg:leading-[150%] lg:mb-[11px]"
             >
               Analytics
             </h6>
             <p
-              class="partnershipSecond__mini-texts-second md:text-sm md:font-normal md:leading-[140%] md:w-[253px] md:mb-[32px] lg:w-[424px] lg:text-[14px] lg:font-normal lg:leading-[140%] lg:mb-[49px] text-white/80"
+              class="partnershipSecond__mini-texts-second md:text-sm md:font-normal md:leading-[140%] md:w-[253px] md:mb-[15px] lg:w-[464px] lg:text-[14px] lg:font-normal lg:leading-[140%] lg:mb-[49px] text-white/80"
             >
               View reports from your smartphone or in the mail: turnover,
               balances, sales and profitability by product and customer, cash
@@ -68,6 +68,7 @@
           </li>
         </ul>
         <button
+          @click="openModal"
           class="partnershipSecond__button w-max text-base font-semibold leading-[150%] bg-white text-blue px-8 py-[14px] flex flex-row justify-center items-center gap-4 rounded-[85px] active:opacity-60 duration-150 outline-none md:ml-[34px] lg:ml-9"
         >
           <img src="@/assets/icons/user-add.svg" alt="candidate" />
@@ -75,6 +76,11 @@
         </button>
       </div>
     </div>
+    <Transition name="modal" class="relative z-[1111]">
+      <div v-if="isModalOpened">
+        <PartnershipComponent @closeModal="closeModal" />
+      </div>
+    </Transition>
   </section>
   <section
     id="partnershipSecond"
@@ -122,8 +128,8 @@
               <p
                 class="partnership__mini-texts text-white/80 text-sm font-normal leading-[140%] w-max-[274px] mb-6"
               >
-                Separate user rights into menus and functions, hide unnecessary
-                data. Complete record of employee actions.
+                Divide user rights into menus and functions, hide unnecessary
+                ones data. Complete record of employee actions.
               </p>
             </li>
             <li class="partnership__lists list-disc ml-6 text-white">
@@ -142,6 +148,7 @@
             </li>
           </ul>
           <button
+            @click="openModal"
             class="partnership__button w-full text-base font-semibold leading-[150%] bg-white text-blue px-8 py-[14px] flex flex-row justify-center items-center gap-4 rounded-[85px] m-auto active:opacity-60 duration-150 outline-none"
           >
             <img src="@/assets/icons/user-add.svg" alt="candidate" />
@@ -153,12 +160,43 @@
         ></div>
       </div>
     </div>
+    <Transition name="modal" class="relative z-[1111]">
+      <div v-if="isModalOpened">
+        <PartnershipComponent @closeModal="closeModal" />
+      </div>
+    </Transition>
   </section>
 </template>
 <script>
-export default {};
+import PartnershipComponent from "../components/PartnershipComponent.vue";
+export default {
+  data() {
+    return {
+      isModalOpened: false,
+    };
+  },
+  components: { PartnershipComponent },
+  methods: {
+    openModal() {
+      this.isModalOpened = true;
+      document.body.style.overflow = "hidden";
+    },
+    closeModal() {
+      this.isModalOpened = false;
+      document.body.style.overflow = "auto";
+    },
+  },
+};
 </script>
 <style lang="scss" scoped>
+.modal-enter-active,
+.modal-leave-active {
+  transition: opacity 0.3s ease;
+}
+.modal-enter-from,
+.modal-leave-to {
+  opacity: 0;
+}
 .partnershipSecond {
   &__container {
   }
@@ -194,7 +232,7 @@ export default {};
   &__button {
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1330px) {
   .partnershipSecond {
     &__container {
     }
@@ -206,7 +244,7 @@ export default {};
     &__wrapper {
       margin: 0 auto;
       width: 100%;
-      height: 850px;
+      height: 895px;
       background-image: url("@/assets/images/partnership__second-background.png");
       background-position: center;
       background-repeat: no-repeat;
@@ -249,7 +287,11 @@ export default {};
     }
 
     &__main-title {
-      margin-bottom: 0px;
+      margin-bottom: 16px;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
     }
 
     &__wrapper {
@@ -268,7 +310,6 @@ export default {};
 
     &__title {
       width: 253px;
-      margin-bottom: 10px;
     }
 
     &__lists {
@@ -299,7 +340,7 @@ export default {};
     }
 
     &__main-title {
-      margin-bottom: 0px;
+      margin-bottom: 16px;
     }
 
     &__wrapper {
@@ -318,7 +359,6 @@ export default {};
 
     &__title {
       width: 253px;
-      margin-bottom: 10px;
     }
 
     &__lists {
@@ -349,7 +389,7 @@ export default {};
     }
 
     &__main-title {
-      margin-bottom: 0px;
+      margin-bottom: 16px;
     }
 
     &__wrapper {
@@ -376,17 +416,17 @@ export default {};
 
     &__mini-titles {
       width: 310px;
-      margin-bottom: 14px;
+      margin-bottom: 10px;
     }
 
     &__mini-texts {
       width: 253px;
-      margin-bottom: 16px;
+      margin-bottom: 10px;
     }
 
     &__mini-texts-second {
       width: 253px;
-      margin-bottom: 32px;
+      margin-bottom: 15px;
     }
 
     &__button {
@@ -492,7 +532,7 @@ export default {};
     }
   }
 }
-@media (max-width: 329px) {
+@media (max-width: 327px) {
   .partnership {
     &__container {
     }
@@ -531,7 +571,7 @@ export default {};
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      gap: 6px;
+      gap: 8px;
     }
 
     &__right-box {

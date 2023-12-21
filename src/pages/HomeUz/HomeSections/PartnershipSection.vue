@@ -1,7 +1,7 @@
 <template>
   <section
     id="partnership"
-    class="md:mt-[100px] lg:mt-[120px] partnership bg-[#F9F9FB] hidden md:block dark:bg-tailwind-dark"
+    class="md:mt-[100px] lg:mt-[120px] partnership bg-[#F9F9FB] hidden md:block dark:bg-tailwind-dark overflow-x-hidden"
   >
     <div
       class="container partnershipSecond__container md:flex md:flex-col md:items-start md:gap-8 md:pt-11 md:pb-14 lg:flex lg:flex-col lg:items-start lg:gap-8 lg:pt-10 lg:pb-14"
@@ -24,7 +24,7 @@
             class="partnershipSecond__lists text-white list-disc md:ml-[54px] lg:ml-14"
           >
             <h6
-              class="partnershipSecond__mini-titles text-white md:text-base md:font-semibold md:leading-[150%] md:mb-[10px] md:w-[253px] lg:text-lg lg:font-semibold lg:leading-[150%] lg:mb-[11px] lg:w-[310px]"
+              class="partnershipSecond__mini-titles text-white md:text-base md:font-semibold md:leading-[150%] md:mb-[10px] md:w-[253px] lg:text-lg lg:font-semibold lg:leading-[150%] lg:mb-[11px]"
             >
               Bo'limlar, bo'limlar, franchayzilar
             </h6>
@@ -40,7 +40,7 @@
             class="partnershipSecond__lists text-white list-disc md:ml-[54px] lg:ml-14"
           >
             <h6
-              class="partnershipSecond__mini-titles text-white md:text-base md:font-semibold md:leading-[150%] md:mb-[10px] md:w-[253px] lg:text-lg lg:font-semibold lg:leading-[150%] lg:mb-[11px] lg:w-[310px]"
+              class="partnershipSecond__mini-titles text-white md:text-base md:font-semibold md:leading-[150%] md:mb-[10px] md:w-[253px] lg:text-lg lg:font-semibold lg:leading-[150%] lg:mb-[11px]"
             >
               Kirish nazorati
             </h6>
@@ -56,7 +56,7 @@
             class="partnershipSecond__lists text-white list-disc md:ml-[54px] lg:ml-14"
           >
             <h6
-              class="partnershipSecond__mini-titles text-white md:text-base md:font-semibold md:leading-[150%] md:mb-[10px] md:w-[253px] lg:text-lg lg:font-semibold lg:leading-[150%] lg:mb-[11px] lg:w-[310px]"
+              class="partnershipSecond__mini-titles text-white md:text-base md:font-semibold md:leading-[150%] md:mb-[10px] md:w-[253px] lg:text-lg lg:font-semibold lg:leading-[150%] lg:mb-[11px]"
             >
               Analitika
             </h6>
@@ -70,6 +70,7 @@
           </li>
         </ul>
         <button
+          @click="openModal"
           class="partnershipSecond__button w-max text-base font-semibold leading-[150%] bg-white text-blue px-8 py-[14px] flex flex-row justify-center items-center gap-4 rounded-[85px] active:opacity-60 duration-150 outline-none md:ml-[34px] lg:ml-9"
         >
           <img src="@/assets/icons/user-add.svg" alt="candidate" />
@@ -77,6 +78,11 @@
         </button>
       </div>
     </div>
+    <Transition name="modal" class="relative z-[1111]">
+      <div v-if="isModalOpened">
+        <PartnershipComponent @closeModal="closeModal" />
+      </div>
+    </Transition>
   </section>
   <section
     id="partnershipSecond"
@@ -146,6 +152,7 @@
             </li>
           </ul>
           <button
+            @click="openModal"
             class="partnership__button w-full text-base font-semibold leading-[150%] bg-white text-blue px-8 py-[14px] flex flex-row justify-center items-center gap-4 rounded-[85px] m-auto active:opacity-60 duration-150 outline-none"
           >
             <img src="@/assets/icons/user-add.svg" alt="candidate" />
@@ -157,12 +164,43 @@
         ></div>
       </div>
     </div>
+    <Transition name="modal" class="relative z-[1111]">
+      <div v-if="isModalOpened">
+        <PartnershipComponent @closeModal="closeModal" />
+      </div>
+    </Transition>
   </section>
 </template>
 <script>
-export default {};
+import PartnershipComponent from "../components/PartnershipComponent.vue";
+export default {
+  data() {
+    return {
+      isModalOpened: false,
+    };
+  },
+  components: { PartnershipComponent },
+  methods: {
+    openModal() {
+      this.isModalOpened = true;
+      document.body.style.overflow = "hidden";
+    },
+    closeModal() {
+      this.isModalOpened = false;
+      document.body.style.overflow = "auto";
+    },
+  },
+};
 </script>
 <style lang="scss" scoped>
+.modal-enter-active,
+.modal-leave-active {
+  transition: opacity 0.3s ease;
+}
+.modal-enter-from,
+.modal-leave-to {
+  opacity: 0;
+}
 .partnershipSecond {
   &__container {
   }
@@ -254,6 +292,10 @@ export default {};
 
     &__main-title {
       margin-bottom: 16px;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
     }
 
     &__wrapper {
@@ -271,7 +313,6 @@ export default {};
     }
 
     &__title {
-      width: 253px;
     }
 
     &__lists {
@@ -388,7 +429,7 @@ export default {};
 
     &__mini-texts-second {
       width: 253px;
-      margin-bottom: 32px;
+      margin-bottom: 15px;
     }
 
     &__button {

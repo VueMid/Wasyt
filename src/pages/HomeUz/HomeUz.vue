@@ -1,20 +1,20 @@
 <template>
-  <HeaderLayout />
+  <!-- <HeaderLayout /> -->
   <div class="Home-uz">
-    <HeroSection />
-    <HeroSectionSecond />
-    <WasytSection />
-    <ApplicationSection />
-    <SettingsSection />
-    <SettingsSecondSection />
-    <SettingsThirdSection />
-    <CarouselSection />
-    <CarouselSecondSection />
-    <FormSection />
+    <!-- <HeroSection /> -->
+    <!-- <HeroSectionSecond /> -->
+    <!-- <WasytSection /> -->
+    <!-- <ApplicationSection /> -->
+    <!-- <SettingsSection /> -->
+    <!-- <SettingsSecondSection /> -->
+    <!-- <SettingsThirdSection /> -->
+    <!-- <CarouselSection /> -->
+    <!-- <CarouselSecondSection /> -->
+    <!-- <FormSection /> -->
     <PartnershipSection />
-    <MapSection />
-    <FooterLayout />
-    <FooterBottomLayout />
+    <!-- <MapSection /> -->
+    <!-- <FooterLayout /> -->
+    <!-- <FooterBottomLayout /> -->
   </div>
 </template>
 <script>
