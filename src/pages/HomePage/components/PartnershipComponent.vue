@@ -1,34 +1,34 @@
 <template>
   <div
-    class="partnership fixed w-full h-full top-0 backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 px-4 overflow-y-auto overflow-x-hidden flex flex-col justify-center items-center"
+    class="partnership fixed w-full h-full top-0 backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 px-4 overflow-y-auto overflow-x-hidden flex flex-col justify-center items-center md:flex md:flex-col md:justify-center md:items-center md:px-[30px]"
   >
     <div
-      class="partnership__wrapper flex flex-col justify-center items-center gap-0 mt-[315px] relative"
+      class="partnership__wrapper flex flex-col justify-center items-center gap-0 mt-[315px] relative md:flex md:flex-col md:justify-center md:items-center md:mt-[250px]"
     >
       <div class="partnership__left-box hidden md:block">
         <img
-          class="partnership__left-image"
+          class="partnership__left-image rounded-t-[32px]"
           src="@/assets/images/boy__second.png"
           alt="guy"
         />
       </div>
       <div
-        class="partnership__right-box flex flex-col justify-center items-start bg-white dark:bg-tailwind-dark dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] rounded-[32px]"
+        class="partnership__right-box flex flex-col justify-center items-start bg-white dark:bg-tailwind-dark dark:border-[2px] dark:border-dark-cyan px-6 py-[26px] rounded-[32px] md:flex md:flex-col md:justify-center md:items-start md:px-[27px] md:py-[30px] md:rounded-none md:rounded-b-[32px]"
       >
         <h3
-          class="partnership__right-title text-2xl font-bold leading-[130%] dark:text-white mb-4"
+          class="partnership__right-title text-2xl font-bold leading-[130%] dark:text-white mb-4 md:text-[22px]"
         >
           Готовы сотрудничать с нами?
         </h3>
         <ul class="partnership__right-main-list">
           <li class="partnership__right-lists list-disc text-[#2DB7CA] ml-6">
             <h5
-              class="partnership__right-mini-titles w-max-[292px] text-base font-semibold leading-[150%] mb-2"
+              class="partnership__right-mini-titles w-max-[292px] text-base font-semibold leading-[150%] mb-2 md:text-lg md:w-[310px]"
             >
               Подразделения, отделы, франчайзи
             </h5>
             <p
-              class="partnership__right-mini-texts w-max-[292px] text-dark-cyan text-sm font-normal leading-[140%] dark:text-white mb-6"
+              class="partnership__right-mini-texts w-max-[292px] text-dark-cyan text-sm font-normal leading-[140%] dark:text-white mb-6 md:mb-6"
             >
               Объедините несколько юрлиц, офисов или складов в одной системе.
               Ограничьте доступ к данным для разных подразделений
@@ -36,12 +36,12 @@
           </li>
           <li class="partnership__right-lists list-disc text-[#2DB7CA] ml-6">
             <h5
-              class="partnership__right-mini-titles w-max-[292px] text-base font-semibold leading-[150%] mb-2"
+              class="partnership__right-mini-titles w-max-[292px] text-base font-semibold leading-[150%] mb-2 md:text-lg md:w-[310px]"
             >
               Разграничение доступа
             </h5>
             <p
-              class="partnership__right-mini-texts w-max-[292px] text-dark-cyan text-sm font-normal leading-[140%] dark:text-white mb-6"
+              class="partnership__right-mini-texts w-max-[292px] text-dark-cyan text-sm font-normal leading-[140%] dark:text-white mb-6 md:mb-6"
             >
               Разделите права пользователей на меню и функции, скройте ненужные
               данные. Полная запись действий сотрудников.
@@ -49,12 +49,12 @@
           </li>
           <li class="partnership__right-lists list-disc text-[#2DB7CA] ml-6">
             <h5
-              class="partnership__right-mini-titles w-max-[292px] text-base font-semibold leading-[150%] mb-2"
+              class="partnership__right-mini-titles w-max-[292px] text-base font-semibold leading-[150%] mb-2 md:text-lg md:w-[310px]"
             >
               Аналитика
             </h5>
             <p
-              class="partnership__right-mini-texts w-max-[292px] text-dark-cyan text-sm font-normal leading-[140%] dark:text-white mb-10"
+              class="partnership__right-mini-texts w-max-[292px] text-dark-cyan text-sm font-normal leading-[140%] dark:text-white mb-10 md:mb-8"
             >
               Смотрите отчеты со смартфона или в почте: обороты, остатки,
               продажи и рентабельность по товарам и клиентам, движение денег.
@@ -62,7 +62,7 @@
           </li>
         </ul>
         <form
-          class="partnership__right-form w-full flex flex-col justify-center items-center gap-2"
+          class="partnership__right-form w-full flex flex-col justify-center items-center gap-2 md:flex md:flex-col md:justify-center md:items-center md:gap-4"
           @submit.prevent="sendInformation"
           action="https://echo.htmlacademy.ru"
           method="get"
@@ -74,7 +74,7 @@
             data-modal-hide="staticModal"
           >
             <svg
-              class="partnership__right-svg absolute w-5 h-5 top-8 right-6"
+              class="partnership__right-svg absolute w-5 h-5 top-8 right-6 md:w-7 md:h-7 md:top-5 md:right-5"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -91,7 +91,7 @@
             <span class="sr-only">Close modal</span>
           </button>
           <div
-            class="partnership__right-main-input w-full flex flex-col justify-center items-center gap-2"
+            class="partnership__right-main-input w-full flex flex-col justify-center items-center gap-2 md:flex md:flex-row md:justify-center md:items-center md:gap-0"
           >
             <input
               type="text"
@@ -99,19 +99,21 @@
               v-model.trim="username"
               id="username"
               autocomplete="off"
-              class="partnership__right-username-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white"
+              class="partnership__right-username-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white md:border-e-0 md:rounded-e-none"
               placeholder="Имя"
               required
             />
             <div class="w-full">
-              <span class=""></span>
+              <span
+                class="md:w-[1px] md:h-[30px] md:mt-3 absolute bg-gray-500"
+              ></span>
               <input
                 type="tel"
                 name="number"
                 v-model.number="tel"
                 id="tel"
                 autocomplete="off"
-                class="partnership__right-tel-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white"
+                class="partnership__right-tel-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white md:border-s-0 md:rounded-s-none"
                 placeholder="Телефон номер"
                 maxlength="13"
                 required
