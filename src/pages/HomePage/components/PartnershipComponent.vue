@@ -253,7 +253,7 @@ export default {
 }
 .partnership {
   &__wrapper {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
   }
 
   &__left-box {
@@ -313,7 +313,7 @@ export default {
     &__left-image {
     }
     &__right-box {
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      box-shadow: rgb(0, 0, 0) 0px 5px 15px;
     }
     &__right-title {
       width: 312px;

@@ -10,7 +10,7 @@
           Высокозащищённое и надежная складская система
         </h2>
         <p
-          class="hero__text text-white/90 md:font-normal md:leading-[150%] md:mb-[34px] md:w-[444px] lg:w-[681px] lg:mb-[50px] md:text-[14px] lg:text-[16px ]"
+          class="hero__text text-white/90 md:font-normal md:leading-[150%] md:mb-[34px] md:w-[444px] lg:w-[681px] lg:mb-[30px] md:text-[14px] lg:text-[16px ]"
         >
           Эта статья поможет вам быстро сравнить и оценить лучшую систему
           управления складом (WMS) и другие системы управления операциями.

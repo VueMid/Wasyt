@@ -35,7 +35,7 @@
 </template>
 <script>
 import TheWhiteButton from "../../../MaterialUI/TheWhiteButton.vue";
-import HeaderComponent from "../components/HeaderComponent.vue";
+import HeaderComponent from "../../../layouts/HeaderLayoutEn/components/HeaderComponent.vue";
 export default {
   data() {
     return {

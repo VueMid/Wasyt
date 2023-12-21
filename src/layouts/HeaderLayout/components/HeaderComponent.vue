@@ -1,31 +1,36 @@
 <template>
   <div
-    class="fixed top-0 left-0 right-0 w-full p-4 duration-100 overflow-y-auto h-full backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 flex justify-center items-center xl:px-[0px]"
+    class="header fixed top-0 w-full h-full overflow-y-auto overflow-x-hidden backdrop-blur-sm bg-white/30 dark:backdrop-blur-sm dark:bg-tailwind-dark/30 flex flex-col justify-center items-center px-4 md:px-[30px] lg:px-[56px]"
   >
     <div
-      class="bg-white card dark:bg-tailwind-dark flex flex-col justify-center items-center w-[360px] h-[620px] px-[24px] xl:w-[748px] xl:h-[570px] xl:px-[106px] xl:py-12 rounded-[32px] relative dark:border-[2px] dark:border-dark-cyan"
+      class="header__main-wrapper w-full flex flex-col justify-center items-center bg-white dark:bg-tailwind-dark relative dark:border-[2px] dark:border-dark-cyan rounded-[32px] px-6 py-[26px] md:px-[109px] md:py-[50px] md:w-[710px] lg:px-[146px] lg:w-[848px] lg:py-[30px]"
     >
       <form
-        class="w-full flex flex-col gap-4"
+        class="header__form w-full flex flex-col justify-center items-start gap-2 md:flex-col md:justify-center md:items-start md:gap-4"
         @submit.prevent="sendInformation"
         action="https://echo.htmlacademy.ru"
         method="get"
       >
         <h5
-          class="text text-xl font-bold text-dark-cyan dark:text-white title xl:mb-[0px]"
+          class="header__form-title text-xl font-bold leading-[130%] mb-4 dark:text-white md:text-2xl md:leading-[100%] md:mb-8 lg:mb-4"
         >
           Свяжется с нами
         </h5>
-        <hr class="hr w-full xl:mb-[20px] border opacity-30" />
-        <div class="form-control" :class="error.nameError ? 'invalid' : ''">
+        <span
+          class="header__form-hr w-full h-[1px] bg-[#EBF0F0] mb-[18px] dark:bg-gray-500 md:mb-10 lg:mb-5"
+        ></span>
+        <div
+          class="header__form-control w-full"
+          :class="error.nameError ? 'invalid' : ''"
+        >
           <button
             type="button"
             @click="$emit('closeModal')"
-            class="text-[#020105] font-bold top-[26px] right-[26px] xl:top-[23px] xl:right-[23px] absolute"
+            class="header__form-buttons"
             data-modal-hide="staticModal"
           >
             <svg
-              class="w-[17px] h-[17px] xl:w-[20px] xl:h-[20px] dark:text-white"
+              class="header__form-svg w-4 h-4 top-[30px] right-6 absolute text-dark-cyan dark:text-white md:w-6 md:h-6 md:top-[50px] md:right-[60px]"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -47,15 +52,15 @@
             v-model.trim="username"
             id="username"
             autocomplete="off"
-            class="bg-gray-50 border border-gray-300 rounded-[32px] text-sm text-[#8d8a8a] w-full dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 py-4 pl-[18px] xl:py-4 xl:pl-[30px] outline-none"
+            class="header__input-username outline-none w-full bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white md:pl-[30px]"
             placeholder="Имя"
           />
-          <small class="text-red-600 font-black text-[14px]">
+          <small class="header__error-texts text-lg text-red-500 font-bold">
             {{ error.nameError }}
           </small>
         </div>
         <div
-          class="form-control"
+          class="header__form-control w-full"
           :class="errorSecond.nameErrorSecond ? 'invalid' : ''"
         >
           <input
@@ -64,15 +69,15 @@
             v-model.number="tel"
             id="tel"
             autocomplete="off"
-            class="bg-gray-50 border border-gray-300 rounded-[32px] text-sm text-[#8d8a8a] w-full dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 py-4 pl-[18px] xl:py-4 xl:pl-[30px] outline-none"
+            class="header__input-tel w-full bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white md:pl-[30px]"
             maxlength="13"
           />
-          <small class="text-red-600 font-black text-[14px]">
+          <small class="header__error-texts text-lg text-red-500 font-bold">
             {{ errorSecond.nameErrorSecond }}
           </small>
         </div>
         <div
-          class="form-control"
+          class="header__form-control w-full"
           :class="errorThird.nameErrorThird ? 'invalid' : ''"
         >
           <input
@@ -81,19 +86,18 @@
             v-model.trim="message"
             id="message"
             autocomplete="off"
-            class="bg-gray-50 border border-gray-300 rounded-[32px] text-[#8d8a8a] text-sm w-full dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 pt-4 pl-4 pb-[200px] xl:pt-[20px] xl:pb-[134px] xl:pl-[30px] outline-none"
+            class="header__input-message w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[32px] border-[1px] border-[#EBF0F0] pt-4 pb-[201px] pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white md:pl-[30px] md:pb-[134px]"
             placeholder="Сообщение"
           />
-          <small class="text-red-600 font-black text-[14px]">
+          <small class="header__error-texts text-lg text-red-500 font-bold">
             {{ errorThird.nameErrorThird }}
           </small>
         </div>
-
         <button
           type="submit"
-          class="modal-button flex flex-row justify-center items-center gap-4 bg-blue text-white px-[32px] py-[14px] rounded-[85px] active:opacity-60"
+          class="header__submit-button flex flex-row justify-center items-center gap-4 text-white w-full bg-[#2DB7CA] rounded-[85px] outline-none py-[14px] active:opacity-60 duration-100 text-base font-semibold leading-[150%]"
         >
-          <span class="">Отправить</span>
+          Отправить
           <i class="icon fa-solid fa-arrow-right-long fa-beat"></i>
         </button>
       </form>
@@ -125,7 +129,7 @@ export default {
       let isValid = true;
       if (this.username.length === 0) {
         isValid = false;
-        this.error.nameError = "*Enter here your fullname";
+        this.error.nameError = "*Введите здесь свое полное имя";
       } else {
         isValid = true;
         this.error.nameError = null;
@@ -136,7 +140,7 @@ export default {
       let isValidSecond = true;
       if (this.tel.length <= 4) {
         isValidSecond = false;
-        this.errorSecond.nameErrorSecond = "*Enter your number here";
+        this.errorSecond.nameErrorSecond = "*Введите здесь свой номер";
       } else if (this.tel.length > 13) {
         isValidSecond = false;
         this.errorSecond.nameErrorSecond = "*At least 13 characters!";
@@ -150,7 +154,7 @@ export default {
       let isValidThird = true;
       if (this.message.length === 0) {
         isValidThird = false;
-        this.errorThird.nameErrorThird = "*Enter your message here";
+        this.errorThird.nameErrorThird = "*Введите сюда ваше сообщение";
       } else {
         isValidThird = true;
         this.errorThird.nameErrorThird = null;
@@ -192,7 +196,7 @@ export default {
   },
 };
 </script>
-<style scoped>
+<style lang="scss" scoped>
 #username::placeholder {
   color: rgb(141, 138, 138) !important;
 }
@@ -202,10 +206,41 @@ export default {
 #message::placeholder {
   color: rgb(141, 138, 138) !important;
 }
-.form-control.invalid input {
-  border-color: red;
-}
-.card {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.header {
+  position: fixed;
+  top: 0;
+  &__main-wrapper {
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+  }
+
+  &__form {
+  }
+
+  &__form-title {
+  }
+
+  &__form-hr {
+  }
+
+  &__form-control {
+  }
+
+  &__form-buttons {
+  }
+
+  &__form-svg {
+  }
+
+  &__input-username {
+  }
+
+  &__input-tel {
+  }
+
+  &__input-message {
+  }
+
+  &__submit-button {
+  }
 }
 </style>

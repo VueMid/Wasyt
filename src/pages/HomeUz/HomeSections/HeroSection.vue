@@ -10,7 +10,7 @@
           Yuqori darajada xavfsiz va ishonchli ombor tizimi
         </h2>
         <p
-          class="hero__text text-white/90 md:font-normal md:leading-[150%] md:mb-[34px] md:w-[444px] lg:w-[681px] lg:mb-[50px] md:text-[14px] lg:text-[16px ]"
+          class="hero__text text-white/90 md:font-normal md:leading-[150%] md:mb-[34px] md:w-[444px] lg:w-[681px] lg:mb-[30px] md:text-[14px] lg:text-[16px]"
         >
           Ushbu maqola sizga eng yaxshi tizimni tezda solishtirish va baholashga
           yordam beradi omborlarni boshqarish tizimi (WMS) va boshqa
@@ -165,7 +165,7 @@ export default {
       background-size: contain;
     }
     &__title {
-      width: 577px;
+      width: 547px;
       font-size: 40px;
       margin-bottom: 26px;
     }
@@ -189,14 +189,14 @@ export default {
       background-size: contain;
     }
     &__title {
-      width: 577px;
+      width: 447px;
       font-size: 40px;
       margin-bottom: 16px;
     }
     &__text {
-      width: 424px !important;
+      width: 380px !important;
       font-size: 14px;
-      margin-bottom: 34px;
+      margin-bottom: 14px;
     }
   }
 }

@@ -26,7 +26,7 @@
         />
       </div>
     </div>
-    <Transition name="modal" class="relative z-[3333]">
+    <Transition name="modal" class="relative z-[1111]">
       <div v-if="isModalOpened">
         <HeaderComponent @closeModal="closeModal" />
       </div>

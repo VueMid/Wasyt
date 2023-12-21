@@ -10,7 +10,7 @@
           Highly secure and reliable warehouse system
         </h2>
         <p
-          class="hero__text text-white/90 md:font-normal md:leading-[150%] md:mb-[34px] md:w-[444px] lg:w-[681px] lg:mb-[50px] md:text-[14px] lg:text-[16px]"
+          class="hero__text text-white/90 md:font-normal md:leading-[150%] md:mb-[34px] md:w-[444px] lg:w-[681px] lg:mb-[30px] md:text-[14px] lg:text-[16px]"
         >
           This article will help you quickly compare and evaluate the best
           system warehouse management system (WMS) and other operations
@@ -48,7 +48,7 @@
 </template>
 <script>
 import TheWhiteButton from "../../../MaterialUI/TheWhiteButton.vue";
-import HeaderComponent from "../components/HeaderComponent.vue";
+import HeaderComponent from "../../../layouts/HeaderLayoutEn/components/HeaderComponent.vue";
 export default {
   data() {
     return {
@@ -219,14 +219,14 @@ export default {
       background-size: contain;
     }
     &__title {
-      width: 577px;
+      width: 485px !important;
       font-size: 40px;
       margin-bottom: 16px;
     }
     &__text {
       width: 424px !important;
       font-size: 14px;
-      margin-bottom: 34px;
+      margin-bottom: 14px;
     }
   }
 }
