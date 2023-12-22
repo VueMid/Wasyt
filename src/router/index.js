@@ -42,17 +42,17 @@ const router = createRouter({
     {
       path: '/en',
       name: 'HomeEn',
-      component: import('../pages/HomeEn/HomeEn.vue'),
+      component: HomeEn,
     },
     {
       path: '/uz',
       name: 'HomeUz',
-      component: import('../pages/HomeUz/HomeUz.vue'),
+      component: HomeUz,
     },
     {
       path: '/ru',
       name: 'HomePage',
-      component: import('../pages/HomePage/HomePage.vue'),
+      component: HomePage,
     },
   ]
 })
