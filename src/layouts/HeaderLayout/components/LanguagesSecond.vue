@@ -13,7 +13,10 @@
       <i class="fa-solid fa-chevron-down"></i>
     </div>
     <Transition name="fade">
-      <ul v-if="showLanguage" class="chooseLanguage mt-[465px]">
+      <ul
+        v-if="showLanguage"
+        class="chooseLanguage mt-[395px] md:mt-[510px] dark:bg-tailwind-dark dark:border-[2px] dark:border-dark-cyan rounded-[32px]"
+      >
         <router-link to="/ru">
           <li @click="selectLanguage('Ру')" value="Ру">
             <img
@@ -21,7 +24,7 @@
               src="@/assets/images/ru.png"
               style="width: 20px; height: 20px"
             />
-            <p>Ру</p>
+            <p class="text-dark-cyan dark:text-white">Ру</p>
           </li>
         </router-link>
         <router-link to="/en">
@@ -31,7 +34,7 @@
               src="@/assets/images/en.png"
               style="width: 20px; height: 20px"
             />
-            <p>En</p>
+            <p class="text-dark-cyan dark:text-white">En</p>
           </li>
         </router-link>
         <router-link to="/uz">
@@ -41,7 +44,7 @@
               src="@/assets/images/uz.png"
               style="width: 20px; height: 20px"
             />
-            <p>Uz</p>
+            <p class="text-dark-cyan dark:text-white">Uz</p>
           </li>
         </router-link>
       </ul>
@@ -66,4 +69,3 @@ const selectLanguage = (language) => {
   toggleLanguage();
 };
 </script>
-<style></style>

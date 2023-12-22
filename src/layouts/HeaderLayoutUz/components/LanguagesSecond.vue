@@ -4,7 +4,7 @@
       class="w-full px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-semibold"
       @click="toggleLanguage"
     >
-      <i class="fa-solid fa-globe fa-2xl" style="color: #01889A"></i>
+      <i class="fa-solid fa-globe fa-2xl" style="color: #01889a"></i>
       <p
         class="ml-4 w-full text-dark-cyan dark:text-white active:text-white active:dark:text-dark-cyan text-base font-medium leading-[150%]"
       >
@@ -13,7 +13,10 @@
       <i class="fa-solid fa-chevron-down"></i>
     </div>
     <Transition name="fade">
-      <ul v-if="showLanguage" class="chooseLanguage mt-[465px]">
+      <ul
+        v-if="showLanguage"
+        class="chooseLanguage mt-[395px] md:mt-[510px] dark:bg-tailwind-dark dark:border-[2px] dark:border-dark-cyan rounded-[32px]"
+      >
         <router-link to="/ru">
           <li @click="selectLanguage('Ру')" value="Ру">
             <img
@@ -21,7 +24,7 @@
               src="@/assets/images/ru.png"
               style="width: 20px; height: 20px"
             />
-            <p>Ру</p>
+            <p class="text-dark-cyan dark:text-white">Ру</p>
           </li>
         </router-link>
         <router-link to="/en">
@@ -31,7 +34,7 @@
               src="@/assets/images/en.png"
               style="width: 20px; height: 20px"
             />
-            <p>En</p>
+            <p class="text-dark-cyan dark:text-white">En</p>
           </li>
         </router-link>
         <router-link to="/uz">
@@ -41,7 +44,7 @@
               src="@/assets/images/uz.png"
               style="width: 20px; height: 20px"
             />
-            <p>Uz</p>
+            <p class="text-dark-cyan dark:text-white">Uz</p>
           </li>
         </router-link>
       </ul>
@@ -66,4 +69,3 @@ const selectLanguage = (language) => {
   toggleLanguage();
 };
 </script>
-<style></style>
