@@ -13,7 +13,7 @@
       <i class="fa-solid fa-chevron-down"></i>
     </div>
     <Transition name="fade">
-      <ul v-if="showLanguage" class="chooseLanguage mt-[555px]">
+      <ul v-if="showLanguage" class="chooseLanguage mt-[530px]">
         <router-link to="/ru">
           <li @click="selectLanguage('Ру')" value="Ру">
             <img
