@@ -1,6 +1,5 @@
 <template>
   <main class="overflow-x-hidden bg-white dark:bg-tailwind-dark">
-    <div></div>
     <Transition name="fade">
       <RouterView />
     </Transition>
