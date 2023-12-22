@@ -15,33 +15,33 @@
     <Transition name="fade">
       <ul v-if="showLanguage" class="chooseLanguage mt-[555px]">
         <router-link to="/ru">
-          <li @click="selectLanguage('Русский')" value="Русский">
+          <li @click="selectLanguage('Ру')" value="Ру">
             <img
               alt=""
               src="@/assets/images/ru.png"
               style="width: 20px; height: 20px"
             />
-            <p>Русский</p>
+            <p>Ру</p>
           </li>
         </router-link>
         <router-link to="/en">
-          <li @click="selectLanguage('English')" value="English">
+          <li @click="selectLanguage('En')" value="En">
             <img
               alt=""
               src="@/assets/images/en.png"
               style="width: 20px; height: 20px"
             />
-            <p>English</p>
+            <p>En</p>
           </li>
         </router-link>
         <router-link to="/uz">
-          <li @click="selectLanguage(`O'zbek`)" value="O'zbek">
+          <li @click="selectLanguage(`Uz`)" value="Uz">
             <img
               alt=""
               src="@/assets/images/uz.png"
               style="width: 20px; height: 20px"
             />
-            <p>O’zbek</p>
+            <p>Uz</p>
           </li>
         </router-link>
       </ul>
