@@ -4,7 +4,7 @@
       class="w-full px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-semibold"
       @click="toggleLanguage"
     >
-      <i class="fa-solid fa-globe fa-2xl" style="color: #038579"></i>
+      <i class="fa-solid fa-globe fa-2xl" style="color: #01889a"></i>
       <p
         class="ml-4 w-full text-dark-cyan dark:text-white active:text-white active:dark:text-dark-cyan text-base font-medium leading-[150%]"
       >

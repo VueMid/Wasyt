@@ -28,10 +28,6 @@ export default {
         scrollUp.classList.remove("show-scroll");
       }
     });
-
-    
-    
-
   },
 };
 </script>
@@ -42,7 +38,6 @@ export default {
   transform: scale(1);
   pointer-events: none;
 }
-
 .fade-enter-from,
 .fade-leave-to {
   pointer-events: all;
