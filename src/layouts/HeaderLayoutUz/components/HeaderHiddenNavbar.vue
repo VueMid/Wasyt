@@ -43,7 +43,7 @@
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat ml-0">
           </i>
         </li>
-        <LanguagesSecond />
+        <LanguagesSecond class="LanguagesSecond" />
         <div
           class="px-6 py-2 md:px-6 md:py-4 border-[1px] Interfaces rounded-[88px] bg-white dark:bg-tailwind-dark flex flex-row justify-between items-center w-full"
         >
@@ -76,6 +76,9 @@ export default {
 };
 </script>
 <style scoped>
+.LanguagesSecond {
+  display: none;
+}
 .main {
   position: static;
 }
@@ -92,6 +95,9 @@ export default {
   font-family: "TT Interfaces" !important;
 }
 @media (max-width: 1101px) {
+  .LanguagesSecond {
+    display: block;
+  }
   .main {
     position: fixed;
   }
@@ -100,6 +106,14 @@ export default {
   }
   .ul {
     margin-top: 40px;
+  }
+  .TheButtonSecond {
+    padding: 20px 0;
+  }
+}
+@media (max-width: 767px) {
+  .TheButtonSecond {
+    padding: 16px 0;
   }
 }
 </style>
