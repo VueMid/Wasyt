@@ -49,8 +49,8 @@
           <TheDarkMode class="w-full" />
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat"></i>
         </div>
-        <TheButtonSecond class="TheButtonSecond">Contact us</TheButtonSecond>
         <LanguagesSecond />
+        <TheButtonSecond class="TheButtonSecond">Contact us</TheButtonSecond>
       </ul>
     </nav>
   </div>

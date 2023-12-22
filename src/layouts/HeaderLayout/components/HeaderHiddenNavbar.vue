@@ -49,10 +49,10 @@
           <TheDarkMode class="w-full" />
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat"></i>
         </div>
+        <LanguagesSecond />
         <TheButtonSecond class="TheButtonSecond">
           Свяжется с нами
         </TheButtonSecond>
-        <LanguagesSecond />
       </ul>
     </nav>
   </div>
