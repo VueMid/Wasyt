@@ -16,7 +16,7 @@
               src="@/assets/images/ru.png"
               style="width: 20px; height: 20px"
             />
-            <p>Русский</p>
+            <p>Ру</p>
           </li>
         </router-link>
         <router-link to="/en">
@@ -26,7 +26,7 @@
               src="@/assets/images/en.png"
               style="width: 20px; height: 20px"
             />
-            <p>English</p>
+            <p>En</p>
           </li>
         </router-link>
         <router-link to="/uz">
@@ -36,7 +36,7 @@
               src="@/assets/images/uz.png"
               style="width: 20px; height: 20px"
             />
-            <p>O’zbek</p>
+            <p>Uz</p>
           </li>
         </router-link>
       </ul>
