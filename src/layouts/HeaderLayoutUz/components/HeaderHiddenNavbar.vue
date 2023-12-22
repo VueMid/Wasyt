@@ -74,6 +74,9 @@ export default {
 };
 </script>
 <style scoped>
+.main {
+  position: static;
+}
 .TheButtonSecond {
   font-family: "TT Interfaces" !important;
 }
@@ -87,6 +90,9 @@ export default {
   font-family: "TT Interfaces" !important;
 }
 @media (max-width: 1101px) {
+  .main {
+    position: fixed;
+  }
   .nav {
     display: block;
   }

@@ -1,5 +1,5 @@
 <template>
-  <header class="header fixed z-[1111] w-full bg-white">
+  <header class="header z-[1111] w-full bg-white">
     <div
       class="container header__containe flex flex-row justify-between items-center py-[16px] md:flex md:flex-row md:justify-between md:items-center md:py-[14px] lg:flex lg:flex-row lg:justify-between lg:items-center lg:py-[25px]"
     >
@@ -39,6 +39,9 @@ export default {
 };
 </script>
 <style>
+.header {
+  position: static;
+}
 .navbar-enter-active,
 .navbar-leave-active {
   transition: 0.5s ease;

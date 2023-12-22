@@ -55,7 +55,7 @@
             class="header__input-username outline-none w-full bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white md:pl-[30px]"
             placeholder="Имя"
           />
-          <small class="header__error-texts text-lg text-red-500 font-bold">
+          <small class="header__error-texts text-lg text-red-500 font-medium">
             {{ error.nameError }}
           </small>
         </div>
@@ -72,7 +72,7 @@
             class="header__input-tel w-full bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white md:pl-[30px]"
             maxlength="13"
           />
-          <small class="header__error-texts text-lg text-red-500 font-bold">
+          <small class="header__error-texts text-lg text-red-500 font-medium">
             {{ errorSecond.nameErrorSecond }}
           </small>
         </div>
@@ -89,7 +89,7 @@
             class="header__input-message w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[32px] border-[1px] border-[#EBF0F0] pt-4 pb-[201px] pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white md:pl-[30px] md:pb-[134px]"
             placeholder="Сообщение"
           />
-          <small class="header__error-texts text-lg text-red-500 font-bold">
+          <small class="header__error-texts text-lg text-red-500 font-medium">
             {{ errorThird.nameErrorThird }}
           </small>
         </div>
@@ -182,7 +182,7 @@ export default {
       this.username = "";
       this.tel = "";
       this.message = "";
-      this.toast.info("Your information has been sent");
+      this.toast.info("Ваша информация отправлена");
       this.$emit("closeModal");
     },
   },
