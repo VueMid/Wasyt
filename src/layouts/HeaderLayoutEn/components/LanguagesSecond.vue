@@ -1,16 +1,21 @@
 <template>
-  <div class="languageDiv">
+  <div class="flex flex-row justify-between items-center w-full md:hidden">
     <div
-      style="display: flex; align-items: center; gap: 5px; cursor: pointer"
+      class="w-full px-6 py-4 border-[1px] rounded-[88px] flex flex-row justify-start items-center duration-150 bg-white text-dark-cyan md:px-6 md:py-6 active:bg-[#2DB7CA] active:text-white dark:bg-tailwind-dark dark:text-white dark:active:bg-white dark:active:text-dark-cyan font-semibold"
       @click="toggleLanguage"
     >
-      <p style="color: #172d33; font-size: 18px">{{ selectedValue }}</p>
+      <i class="fa-solid fa-globe fa-2xl" style="color: #038579"></i>
+      <p
+        class="ml-4 w-full text-dark-cyan dark:text-white active:text-white active:dark:text-dark-cyan text-base font-medium leading-[150%]"
+      >
+        {{ selectedValue }}
+      </p>
       <i class="fa-solid fa-chevron-down"></i>
     </div>
     <Transition name="fade">
-      <ul v-if="showLanguage" class="chooseLanguage">
+      <ul v-if="showLanguage" class="chooseLanguage mt-[555px]">
         <router-link to="/ru">
-          <li @click="selectLanguage('Ру')" value="Ру">
+          <li @click="selectLanguage('Русский')" value="Русский">
             <img
               alt=""
               src="@/assets/images/ru.png"
@@ -19,9 +24,8 @@
             <p>Русский</p>
           </li>
         </router-link>
-
         <router-link to="/en">
-          <li @click="selectLanguage('En')" value="En">
+          <li @click="selectLanguage('English')" value="English">
             <img
               alt=""
               src="@/assets/images/en.png"
@@ -31,7 +35,7 @@
           </li>
         </router-link>
         <router-link to="/uz">
-          <li @click="selectLanguage('Uz')" value="Uz">
+          <li @click="selectLanguage(`O'zbek`)" value="O'zbek">
             <img
               alt=""
               src="@/assets/images/uz.png"
@@ -62,53 +66,4 @@ const selectLanguage = (language) => {
   toggleLanguage();
 };
 </script>
-<style>
-p {
-  font-family: "HALVARBREIT-MD";
-  letter-spacing: -2.2px;
-}
-.fade-enter-active,
-.fade-leave-active {
-  transition: 0.5s;
-}
-.fade-enter-from,
-.fade-leave-to {
-  transform: translateY(-5%);
-  opacity: 0;
-}
-.languageDiv {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-.chooseLanguage {
-  position: absolute;
-  top: 50px;
-  z-index: 99;
-  background: #fff;
-  border-radius: 10px;
-  padding-bottom: 3px;
-}
-.chooseLanguage li {
-  width: 130px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 5px 15px;
-  list-style: none;
-  cursor: pointer;
-  margin-top: 5px;
-  font-family: "HALVARBREIT-MD";
-}
-.chooseLanguage li p {
-  font-size: 18px;
-}
-@media screen and (max-width: 1200px) {
-  .languageDiv {
-    padding: 5px 15px;
-    border: 1px solid #fff;
-    border-radius: 20px;
-  }
-}
-</style>
+<style></style>

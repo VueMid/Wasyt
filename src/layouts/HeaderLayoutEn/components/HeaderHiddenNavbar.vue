@@ -49,7 +49,8 @@
           <TheDarkMode class="w-full" />
           <i class="fa-solid dark:text-white fa-arrow-right-long fa-beat"></i>
         </div>
-        <TheButtonSecond class="TheButtonSecond"> Contact us </TheButtonSecond>
+        <TheButtonSecond class="TheButtonSecond">Contact us</TheButtonSecond>
+        <LanguagesSecond />
       </ul>
     </nav>
   </div>
@@ -57,8 +58,9 @@
 <script>
 import TheDarkMode from "../../../MaterialUI/TheDarkMode.vue";
 import TheButtonSecond from "../../../MaterialUI/TheButtonSecond.vue";
+import LanguagesSecond from "./LanguagesSecond.vue";
 export default {
-  components: { TheDarkMode, TheButtonSecond },
+  components: { TheDarkMode, TheButtonSecond, LanguagesSecond },
   data() {
     return {
       isModalOpened: false,

@@ -1,5 +1,5 @@
 <template>
-  <div class="languageDiv">
+  <div class="languageDiv hidden md:block">
     <div
       style="display: flex; align-items: center; gap: 5px; cursor: pointer"
       @click="toggleLanguage"
@@ -7,7 +7,7 @@
       <p style="color: #172d33; font-size: 18px">{{ selectedValue }}</p>
       <i class="fa-solid fa-chevron-down"></i>
     </div>
-    <Transition name="fade">
+    <Transition name="fade">    
       <ul v-if="showLanguage" class="chooseLanguage">
         <router-link to="/ru">
           <li @click="selectLanguage('Ру')" value="Ру">

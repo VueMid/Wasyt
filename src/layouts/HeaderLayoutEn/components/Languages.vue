@@ -1,5 +1,5 @@
 <template>
-  <div class="languageDiv">
+  <div class="languageDiv hidden lg:block">
     <div
       style="display: flex; align-items: center; gap: 5px; cursor: pointer"
       @click="toggleLanguage"

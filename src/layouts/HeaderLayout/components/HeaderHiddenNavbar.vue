@@ -52,6 +52,7 @@
         <TheButtonSecond class="TheButtonSecond">
           Свяжется с нами
         </TheButtonSecond>
+        <LanguagesSecond />
       </ul>
     </nav>
   </div>
@@ -59,8 +60,9 @@
 <script>
 import TheDarkMode from "../../../MaterialUI/TheDarkMode.vue";
 import TheButtonSecond from "../../../MaterialUI/TheButtonSecond.vue";
+import LanguagesSecond from "./LanguagesSecond.vue";
 export default {
-  components: { TheDarkMode, TheButtonSecond },
+  components: { TheDarkMode, TheButtonSecond, LanguagesSecond },
   data() {
     return {
       isModalOpened: false,
