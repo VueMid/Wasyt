@@ -84,7 +84,7 @@
             data-modal-hide="staticModal"
           >
             <svg
-              class="partnership__right-svg absolute w-5 h-5 top-8 right-6 md:w-7 md:h-7 md:top-5 md:right-5"
+              class="partnership__right-svg absolute w-5 h-5 top-9 right-6 md:w-7 md:h-7 md:top-5 md:right-5"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -256,7 +256,7 @@ export default {
 }
 .partnership {
   &__wrapper {
-    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
 
   &__left-box {
@@ -319,7 +319,8 @@ export default {
       box-shadow: rgb(0, 0, 0) 0px 5px 15px;
     }
     &__right-title {
-      width: 312px;
+      width: 100%;
+      max-width: 305px;
     }
     &__right-main-list {
     }

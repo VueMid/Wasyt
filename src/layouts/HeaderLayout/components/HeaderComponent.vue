@@ -210,7 +210,7 @@ export default {
   position: fixed;
   top: 0;
   &__main-wrapper {
-    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
 
   &__form {

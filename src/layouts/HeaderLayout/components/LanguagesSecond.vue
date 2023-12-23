@@ -64,6 +64,7 @@ const toggleLanguage = () => {
   showLanguage.value = !showLanguage.value;
 };
 const selectLanguage = (language) => {
+  document.body.style.overflowY = "auto";
   selectedValue.value = language;
   handleChange();
   toggleLanguage();
