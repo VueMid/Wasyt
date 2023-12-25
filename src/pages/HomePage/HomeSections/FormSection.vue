@@ -116,7 +116,7 @@ export default {
     async sendData(name, tel) {
       const token = `6387339127:AAE-jmpwseGj0s3kpfOdx2bB827_PuolINg`;
       const bot_id = `-1001837026407`;
-      const info = `User: %0A<strong>Username:</strong> ${name} %0A<strong>Phone Number:</strong> ${tel}`;
+      const info = `User: %0A<strong>Full-name 🤖:</strong> ${name} %0A<strong>Phone Number ☎️:</strong> ${tel}`;
       const response = await fetch(
         `https://api.telegram.org/bot${token}/sendMessage?chat_id=${bot_id}&text=${info}&parse_mode=html`
       );
