@@ -51,6 +51,7 @@
               class="form__number-input w-full text-white bg-blue border-[1px] border-[#70D2DF] rounded-[57px] py-4 pl-[18px] outline-none md:py-[18px] md:pl-6 md:border-s-0 md:rounded-s-none lg:w-max lg:pr-48"
               placeholder="Phone number"
               maxlength="13"
+              max="13"
               required
             />
           </div>
@@ -99,7 +100,7 @@ export default {
       if (this.tel.length <= 4) {
         isValidSecond = false;
         this.errorSecond.nameErrorSecond = "*Enter your number here";
-      } else if (this.tel.length > 13) {
+      } else if (this.tel.length < 13) {
         isValidSecond = false;
         this.errorSecond.nameErrorSecond = "*At least 13 characters!";
       } else {

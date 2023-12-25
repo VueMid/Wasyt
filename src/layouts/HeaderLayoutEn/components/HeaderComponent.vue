@@ -141,7 +141,7 @@ export default {
       if (this.tel.length <= 4) {
         isValidSecond = false;
         this.errorSecond.nameErrorSecond = "*Enter here your number";
-      } else if (this.tel.length > 13) {
+      } else if (this.tel.length < 13) {
         isValidSecond = false;
         this.errorSecond.nameErrorSecond = "*At least 13 characters!";
       } else {
