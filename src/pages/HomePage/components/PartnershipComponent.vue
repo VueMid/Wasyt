@@ -157,15 +157,11 @@ export default {
       toast: useToast(),
       username: "",
       tel: "+998",
-      message: "",
       error: {
         nameError: null,
       },
       errorSecond: {
         nameErrorSecond: null,
-      },
-      errorThird: {
-        nameErrorThird: null,
       },
     };
   },
@@ -195,30 +191,15 @@ export default {
       }
       return isValidSecond;
     },
-    validatedFormThird() {
-      let isValidThird = true;
-      if (this.message.length === 0) {
-        isValidThird = false;
-        this.errorThird.nameErrorThird = "*Enter your message here";
-      } else {
-        isValidThird = true;
-        this.errorThird.nameErrorThird = null;
-      }
-      return isValidThird;
-    },
     sendInformation() {
-      if (
-        this.validatedForm() &&
-        this.validatedFormSecond() &&
-        this.validatedFormThird()
-      ) {
-        this.sendData(this.username, this.tel, this.message);
+      if (this.validatedForm() && this.validatedFormSecond()) {
+        this.sendData(this.username, this.tel);
       }
     },
-    async sendData(name, tel, email) {
+    async sendData(name, tel) {
       const token = `6387339127:AAE-jmpwseGj0s3kpfOdx2bB827_PuolINg`;
       const bot_id = `-1001837026407`;
-      const info = `User: %0A<strong>Username:</strong> ${name} %0A<strong>Email Address:</strong> ${email} %0A<strong>Phone Number:</strong> ${tel}`;
+      const info = `User: %0A<strong>Full-name 🤖:</strong> ${name} %0A<strong>Phone Number ☎️:</strong> ${tel}`;
       const response = await fetch(
         `https://api.telegram.org/bot${token}/sendMessage?chat_id=${bot_id}&text=${info}&parse_mode=html`
       );
@@ -226,7 +207,6 @@ export default {
       console.log(data);
       this.username = "";
       this.tel = "";
-      this.message = "";
       this.toast.info("Your information has been sent");
       this.$emit("closeModal");
     },
