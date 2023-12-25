@@ -126,6 +126,7 @@
                 class="partnership__right-tel-input w-full outline-none bg-[#F9F9FB] text-dark-cyan text-sm font-medium leading-[140%] rounded-[57px] border-[1px] border-[#EBF0F0] py-4 pl-[18px] dark:bg-tailwind-dark dark:border-gray-500 dark:text-white md:border-s-0 md:rounded-s-none"
                 placeholder="Telefon raqam"
                 maxlength="13"
+                max="13"
                 required
               />
             </div>
