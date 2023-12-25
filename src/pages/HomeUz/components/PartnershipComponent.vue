@@ -256,7 +256,7 @@ export default {
 }
 .partnership {
   &__wrapper {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
   &__left-box {
