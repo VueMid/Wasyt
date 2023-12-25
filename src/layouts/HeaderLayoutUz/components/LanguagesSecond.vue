@@ -10,7 +10,8 @@
       >
         {{ selectedValue }}
       </p>
-      <i class="fa-solid fa-chevron-down"></i>
+      <i v-if="showLanguage" class="fa-solid fa-chevron-down duration-150"></i>
+      <i v-else class="fa-solid fa-chevron-right duration-150"></i>
     </div>
     <Transition name="fade">
       <ul

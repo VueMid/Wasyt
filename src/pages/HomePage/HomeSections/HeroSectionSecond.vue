@@ -25,7 +25,7 @@
         />
       </div>
     </div>
-    <Transition name="modal" class="relative z-[3333]">
+    <Transition name="modal" class="relative z-[1111]">
       <div v-if="isModalOpened">
         <HeaderComponent @closeModal="closeModal" />
       </div>
@@ -48,6 +48,7 @@ export default {
       document.body.style.overflow = "hidden";
     },
     closeModal() {
+      console.log(123)
       this.isModalOpened = false;
       document.body.style.overflow = "auto";
     },

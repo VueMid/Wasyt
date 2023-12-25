@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="div lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-4"
-  >
+  <div class="lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-4">
     <div class="z-30 absolute mr-[356px]">
       <Languages class="languages" />
     </div>
@@ -48,12 +46,14 @@
         />
       </button>
     </div>
+  </div>
+  <Teleport to="body">
     <Transition name="modal" class="relative z-[1111]">
       <div v-if="isModalOpened">
-        <HeaderComponent @closeModal="closeModal" />
+        <HeaderComponent teleport="body" @closeModal="closeModal" />
       </div>
     </Transition>
-  </div>
+  </Teleport>
 </template>
 <script>
 import TheDarkMode from "../../../MaterialUI/TheDarkMode.vue";
