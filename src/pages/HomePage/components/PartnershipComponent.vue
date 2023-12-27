@@ -208,7 +208,11 @@ export default {
       return isValid;
     },
     sendInformation() {
-      if (this.validatedForm() && this.validatedFormSecond()) {
+      if (
+        this.validatedForm() &&
+        this.validatedFormSecond() &&
+        this.validatedFormThird()
+      ) {
         this.sendData(this.username, this.tel, this.message);
       }
     },
